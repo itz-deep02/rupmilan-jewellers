@@ -1,0 +1,163 @@
+[
+  {
+    "id": "product-1",
+    "name": "Royal Heritage Necklace",
+    "category": "Necklace",
+    "tagNumber": "#101",
+    "image": "/images/products/necklace-1.jpg",
+    "badge": "Bestseller",
+    "collection": "bridal"
+  },
+  {
+    "id": "product-2",
+    "name": "Kundan Bridal Set",
+    "category": "Necklace",
+    "tagNumber": "#102",
+    "image": "/images/products/necklace-2.jpg",
+    "badge": "Bestseller",
+    "collection": "bridal"
+  },
+  {
+    "id": "product-3",
+    "name": "Temple Gold Earrings",
+    "category": "Earrings",
+    "tagNumber": "#201",
+    "image": "/images/products/earring-1.jpg",
+    "badge": "Trending",
+    "collection": "heritage"
+  },
+  {
+    "id": "product-4",
+    "name": "Diamond Solitaire Ring",
+    "category": "Ring",
+    "tagNumber": "#301",
+    "image": "/images/products/ring-1.jpg",
+    "badge": "Trending",
+    "collection": "daily-wear"
+  },
+  {
+    "id": "product-5",
+    "name": "Gold Kada Bangle",
+    "category": "Bangle",
+    "tagNumber": "#401",
+    "image": "/images/products/bangle-1.jpg",
+    "badge": "Bestseller",
+    "collection": "festive"
+  },
+  {
+    "id": "product-6",
+    "name": "Antique Gold Chain",
+    "category": "Chain",
+    "tagNumber": "#501",
+    "image": "/images/products/chain-1.jpg",
+    "badge": "New",
+    "collection": "heritage"
+  },
+  {
+    "id": "product-7",
+    "name": "Pearl Drop Mangalsutra",
+    "category": "Mangalsutra",
+    "tagNumber": "#601",
+    "image": "/images/products/mangalsutra-1.jpg",
+    "badge": "Bestseller",
+    "collection": "bridal"
+  },
+  {
+    "id": "product-8",
+    "name": "Filigree Jhumka Earrings",
+    "category": "Earrings",
+    "tagNumber": "#202",
+    "image": "/images/products/earring-2.jpg",
+    "badge": "Trending",
+    "collection": "festive"
+  },
+  {
+    "id": "product-9",
+    "name": "Lightweight Daily Chain",
+    "category": "Chain",
+    "tagNumber": "#502",
+    "image": "/images/products/chain-2.jpg",
+    "badge": "New",
+    "collection": "daily-wear"
+  },
+  {
+    "id": "product-10",
+    "name": "Bridal Choker Set",
+    "category": "Necklace",
+    "tagNumber": "#103",
+    "image": "/images/products/necklace-3.jpg",
+    "badge": "Trending",
+    "collection": "bridal"
+  },
+  {
+    "id": "product-11",
+    "name": "Gold Toe Ring Pair",
+    "category": "Ring",
+    "tagNumber": "#302",
+    "image": "/images/products/ring-2.jpg",
+    "badge": "New",
+    "collection": "daily-wear"
+  },
+  {
+    "id": "product-12",
+    "name": "Polki Diamond Necklace",
+    "category": "Necklace",
+    "tagNumber": "#104",
+    "image": "/images/products/necklace-4.jpg",
+    "badge": "Bestseller",
+    "collection": "heritage"
+  },
+  {
+    "id": "product-13",
+    "name": "Twisted Gold Bangle Set",
+    "category": "Bangle",
+    "tagNumber": "#402",
+    "image": "/images/products/bangle-2.jpg",
+    "badge": "Trending",
+    "collection": "daily-wear"
+  },
+  {
+    "id": "product-14",
+    "name": "Meenakari Pendant Set",
+    "category": "Necklace",
+    "tagNumber": "#105",
+    "image": "/images/products/necklace-5.jpg",
+    "badge": "New",
+    "collection": "festive"
+  },
+  {
+    "id": "product-15",
+    "name": "Classic Gold Studs",
+    "category": "Earrings",
+    "tagNumber": "#203",
+    "image": "/images/products/earring-3.jpg",
+    "badge": "Bestseller",
+    "collection": "daily-wear"
+  },
+  {
+    "id": "product-16",
+    "name": "Heavy Bridal Bangles",
+    "category": "Bangle",
+    "tagNumber": "#403",
+    "image": "/images/products/bangle-3.jpg",
+    "badge": "Trending",
+    "collection": "bridal"
+  },
+  {
+    "id": "product-17",
+    "name": "Gold Rope Chain",
+    "category": "Chain",
+    "tagNumber": "#503",
+    "image": "/images/products/chain-3.jpg",
+    "badge": "Bestseller"
+  },
+  {
+    "id": "product-18",
+    "name": "Emerald Cocktail Ring",
+    "category": "Ring",
+    "tagNumber": "#303",
+    "image": "/images/products/ring-3.jpg",
+    "badge": "New",
+    "collection": "festive"
+  }
+]

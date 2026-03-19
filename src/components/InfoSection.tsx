@@ -1,10 +1,11 @@
-import { MapPin, Clock, Phone, Mail } from "lucide-react";
+import { MapPin, Clock, Phone, Mail, MessageCircle } from "lucide-react";
 
 const phones = [
   { number: "9826540190", display: "+91 98265 40190" },
   { number: "9926514690", display: "+91 99265 14690" },
-  { number: "8269520743", display: "+91 82695 20743" },
 ];
+
+const whatsappPhone = { number: "9232000436", display: "+91 92320 00436" };
 
 function InfoRow({
   icon: Icon,
@@ -76,6 +77,18 @@ export default function InfoSection() {
             </a>
           ))}
         </div>
+      </InfoRow>
+
+      {/* WhatsApp Enquiry */}
+      <InfoRow icon={MessageCircle} label="WhatsApp Enquiry">
+        <a
+          href={`https://api.whatsapp.com/send/?phone=91${whatsappPhone.number}&type=phone_number&app_absent=0`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white/80 hover:text-gold-300 text-sm font-sans transition-colors duration-200 hover:underline underline-offset-2"
+        >
+          {whatsappPhone.display}
+        </a>
       </InfoRow>
 
       {/* Email */}

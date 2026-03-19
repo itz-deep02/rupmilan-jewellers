@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Shield, Clock, Star, MessageCircle } from "lucide-react";
 import Navbar from "@/components/Navbar";
+import DecorativeOrbs from "@/components/layout/DecorativeOrbs";
+import Footer from "@/components/layout/Footer";
+import MobileBottomNav from "@/components/layout/MobileBottomNav";
 import TagBadge from "@/components/TagBadge";
 import InfoSection from "@/components/InfoSection";
 import MapSection from "@/components/MapSection";
@@ -45,15 +48,9 @@ export default function ContactPage() {
   return (
     <>
       <Navbar />
+      <DecorativeOrbs />
 
-      <main className="min-h-screen">
-        {/* Decorative orbs */}
-        <div className="fixed inset-0 pointer-events-none overflow-hidden" aria-hidden>
-          <div className="absolute -top-40 -left-40 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl" />
-          <div className="absolute top-1/2 -right-40 w-80 h-80 bg-gold-400/8 rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-1/3 w-64 h-64 bg-amber-600/10 rounded-full blur-3xl" />
-        </div>
-
+      <main className="min-h-screen pb-20 md:pb-0">
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
 
           {/* ── Header ─────────────────────────────────── */}
@@ -95,15 +92,12 @@ export default function ContactPage() {
             <InfoSection />
             <MapSection />
           </div>
-
-          {/* ── Footer note ─────────────────────────────── */}
-          <p className="text-center text-white/30 text-xs font-sans mt-12 tracking-wide">
-            © {new Date().getFullYear()} Rupmilan Jewellers · Champa, Chhattisgarh · All rights reserved
-          </p>
         </div>
       </main>
 
+      <Footer />
       <WhatsAppButton />
+      <MobileBottomNav />
     </>
   );
 }

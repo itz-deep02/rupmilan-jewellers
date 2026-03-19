@@ -1,0 +1,34 @@
+[
+  {
+    "id": "slide-1",
+    "title": "Timeless Elegance",
+    "subtitle": "Discover BIS Hallmarked jewellery crafted with generations of expertise since 1988",
+    "ctaText": "Explore Collection",
+    "ctaLink": "#collections",
+    "image": "/images/hero/slide-1.jpg"
+  },
+  {
+    "id": "slide-2",
+    "title": "Bridal Grandeur",
+    "subtitle": "Make your special day unforgettable with our exquisite bridal jewellery collection",
+    "ctaText": "View Bridal Collection",
+    "ctaLink": "#collections",
+    "image": "/images/hero/slide-2.jpg"
+  },
+  {
+    "id": "slide-3",
+    "title": "Everyday Luxury",
+    "subtitle": "Lightweight, elegant pieces designed for the modern woman's daily style",
+    "ctaText": "Shop Daily Wear",
+    "ctaLink": "#categories",
+    "image": "/images/hero/slide-3.jpg"
+  },
+  {
+    "id": "slide-4",
+    "title": "Pure Gold Promise",
+    "subtitle": "100% purity guaranteed with BIS Hallmark certification on every piece",
+    "ctaText": "Know Our Promise",
+    "ctaLink": "/contact",
+    "image": "/images/hero/slide-4.jpg"
+  }
+]

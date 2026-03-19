@@ -58,7 +58,7 @@ export default function CounterAnimation({
 
   return (
     <span ref={containerRef}>
-      {prefix}{count}{suffix}
+      {prefix}{count.toLocaleString("en-IN")}{suffix}
     </span>
   );
 }

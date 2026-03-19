@@ -1,0 +1,72 @@
+[
+  {
+    "id": "test-1",
+    "name": "Priya Sharma",
+    "location": "Champa",
+    "text": "Beautiful designs and genuine hallmarked gold. Our family has trusted Rupmilan for three generations.",
+    "rating": 5
+  },
+  {
+    "id": "test-2",
+    "name": "Anjali Verma",
+    "location": "Korba",
+    "text": "Bought my bridal set from here. The craftsmanship is unmatched and the purity is guaranteed.",
+    "rating": 5
+  },
+  {
+    "id": "test-3",
+    "name": "Rahul Agrawal",
+    "location": "Bilaspur",
+    "text": "Best place for gold jewellery in Chhattisgarh. Transparent pricing and excellent service.",
+    "rating": 5
+  },
+  {
+    "id": "test-4",
+    "name": "Sunita Patel",
+    "location": "Champa",
+    "text": "I always buy from Rupmilan. Their daily wear collection is lightweight and stylish.",
+    "rating": 4
+  },
+  {
+    "id": "test-5",
+    "name": "Meena Sahu",
+    "location": "Janjgir",
+    "text": "Wonderful experience every time. The staff is so helpful and the designs are modern yet traditional.",
+    "rating": 5
+  },
+  {
+    "id": "test-6",
+    "name": "Deepak Tiwari",
+    "location": "Raigarh",
+    "text": "Purchased gold coins and chain. BIS hallmark gives complete confidence in purity.",
+    "rating": 5
+  },
+  {
+    "id": "test-7",
+    "name": "Kavita Jain",
+    "location": "Champa",
+    "text": "The festive collection is gorgeous! Got so many compliments on my new necklace set.",
+    "rating": 5
+  },
+  {
+    "id": "test-8",
+    "name": "Rajesh Kumar",
+    "location": "Sakti",
+    "text": "Trusted jeweller since decades. My entire family shops here for every occasion.",
+    "rating": 5
+  },
+  {
+    "id": "test-9",
+    "name": "Pooja Gupta",
+    "location": "Korba",
+    "text": "WhatsApp support is so convenient! I selected my earrings from photos and picked up next day.",
+    "rating": 4
+  },
+  {
+    "id": "test-10",
+    "name": "Vivek Soni",
+    "location": "Champa",
+    "text": "35 years of trust is no joke. Rupmilan is the gold standard in our city.",
+    "rating": 5
+  }
+]

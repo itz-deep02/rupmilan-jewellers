@@ -48,12 +48,17 @@ const config: Config = {
           "0%":   { backgroundPosition: "-200% center" },
           "100%": { backgroundPosition: "200% center" },
         },
+        "scroll-x": {
+          "0%":   { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "fade-in-up": "fade-in-up 0.6s ease-out forwards",
         "fade-in":    "fade-in 0.5s ease-out forwards",
         "pulse-ring": "pulse-ring 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite",
         shimmer:      "shimmer 3s linear infinite",
+        "scroll-x":   "scroll-x 30s linear infinite",
       },
     },
   },
