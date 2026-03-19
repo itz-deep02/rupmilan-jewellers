@@ -59,3 +59,29 @@ export interface Occasion {
   image: string;
   ctaText: string;
 }
+
+export interface ExtendedProduct extends Product {
+  slug: string;
+  metalType: "gold" | "silver" | "diamond";
+  carat?: "18K" | "20K" | "22K" | "24K";
+  weight?: string;
+  occasion?: string[];
+  gender?: "women" | "men" | "unisex";
+  jewelleryType: string;
+  description?: string;
+  images: string[];
+  sku?: string;
+  sortOrder?: number;
+  dateAdded?: string;
+  tags?: string[];
+}
+
+export interface FilterState {
+  metalType?: string;
+  carat?: string;
+  occasion?: string;
+  jewelleryType?: string;
+  category?: string;
+}
+
+export type SortOption = "newest" | "popular" | "name-asc" | "name-desc";

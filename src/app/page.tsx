@@ -4,6 +4,7 @@ import DecorativeOrbs from "@/components/layout/DecorativeOrbs";
 import Footer from "@/components/layout/Footer";
 import MobileBottomNav from "@/components/layout/MobileBottomNav";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import WelcomeHero from "@/components/home/WelcomeHero";
 import HeroCarousel from "@/components/home/HeroCarousel";
 import StatsSection from "@/components/home/StatsSection";
 import CollectionsSection from "@/components/home/CollectionsSection";
@@ -45,6 +46,7 @@ export default function Home() {
 
       <main className="min-h-screen pb-20 md:pb-0">
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
+          <WelcomeHero />
           <HeroCarousel slides={heroSlides} />
           <StatsSection stats={stats} />
           <CollectionsSection collections={collections} />
