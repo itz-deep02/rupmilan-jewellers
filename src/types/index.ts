@@ -63,7 +63,7 @@ export interface Occasion {
 export interface ExtendedProduct extends Product {
   slug: string;
   metalType: "gold" | "silver" | "diamond";
-  carat?: "18K" | "20K" | "22K" | "24K";
+  carat?: "18K" | "20K" | "22K" | "23K" | "24K";
   weight?: string;
   occasion?: string[];
   gender?: "women" | "men" | "unisex";
@@ -84,4 +84,4 @@ export interface FilterState {
   category?: string;
 }
 
-export type SortOption = "newest" | "popular" | "name-asc" | "name-desc";
+export type SortOption = "newest" | "popular" | "name-asc" | "name-desc" | "carat-high" | "carat-low" | "weight-high" | "weight-low";

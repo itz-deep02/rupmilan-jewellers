@@ -48,20 +48,38 @@ export function getFilteredProducts(allProducts: ExtendedProduct[], filters: Fil
     filtered = filtered.filter(p => p.category.toLowerCase() === filters.category!.toLowerCase());
   }
 
+  // Helper to parse carat number (e.g. "22K" → 22, "18K" → 18)
+  const parseCarat = (c?: string) => parseInt(c || "0", 10) || 0;
+  // Helper to parse weight number (e.g. "45.2g" → 45.2)
+  const parseWeight = (w?: string) => parseFloat(w || "0") || 0;
+
   // Sort
   switch (sort) {
     case "newest":
       filtered.sort((a, b) => (b.dateAdded || "").localeCompare(a.dateAdded || ""));
       break;
-    case "popular":
+    case "popular": {
       const badgePriority: Record<string, number> = { Bestseller: 3, Trending: 2, New: 1 };
       filtered.sort((a, b) => (badgePriority[b.badge || ""] || 0) - (badgePriority[a.badge || ""] || 0));
       break;
+    }
     case "name-asc":
       filtered.sort((a, b) => a.name.localeCompare(b.name));
       break;
     case "name-desc":
       filtered.sort((a, b) => b.name.localeCompare(a.name));
+      break;
+    case "carat-high":
+      filtered.sort((a, b) => parseCarat(b.carat) - parseCarat(a.carat));
+      break;
+    case "carat-low":
+      filtered.sort((a, b) => parseCarat(a.carat) - parseCarat(b.carat));
+      break;
+    case "weight-high":
+      filtered.sort((a, b) => parseWeight(b.weight) - parseWeight(a.weight));
+      break;
+    case "weight-low":
+      filtered.sort((a, b) => parseWeight(a.weight) - parseWeight(b.weight));
       break;
   }
 
@@ -70,7 +88,10 @@ export function getFilteredProducts(allProducts: ExtendedProduct[], filters: Fil
 
 export function getUniqueFilterValues(allProducts: ExtendedProduct[]) {
   const metalTypes = [...new Set(allProducts.map(p => p.metalType))];
-  const carats = [...new Set(allProducts.filter(p => p.carat).map(p => p.carat!))];
+  // Standard carat options — always show these, plus any from data
+  const standardCarats = ["18K", "20K", "22K", "23K", "24K"];
+  const dataCarats = [...new Set(allProducts.filter(p => p.carat).map(p => p.carat!))];
+  const carats = standardCarats.filter(c => (dataCarats as string[]).includes(c) || c === "23K");
   const occasions = [...new Set(allProducts.flatMap(p => p.occasion || []))];
   const jewelleryTypes = [...new Set(allProducts.map(p => p.jewelleryType))];
   const categories = [...new Set(allProducts.map(p => p.category))];
