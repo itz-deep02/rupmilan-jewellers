@@ -30,22 +30,20 @@ export default function RupmilanWorldSection() {
               key={occasion.id}
               className="snap-start flex-shrink-0 w-[240px] sm:w-[280px] glass-card-hover overflow-hidden group cursor-pointer"
             >
-              {/* Image area */}
-              <div className="relative aspect-[4/5] bg-gradient-to-br from-gold-900/50 via-stone-800/70 to-amber-950/50 flex items-center justify-center">
-                <div className="w-14 h-14 rounded-full bg-gold-400/15 flex items-center justify-center">
-                  <Gem className="w-7 h-7 text-gold-400/40" />
+              <div className="relative aspect-[4/5] bg-ivory-300 flex items-center justify-center">
+                <div className="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center">
+                  <Gem className="w-7 h-7 text-brand-gold/40" />
                 </div>
 
-                {/* Overlay content */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-heading/60 via-transparent to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <h3 className="luxury-heading text-xl font-bold text-white mb-1">
+                  <h3 className="luxury-heading text-xl font-normal text-white mb-1">
                     {occasion.title}
                   </h3>
-                  <p className="text-white/60 text-sm font-sans mb-3">
+                  <p className="text-white/70 text-sm font-sans mb-3">
                     {occasion.description}
                   </p>
-                  <span className="inline-block text-gold-300 text-xs font-sans font-medium border border-gold-400/40 px-3 py-1.5 rounded-full group-hover:bg-gold-400/20 transition-colors duration-200">
+                  <span className="inline-block text-white text-xs font-sans font-medium border border-white/40 px-3 py-1.5 rounded-full group-hover:bg-white/20 transition-colors duration-200">
                     {occasion.ctaText}
                   </span>
                 </div>

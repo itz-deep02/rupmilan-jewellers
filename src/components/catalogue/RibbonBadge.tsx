@@ -7,7 +7,7 @@ const ribbonColors: Record<string, { bg: string; text: string }> = {
 };
 
 export default function RibbonBadge({ type }: { type: string }) {
-  const colors = ribbonColors[type] || { bg: "bg-white/20", text: "text-white" };
+  const colors = ribbonColors[type] || { bg: "bg-ivory-100", text: "text-brand-body" };
 
   return (
     <div className="absolute -right-8 top-5 rotate-45 z-10">

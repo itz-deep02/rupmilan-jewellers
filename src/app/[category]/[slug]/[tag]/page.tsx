@@ -51,8 +51,6 @@ export default async function PDPPage({ params }: PDPPageProps) {
 
   const similar = getSimilarProducts(product, 8);
 
-  // Resolve the category slug for breadcrumb — prefer categories.json slug (plural, e.g. "necklaces")
-  // Falls back to jewelleryType (singular, e.g. "necklace") if no match in categories.json
   const catMatch = categories.find(
     (c) => c.slug === category || c.slug === category + "s" || c.slug === product.jewelleryType || c.slug === product.jewelleryType + "s"
   );
@@ -68,24 +66,24 @@ export default async function PDPPage({ params }: PDPPageProps) {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
           {/* Breadcrumb */}
           <ScrollReveal>
-            <nav className="flex items-center gap-1.5 text-xs font-sans text-white/40 mb-6 sm:mb-8 overflow-x-auto scrollbar-hide">
-              <Link href="/" className="flex items-center gap-1 hover:text-gold-400 transition-colors flex-shrink-0">
+            <nav className="flex items-center gap-1.5 text-xs font-sans text-brand-muted mb-6 sm:mb-8 overflow-x-auto scrollbar-hide">
+              <Link href="/" className="flex items-center gap-1 hover:text-brand-gold transition-colors flex-shrink-0">
                 <Home className="w-3 h-3" />
                 Home
               </Link>
               <ChevronRight className="w-3 h-3 flex-shrink-0" />
-              <Link href="/catalogue" className="hover:text-gold-400 transition-colors flex-shrink-0">
+              <Link href="/catalogue" className="hover:text-brand-gold transition-colors flex-shrink-0">
                 Catalogue
               </Link>
               <ChevronRight className="w-3 h-3 flex-shrink-0" />
               <Link
                 href={`/catalogue/${breadcrumbCategorySlug}`}
-                className="hover:text-gold-400 transition-colors capitalize flex-shrink-0"
+                className="hover:text-brand-gold transition-colors capitalize flex-shrink-0"
               >
                 {breadcrumbCategoryName}
               </Link>
               <ChevronRight className="w-3 h-3 flex-shrink-0" />
-              <span className="text-white/60 truncate">{product.name}</span>
+              <span className="text-brand-body truncate">{product.name}</span>
             </nav>
           </ScrollReveal>
 
@@ -100,7 +98,7 @@ export default async function PDPPage({ params }: PDPPageProps) {
           </div>
 
           {/* Similar Products */}
-          <SimilarProducts products={similar} />
+          <SimilarProducts products={similar} categorySlug={breadcrumbCategorySlug} />
         </div>
       </main>
 

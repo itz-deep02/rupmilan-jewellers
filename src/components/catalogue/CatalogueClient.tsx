@@ -82,7 +82,7 @@ function CatalogueContent({ initialProducts, categoryName }: CatalogueClientProp
               activeCount={activeFilterCount}
               filterOptions={filterOptions}
             />
-            <p className="text-xs font-sans text-white/40">
+            <p className="text-xs font-sans text-brand-muted">
               {filteredProducts.length} product{filteredProducts.length !== 1 ? "s" : ""}
             </p>
           </div>
@@ -106,7 +106,7 @@ function CatalogueContent({ initialProducts, categoryName }: CatalogueClientProp
               <div ref={sentinelRef} className="flex justify-center py-8">
                 <div className="flex gap-1">
                   {[0, 1, 2].map(i => (
-                    <div key={i} className="w-2 h-2 rounded-full bg-gold-400/40 animate-pulse" style={{ animationDelay: `${i * 150}ms` }} />
+                    <div key={i} className="w-2 h-2 rounded-full bg-brand-gold/40 animate-pulse" style={{ animationDelay: `${i * 150}ms` }} />
                   ))}
                 </div>
               </div>

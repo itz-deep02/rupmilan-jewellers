@@ -18,21 +18,23 @@
 
 @layer utilities {
   .glass-card {
-    @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl shadow-xl;
+    @apply bg-white border border-[rgba(160,115,42,0.20)] rounded-2xl shadow-sm;
   }
 
   .glass-card-hover {
-    @apply glass-card transition-all duration-300 hover:bg-white/15 hover:border-white/25 hover:shadow-2xl;
+    @apply glass-card transition-all duration-300 hover:shadow-md hover:border-[rgba(160,115,42,0.35)];
   }
 
   .gold-gradient-text {
-    @apply bg-gradient-to-r from-gold-300 via-gold-400 to-gold-300 bg-clip-text text-transparent;
-    background-size: 200% auto;
-    animation: shimmer 3s linear infinite;
+    @apply text-brand-gold;
   }
 
   .luxury-heading {
-    @apply font-serif tracking-wider;
+    @apply font-serif tracking-wide;
+  }
+
+  .brand-name {
+    @apply font-brand italic;
   }
 
   .animate-delay-100 { animation-delay: 100ms; }

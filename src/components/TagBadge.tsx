@@ -11,6 +11,7 @@ interface TagBadgeProps {
     prefix?: string;
   };
   animationDelay?: string;
+  customIcon?: React.ReactNode;
 }
 
 export default function TagBadge({
@@ -19,6 +20,7 @@ export default function TagBadge({
   subtitle,
   counter,
   animationDelay = "0ms",
+  customIcon,
 }: TagBadgeProps) {
   return (
     <div
@@ -26,12 +28,12 @@ export default function TagBadge({
       style={{ animationDelay, animationFillMode: "forwards" }}
     >
       {/* Icon circle */}
-      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-gold-400/30 to-gold-600/20 border border-gold-400/40 flex items-center justify-center shadow-inner">
-        <Icon className="w-6 h-6 text-gold-400" strokeWidth={1.5} />
+      <div className="w-12 h-12 rounded-full bg-brand-gold/10 border border-[rgba(160,115,42,0.25)] flex items-center justify-center">
+        {customIcon || <Icon className="w-6 h-6 text-brand-gold" strokeWidth={1.5} />}
       </div>
 
       {/* Title / counter */}
-      <div className="luxury-heading text-2xl font-semibold text-white leading-none">
+      <div className="luxury-heading text-2xl font-normal text-brand-heading leading-none">
         {counter ? (
           <CounterAnimation
             to={counter.to}
@@ -44,7 +46,7 @@ export default function TagBadge({
       </div>
 
       {/* Subtitle */}
-      <p className="text-xs text-white/60 font-sans tracking-wide uppercase">
+      <p className="text-xs text-brand-muted font-sans tracking-wide uppercase">
         {subtitle}
       </p>
     </div>

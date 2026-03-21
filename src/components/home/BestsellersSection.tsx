@@ -4,10 +4,11 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeader from "@/components/layout/SectionHeader";
 import HorizontalScroll from "@/components/ui/HorizontalScroll";
 import ProductCard from "@/components/product/ProductCard";
-import type { Product } from "@/types";
+import ViewMoreCard from "@/components/product/ViewMoreCard";
+import type { ExtendedProduct } from "@/types";
 
 interface BestsellersSectionProps {
-  products: Product[];
+  products: ExtendedProduct[];
 }
 
 export default function BestsellersSection({ products }: BestsellersSectionProps) {
@@ -25,6 +26,7 @@ export default function BestsellersSection({ products }: BestsellersSectionProps
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
+          <ViewMoreCard href="/catalogue?sort=popular" label="View All Bestsellers" count={products.length} />
         </HorizontalScroll>
       </section>
     </ScrollReveal>

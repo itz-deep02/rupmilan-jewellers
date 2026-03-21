@@ -8,14 +8,14 @@ export default function MapSection() {
     >
       {/* Header */}
       <div className="px-6 pt-6 pb-4 flex items-center gap-3">
-        <div className="w-10 h-10 rounded-xl bg-gold-400/15 border border-gold-400/30 flex items-center justify-center">
-          <Navigation className="w-5 h-5 text-gold-400" strokeWidth={1.5} />
+        <div className="w-10 h-10 rounded-xl bg-brand-gold/10 border border-[rgba(160,115,42,0.25)] flex items-center justify-center">
+          <Navigation className="w-5 h-5 text-brand-gold" strokeWidth={1.5} />
         </div>
         <div>
-          <h2 className="luxury-heading text-xl font-semibold text-white">
+          <h2 className="luxury-heading text-xl font-normal text-brand-heading">
             Find Us
           </h2>
-          <p className="text-xs text-white/50 font-sans">
+          <p className="text-xs text-brand-muted font-sans">
             Champa, Chhattisgarh, India
           </p>
         </div>
@@ -34,17 +34,17 @@ export default function MapSection() {
           title="Rupmilan Jewellers Location"
           className="w-full h-full"
         />
-        {/* Subtle gold overlay border */}
-        <div className="absolute inset-0 pointer-events-none border-t border-white/10" />
+        {/* Subtle border overlay */}
+        <div className="absolute inset-0 pointer-events-none border-t border-[rgba(160,115,42,0.15)]" />
       </div>
 
       {/* Footer link */}
-      <div className="px-6 py-3 border-t border-white/10">
+      <div className="px-6 py-3 border-t border-[rgba(160,115,42,0.15)]">
         <a
           href="https://maps.google.com/?q=Sharda+Prasad+Bitawan+Sao+Rupmilan+Jewellers+Champa+Chhattisgarh"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xs text-gold-400/70 hover:text-gold-300 font-sans transition-colors duration-200 flex items-center gap-1"
+          className="text-xs text-brand-gold hover:text-brand-gold-light font-sans transition-colors duration-200 flex items-center gap-1"
         >
           <Navigation className="w-3 h-3" />
           Open in Google Maps

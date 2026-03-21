@@ -14,15 +14,12 @@ export default function StatsSection({ stats }: StatsSectionProps) {
         {stats.map((stat) => (
           <div
             key={stat.id}
-            className="glass-card p-5 sm:p-6 text-center flex flex-col items-center gap-3"
+            className="bg-ivory-100 border border-[rgba(160,115,42,0.20)] rounded-2xl p-5 sm:p-6 text-center flex flex-col items-center gap-3"
           >
-            {/* Emoji icon */}
             <span className="text-3xl sm:text-4xl" role="img" aria-hidden="true">
               {stat.emoji}
             </span>
-
-            {/* Animated number */}
-            <div className="luxury-heading text-2xl sm:text-3xl font-bold text-gold-400">
+            <div className="luxury-heading text-2xl sm:text-3xl font-normal text-brand-gold">
               <CounterAnimation
                 to={stat.value}
                 suffix={stat.suffix}
@@ -30,10 +27,8 @@ export default function StatsSection({ stats }: StatsSectionProps) {
                 duration={2000}
               />
             </div>
-
-            {/* Description */}
             {stat.description && (
-              <p className="text-white/50 text-xs sm:text-sm font-sans leading-relaxed">
+              <p className="text-brand-muted text-xs sm:text-sm font-sans leading-relaxed">
                 {stat.description}
               </p>
             )}

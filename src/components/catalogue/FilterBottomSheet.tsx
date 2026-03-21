@@ -24,8 +24,8 @@ function MobileFilterCheckbox({ label, checked, onChange }: { label: string; che
       onClick={onChange}
       className={`px-3 py-1.5 rounded-full text-xs font-sans border transition-all duration-150 ${
         checked
-          ? "bg-gold-400 border-gold-400 text-amber-950 font-medium"
-          : "border-white/20 text-white/60 hover:border-white/40"
+          ? "bg-brand-gold border-brand-gold text-white font-medium"
+          : "border-[rgba(160,115,42,0.20)] text-brand-muted hover:border-[rgba(160,115,42,0.40)]"
       }`}
     >
       {label}
@@ -41,12 +41,12 @@ export default function FilterBottomSheet({ filters, onFilterChange, onClear, ac
       {/* Trigger button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="lg:hidden flex items-center gap-1.5 px-3 py-2 glass-card rounded-xl text-xs font-sans text-white/70"
+        className="lg:hidden flex items-center gap-1.5 px-3 py-2 bg-white border border-[rgba(160,115,42,0.20)] rounded-xl text-xs font-sans text-brand-body shadow-sm"
       >
         <SlidersHorizontal className="w-3.5 h-3.5" />
         Filters
         {activeCount > 0 && (
-          <span className="bg-gold-400 text-amber-950 text-[9px] font-bold w-4 h-4 rounded-full flex items-center justify-center">
+          <span className="bg-brand-gold text-white text-[9px] font-bold w-4 h-4 rounded-full flex items-center justify-center">
             {activeCount}
           </span>
         )}
@@ -60,7 +60,7 @@ export default function FilterBottomSheet({ filters, onFilterChange, onClear, ac
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50"
+              className="fixed inset-0 bg-black/40 backdrop-blur-sm z-50"
               onClick={() => setIsOpen(false)}
             />
             <motion.div
@@ -68,24 +68,24 @@ export default function FilterBottomSheet({ filters, onFilterChange, onClear, ac
               animate={{ y: 0 }}
               exit={{ y: "100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
-              className="fixed bottom-0 left-0 right-0 z-50 bg-stone-900 border-t border-white/10 rounded-t-3xl max-h-[75vh] overflow-y-auto"
+              className="fixed bottom-0 left-0 right-0 z-50 bg-ivory border-t border-[rgba(160,115,42,0.20)] rounded-t-3xl max-h-[75vh] overflow-y-auto"
             >
               {/* Handle */}
               <div className="flex justify-center py-3">
-                <div className="w-10 h-1 bg-white/20 rounded-full" />
+                <div className="w-10 h-1 bg-brand-muted/30 rounded-full" />
               </div>
 
               <div className="px-5 pb-6">
                 <div className="flex items-center justify-between mb-5">
-                  <h3 className="luxury-heading text-lg font-semibold text-white">Filters</h3>
+                  <h3 className="luxury-heading text-lg font-normal text-brand-heading">Filters</h3>
                   <button onClick={() => setIsOpen(false)}>
-                    <X className="w-5 h-5 text-white/50" />
+                    <X className="w-5 h-5 text-brand-muted" />
                   </button>
                 </div>
 
                 {/* Metal Type */}
                 <div className="mb-4">
-                  <p className="text-xs font-sans font-medium text-white/50 uppercase tracking-wider mb-2">Metal Type</p>
+                  <p className="text-xs font-sans font-medium text-brand-muted uppercase tracking-wider mb-2">Metal Type</p>
                   <div className="flex flex-wrap gap-2">
                     {filterOptions.metalTypes.map(type => (
                       <MobileFilterCheckbox
@@ -100,7 +100,7 @@ export default function FilterBottomSheet({ filters, onFilterChange, onClear, ac
 
                 {/* Carat */}
                 <div className="mb-4">
-                  <p className="text-xs font-sans font-medium text-white/50 uppercase tracking-wider mb-2">Carat</p>
+                  <p className="text-xs font-sans font-medium text-brand-muted uppercase tracking-wider mb-2">Carat</p>
                   <div className="flex flex-wrap gap-2">
                     {filterOptions.carats.map(c => (
                       <MobileFilterCheckbox
@@ -115,7 +115,7 @@ export default function FilterBottomSheet({ filters, onFilterChange, onClear, ac
 
                 {/* Jewellery Type */}
                 <div className="mb-4">
-                  <p className="text-xs font-sans font-medium text-white/50 uppercase tracking-wider mb-2">Jewellery Type</p>
+                  <p className="text-xs font-sans font-medium text-brand-muted uppercase tracking-wider mb-2">Jewellery Type</p>
                   <div className="flex flex-wrap gap-2">
                     {filterOptions.jewelleryTypes.map(type => (
                       <MobileFilterCheckbox
@@ -130,7 +130,7 @@ export default function FilterBottomSheet({ filters, onFilterChange, onClear, ac
 
                 {/* Occasion */}
                 <div className="mb-6">
-                  <p className="text-xs font-sans font-medium text-white/50 uppercase tracking-wider mb-2">Occasion</p>
+                  <p className="text-xs font-sans font-medium text-brand-muted uppercase tracking-wider mb-2">Occasion</p>
                   <div className="flex flex-wrap gap-2">
                     {filterOptions.occasions.map(occ => (
                       <MobileFilterCheckbox
@@ -147,13 +147,13 @@ export default function FilterBottomSheet({ filters, onFilterChange, onClear, ac
                 <div className="flex gap-3">
                   <button
                     onClick={() => { onClear(); setIsOpen(false); }}
-                    className="flex-1 py-2.5 text-sm font-sans font-medium text-white/60 border border-white/20 rounded-xl hover:border-white/40 transition-colors"
+                    className="flex-1 py-2.5 text-sm font-sans font-medium text-brand-muted border border-[rgba(160,115,42,0.20)] rounded-xl hover:border-[rgba(160,115,42,0.40)] transition-colors"
                   >
                     Clear All
                   </button>
                   <button
                     onClick={() => setIsOpen(false)}
-                    className="flex-1 py-2.5 text-sm font-sans font-medium bg-gold-400 text-amber-950 rounded-xl hover:bg-gold-300 transition-colors"
+                    className="flex-1 py-2.5 text-sm font-sans font-medium bg-brand-gold text-white rounded-xl hover:bg-gold-600 transition-colors"
                   >
                     Apply
                   </button>

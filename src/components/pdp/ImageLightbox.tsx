@@ -111,11 +111,19 @@ export default function ImageLightbox({
             onTouchStart={handleTouchStart}
             onTouchEnd={handleTouchEnd}
           >
-            <div className="w-full h-full bg-gradient-to-br from-gold-900/20 via-stone-800/30 to-amber-950/20 rounded-2xl flex items-center justify-center">
-              <div className="w-24 h-24 rounded-full bg-gold-400/10 flex items-center justify-center">
-                <Gem className="w-12 h-12 text-gold-400/30" />
+            {images[currentIndex] ? (
+              <img
+                src={images[currentIndex]}
+                alt={`${name} - Image ${currentIndex + 1}`}
+                className="max-w-full max-h-full object-contain rounded-2xl"
+              />
+            ) : (
+              <div className="w-full h-full bg-ivory-100/10 rounded-2xl flex items-center justify-center">
+                <div className="w-24 h-24 rounded-full bg-brand-gold/10 flex items-center justify-center">
+                  <Gem className="w-12 h-12 text-brand-gold/30" />
+                </div>
               </div>
-            </div>
+            )}
           </motion.div>
 
           {/* Dots */}
@@ -127,7 +135,7 @@ export default function ImageLightbox({
                   onClick={(e) => { e.stopPropagation(); setCurrentIndex(i); }}
                   className={`w-2 h-2 rounded-full transition-all duration-200 ${
                     i === currentIndex
-                      ? "bg-gold-400 w-6"
+                      ? "bg-brand-gold w-6"
                       : "bg-white/30 hover:bg-white/50"
                   }`}
                 />

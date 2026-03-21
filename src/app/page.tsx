@@ -11,6 +11,7 @@ import CollectionsSection from "@/components/home/CollectionsSection";
 import CategorySection from "@/components/home/CategorySection";
 import BestsellersSection from "@/components/home/BestsellersSection";
 import TrendingSection from "@/components/home/TrendingSection";
+import NewLaunchesSection from "@/components/home/NewLaunchesSection";
 import RupmilanWorldSection from "@/components/home/RupmilanWorldSection";
 import CustomerStories from "@/components/home/CustomerStories";
 
@@ -21,7 +22,7 @@ import categories from "@/data/categories.json";
 import products from "@/data/products.json";
 import testimonials from "@/data/testimonials.json";
 
-import type { Product } from "@/types";
+import type { ExtendedProduct } from "@/types";
 
 export const metadata: Metadata = {
   title: "Rupmilan Jewellers | BIS Hallmarked Gold & Diamond Jewellery",
@@ -35,9 +36,10 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const typedProducts = products as Product[];
+  const typedProducts = products as ExtendedProduct[];
   const bestsellers = typedProducts.filter((p) => p.badge === "Bestseller");
   const trending = typedProducts.filter((p) => p.badge === "Trending");
+  const newLaunches = typedProducts.filter((p) => p.badge === "New");
 
   return (
     <>
@@ -53,6 +55,7 @@ export default function Home() {
           <CategorySection categories={categories} />
           <BestsellersSection products={bestsellers} />
           <TrendingSection products={trending} />
+          <NewLaunchesSection products={newLaunches} />
           <RupmilanWorldSection />
           <CustomerStories testimonials={testimonials} />
         </div>

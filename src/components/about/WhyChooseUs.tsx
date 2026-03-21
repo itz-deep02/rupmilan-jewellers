@@ -19,9 +19,9 @@ export default function WhyChooseUs() {
       <div className="grid grid-cols-2 gap-4">
         {reasons.map((item, index) => (
           <ScrollReveal key={item.label} delay={index * 0.08}>
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 text-center hover:bg-white/15 transition-colors duration-300">
-              <item.icon className="w-7 h-7 text-gold-400 mx-auto mb-3" />
-              <p className="text-white text-sm sm:text-base font-sans font-medium leading-snug">
+            <div className="bg-white border border-[rgba(160,115,42,0.20)] rounded-2xl shadow-sm p-6 text-center hover:shadow-md hover:border-[rgba(160,115,42,0.35)] transition-all duration-300">
+              <item.icon className="w-7 h-7 text-brand-gold mx-auto mb-3" />
+              <p className="text-brand-heading text-sm sm:text-base font-sans font-medium leading-snug">
                 {item.label}
               </p>
             </div>

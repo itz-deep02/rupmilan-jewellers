@@ -20,13 +20,13 @@ export default function AnimatedSearchBar() {
 
   return (
     <div className="relative flex items-center" style={{ width: "clamp(7rem, 15vw, 13rem)" }}>
-      <Search className="absolute left-3 w-4 h-4 text-white/40 pointer-events-none z-10" />
+      <Search className="absolute left-3 w-4 h-4 text-brand-muted pointer-events-none z-10" />
       <input
         ref={inputRef}
         type="text"
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
-        className="w-full pl-9 pr-3 py-2 text-sm font-sans text-white/90 bg-white/10 border border-white/20 rounded-full placeholder:text-white/30 focus:outline-none focus:bg-white/15 focus:border-white/30 transition-all duration-200"
+        className="w-full pl-9 pr-3 py-2 text-sm font-sans text-brand-heading bg-ivory-100 border border-[rgba(160,115,42,0.20)] rounded-full placeholder:text-brand-muted focus:outline-none focus:border-brand-gold/50 focus:ring-1 focus:ring-brand-gold/20 transition-all duration-200"
         placeholder={isFocused ? "Search..." : undefined}
       />
       {!isFocused && (
@@ -36,7 +36,7 @@ export default function AnimatedSearchBar() {
             style={{ transform: `translateY(-${currentIndex * 20}px)` }}
           >
             {SEARCH_WORDS.map((word) => (
-              <div key={word} className="h-5 flex items-center text-sm text-white/40 font-sans whitespace-nowrap">
+              <div key={word} className="h-5 flex items-center text-sm text-brand-muted font-sans whitespace-nowrap">
                 <span className="hidden sm:inline">Search for&nbsp;</span>{word}
               </div>
             ))}

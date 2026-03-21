@@ -8,7 +8,7 @@ interface ImageMagnifierProps {
   zoomLevel?: number;
 }
 
-export default function ImageMagnifier({ zoomLevel = 2.5 }: ImageMagnifierProps) {
+export default function ImageMagnifier({ src, alt, zoomLevel = 2.5 }: ImageMagnifierProps) {
   const [showMagnifier, setShowMagnifier] = useState(false);
   const [magnifierPos, setMagnifierPos] = useState({ x: 0, y: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
@@ -29,14 +29,23 @@ export default function ImageMagnifier({ zoomLevel = 2.5 }: ImageMagnifierProps)
       onMouseLeave={() => setShowMagnifier(false)}
       onMouseMove={handleMouseMove}
     >
-      {/* Magnifier lens overlay */}
-      {showMagnifier && (
+      {/* Base image */}
+      {src && (
+        <img
+          src={src}
+          alt={alt}
+          className="absolute inset-0 w-full h-full object-cover mix-blend-multiply"
+        />
+      )}
+      {/* Magnifier zoom overlay on hover */}
+      {showMagnifier && src && (
         <div
           className="absolute inset-0 transition-opacity duration-150"
           style={{
+            backgroundImage: `url(${src})`,
             backgroundSize: `${zoomLevel * 100}%`,
             backgroundPosition: `${magnifierPos.x}% ${magnifierPos.y}%`,
-            backgroundImage: `radial-gradient(circle 120px at ${magnifierPos.x}% ${magnifierPos.y}%, transparent 0%, rgba(0,0,0,0.4) 100%)`,
+            backgroundRepeat: "no-repeat",
           }}
         />
       )}

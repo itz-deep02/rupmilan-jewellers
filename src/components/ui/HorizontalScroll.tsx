@@ -48,7 +48,7 @@ export default function HorizontalScroll({ children, className, showArrows = tru
       {showArrows && canScrollLeft && (
         <button
           onClick={() => scroll("left")}
-          className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-3 w-10 h-10 rounded-full bg-white/10 backdrop-blur-md border border-white/20 items-center justify-center text-white/80 hover:bg-white/20 hover:text-white transition-all duration-200 opacity-0 group-hover/scroll:opacity-100 shadow-lg z-10"
+          className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-3 w-10 h-10 rounded-full bg-white border border-[rgba(160,115,42,0.20)] items-center justify-center text-brand-body hover:bg-ivory-100 hover:text-brand-heading transition-all duration-200 opacity-0 group-hover/scroll:opacity-100 shadow-md z-10"
           aria-label="Scroll left"
         >
           <ChevronLeft className="w-5 h-5" />
@@ -58,7 +58,7 @@ export default function HorizontalScroll({ children, className, showArrows = tru
       {showArrows && canScrollRight && (
         <button
           onClick={() => scroll("right")}
-          className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 w-10 h-10 rounded-full bg-white/10 backdrop-blur-md border border-white/20 items-center justify-center text-white/80 hover:bg-white/20 hover:text-white transition-all duration-200 opacity-0 group-hover/scroll:opacity-100 shadow-lg z-10"
+          className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 w-10 h-10 rounded-full bg-white border border-[rgba(160,115,42,0.20)] items-center justify-center text-brand-body hover:bg-ivory-100 hover:text-brand-heading transition-all duration-200 opacity-0 group-hover/scroll:opacity-100 shadow-md z-10"
           aria-label="Scroll right"
         >
           <ChevronRight className="w-5 h-5" />

@@ -19,7 +19,7 @@ export default function FilterChips({ filters, onRemove }: FilterChipsProps) {
         <button
           key={key}
           onClick={() => onRemove(key)}
-          className="flex items-center gap-1.5 px-2.5 py-1 bg-gold-400/15 border border-gold-400/30 rounded-full text-xs font-sans text-gold-300 hover:bg-gold-400/25 transition-colors"
+          className="flex items-center gap-1.5 px-2.5 py-1 bg-brand-gold/10 border border-[rgba(160,115,42,0.30)] rounded-full text-xs font-sans text-brand-gold hover:bg-brand-gold/20 transition-colors"
         >
           <span className="capitalize">{value}</span>
           <X className="w-3 h-3" />
