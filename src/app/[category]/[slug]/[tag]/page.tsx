@@ -12,6 +12,7 @@ import ProductInfo from "@/components/pdp/ProductInfo";
 import SimilarProducts from "@/components/pdp/SimilarProducts";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { getAllProducts, getProductBySlugAndTag, getSimilarProducts } from "@/lib/products";
+import categories from "@/data/categories.json";
 
 interface PDPPageProps {
   params: Promise<{ category: string; slug: string; tag: string }>;
@@ -50,6 +51,14 @@ export default async function PDPPage({ params }: PDPPageProps) {
 
   const similar = getSimilarProducts(product, 8);
 
+  // Resolve the category slug for breadcrumb — prefer categories.json slug (plural, e.g. "necklaces")
+  // Falls back to jewelleryType (singular, e.g. "necklace") if no match in categories.json
+  const catMatch = categories.find(
+    (c) => c.slug === category || c.slug === category + "s" || c.slug === product.jewelleryType || c.slug === product.jewelleryType + "s"
+  );
+  const breadcrumbCategorySlug = catMatch?.slug || category;
+  const breadcrumbCategoryName = catMatch?.name || category.replace(/-/g, " ");
+
   return (
     <>
       <Navbar />
@@ -70,10 +79,10 @@ export default async function PDPPage({ params }: PDPPageProps) {
               </Link>
               <ChevronRight className="w-3 h-3 flex-shrink-0" />
               <Link
-                href={`/catalogue/${category}`}
+                href={`/catalogue/${breadcrumbCategorySlug}`}
                 className="hover:text-gold-400 transition-colors capitalize flex-shrink-0"
               >
-                {category.replace(/-/g, " ")}
+                {breadcrumbCategoryName}
               </Link>
               <ChevronRight className="w-3 h-3 flex-shrink-0" />
               <span className="text-white/60 truncate">{product.name}</span>

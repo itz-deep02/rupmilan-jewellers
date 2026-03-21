@@ -58,7 +58,7 @@ const config: Config = {
         "fade-in":    "fade-in 0.5s ease-out forwards",
         "pulse-ring": "pulse-ring 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite",
         shimmer:      "shimmer 3s linear infinite",
-        "scroll-x":   "scroll-x 30s linear infinite",
+        "scroll-x":   "scroll-x 45s linear infinite",
       },
     },
   },

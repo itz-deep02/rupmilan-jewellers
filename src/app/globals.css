@@ -22,7 +22,7 @@
   }
 
   .glass-card-hover {
-    @apply glass-card transition-all duration-300 hover:bg-white/15 hover:border-white/30 hover:shadow-2xl hover:scale-[1.02];
+    @apply glass-card transition-all duration-300 hover:bg-white/15 hover:border-white/25 hover:shadow-2xl;
   }
 
   .gold-gradient-text {

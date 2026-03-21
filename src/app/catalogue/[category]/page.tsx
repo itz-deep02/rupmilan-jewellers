@@ -10,6 +10,9 @@ import CatalogueClient from "@/components/catalogue/CatalogueClient";
 import { getProductsByCategory } from "@/lib/products";
 import categories from "@/data/categories.json";
 
+// Allow routes not returned by generateStaticParams to be rendered on demand
+export const dynamicParams = true;
+
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
 }

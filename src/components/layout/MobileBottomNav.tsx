@@ -30,12 +30,12 @@ export default function MobileBottomNav() {
               key={href}
               href={href}
               onClick={() => handleClick(href)}
-              className={`flex flex-col items-center gap-1 px-3 py-2 transition-colors duration-200 ${
+              className={`relative flex flex-col items-center gap-1 px-3 py-2 transition-colors duration-200 ${
                 isActive ? "text-gold-400" : "text-white/50 hover:text-white/70"
               }`}
             >
               {isActive && (
-                <span className="absolute top-0 w-6 h-0.5 rounded-full bg-gold-400" />
+                <span className="absolute top-0 left-1/2 -translate-x-1/2 w-6 h-0.5 rounded-full bg-gold-400" />
               )}
               <Icon className="w-5 h-5" />
               <span className="text-[10px] font-sans font-medium">{label}</span>
