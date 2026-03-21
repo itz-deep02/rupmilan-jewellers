@@ -12,7 +12,15 @@ export function getProductBySlugAndTag(slug: string, tag: string): ExtendedProdu
 }
 
 export function getProductsByCategory(categorySlug: string): ExtendedProduct[] {
-  return products.filter(p => p.jewelleryType === categorySlug || p.category.toLowerCase() === categorySlug);
+  const slug = categorySlug.toLowerCase();
+  return products.filter(p => {
+    const type = p.jewelleryType.toLowerCase();
+    const cat = p.category.toLowerCase();
+    // Match exact, plural (necklaces → necklace), or singular (necklace → necklaces)
+    return type === slug || cat === slug
+      || type + "s" === slug || slug + "s" === type
+      || cat + "s" === slug || slug + "s" === cat;
+  });
 }
 
 export function getSimilarProducts(product: ExtendedProduct, limit: number = 8): ExtendedProduct[] {

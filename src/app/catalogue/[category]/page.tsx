@@ -15,24 +15,33 @@ interface CategoryPageProps {
 }
 
 export async function generateStaticParams() {
-  return categories.map((cat) => ({ category: cat.slug }));
+  const { getAllProducts } = await import("@/lib/products");
+  const products = getAllProducts();
+  const jewelleryTypes = [...new Set(products.map((p) => p.jewelleryType))];
+  const categorySlugs = categories.map((c) => c.slug);
+  const allSlugs = [...new Set([...categorySlugs, ...jewelleryTypes])];
+  return allSlugs.map((slug) => ({ category: slug }));
 }
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
   const { category } = await params;
   const cat = categories.find((c) => c.slug === category);
+  const name = cat?.name || category.charAt(0).toUpperCase() + category.slice(1).replace(/-/g, " ");
   return {
-    title: `${cat?.name || "Category"} | Rupmilan Jewellers`,
-    description: `Explore our ${cat?.name?.toLowerCase() || "jewellery"} collection. Handcrafted BIS Hallmarked designs.`,
+    title: `${name} | Rupmilan Jewellers`,
+    description: `Explore our ${name.toLowerCase()} collection. Handcrafted BIS Hallmarked designs.`,
   };
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
   const { category } = await params;
   const cat = categories.find((c) => c.slug === category);
-  if (!cat) notFound();
-
   const products = getProductsByCategory(category);
+
+  // Allow both categories.json slugs AND jewelleryType values
+  if (!cat && products.length === 0) notFound();
+
+  const displayName = cat?.name || category.charAt(0).toUpperCase() + category.slice(1).replace(/-/g, " ");
 
   return (
     <>
@@ -42,11 +51,11 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
           <SectionHeader
             eyebrow="Rupmilan Jewellers"
-            title={cat.name}
-            subtitle={`${products.length} exquisite designs to explore`}
+            title={displayName}
+            subtitle={`${products.length} exquisite design${products.length !== 1 ? "s" : ""} to explore`}
           />
           <div className="mt-8">
-            <CatalogueClient initialProducts={products} categoryName={cat.name} />
+            <CatalogueClient initialProducts={products} categoryName={displayName} />
           </div>
         </div>
       </main>

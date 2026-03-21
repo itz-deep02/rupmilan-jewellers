@@ -8,7 +8,7 @@ interface CategoryCardProps {
 export default function CategoryCard({ category }: CategoryCardProps) {
   return (
     <a
-      href={`/catalogue?category=${category.slug}`}
+      href={`/catalogue/${category.slug}`}
       className="snap-start flex-shrink-0 w-[160px] sm:w-[200px] group"
     >
       {/* Circular image */}
