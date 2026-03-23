@@ -68,6 +68,7 @@ export interface ExtendedProduct extends Product {
   occasion?: string[];
   gender?: "women" | "men" | "unisex";
   jewelleryType: string;
+  subcategory?: string;
   description?: string;
   images: string[];
   sku?: string;
@@ -82,6 +83,7 @@ export interface FilterState {
   occasion?: string;
   jewelleryType?: string;
   category?: string;
+  subcategory?: string;
 }
 
 export type SortOption = "newest" | "popular" | "name-asc" | "name-desc" | "carat-high" | "carat-low" | "weight-high" | "weight-low";

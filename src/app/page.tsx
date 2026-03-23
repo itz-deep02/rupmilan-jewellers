@@ -12,6 +12,8 @@ import CategorySection from "@/components/home/CategorySection";
 import BestsellersSection from "@/components/home/BestsellersSection";
 import TrendingSection from "@/components/home/TrendingSection";
 import NewLaunchesSection from "@/components/home/NewLaunchesSection";
+import GoldProductsSection from "@/components/home/GoldProductsSection";
+import SilverProductsSection from "@/components/home/SilverProductsSection";
 import RupmilanWorldSection from "@/components/home/RupmilanWorldSection";
 import CustomerStories from "@/components/home/CustomerStories";
 
@@ -40,6 +42,8 @@ export default function Home() {
   const bestsellers = typedProducts.filter((p) => p.badge === "Bestseller");
   const trending = typedProducts.filter((p) => p.badge === "Trending");
   const newLaunches = typedProducts.filter((p) => p.badge === "New");
+  const goldProducts = typedProducts.filter((p) => p.metalType === "gold");
+  const silverProducts = typedProducts.filter((p) => p.metalType === "silver");
 
   return (
     <>
@@ -56,6 +60,8 @@ export default function Home() {
           <BestsellersSection products={bestsellers} />
           <TrendingSection products={trending} />
           <NewLaunchesSection products={newLaunches} />
+          <GoldProductsSection products={goldProducts} />
+          <SilverProductsSection products={silverProducts} />
           <RupmilanWorldSection />
           <CustomerStories testimonials={testimonials} />
         </div>

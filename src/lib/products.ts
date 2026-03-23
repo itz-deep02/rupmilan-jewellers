@@ -1,4 +1,5 @@
 import productsData from "@/data/products.json";
+import subcategoryData from "@/data/subcategories.json";
 import type { ExtendedProduct, FilterState, SortOption } from "@/types";
 
 const products = productsData as ExtendedProduct[];
@@ -46,6 +47,9 @@ export function getFilteredProducts(allProducts: ExtendedProduct[], filters: Fil
   }
   if (filters.category) {
     filtered = filtered.filter(p => p.category.toLowerCase() === filters.category!.toLowerCase());
+  }
+  if (filters.subcategory) {
+    filtered = filtered.filter(p => p.subcategory === filters.subcategory);
   }
 
   // Helper to parse carat number (e.g. "22K" → 22, "18K" → 18)
@@ -96,7 +100,17 @@ export function getUniqueFilterValues(allProducts: ExtendedProduct[]) {
   const jewelleryTypes = [...new Set(allProducts.map(p => p.jewelleryType))];
   const categories = [...new Set(allProducts.map(p => p.category))];
 
-  return { metalTypes, carats, occasions, jewelleryTypes, categories };
+  // Build subcategories grouped by jewelleryType, only for types present in products
+  const activeTypes = [...new Set(allProducts.map(p => p.jewelleryType))];
+  const subcategories: Record<string, string[]> = {};
+  for (const type of activeTypes) {
+    const subs = (subcategoryData as Record<string, { label: string; subcategories: string[] }>)[type];
+    if (subs?.subcategories?.length > 0) {
+      subcategories[type] = subs.subcategories;
+    }
+  }
+
+  return { metalTypes, carats, occasions, jewelleryTypes, categories, subcategories };
 }
 
 export function generateSlug(name: string): string {

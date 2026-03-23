@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { X, SlidersHorizontal } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type { FilterState } from "@/types";
 
 interface FilterBottomSheetProps {
@@ -15,6 +15,7 @@ interface FilterBottomSheetProps {
     carats: string[];
     occasions: string[];
     jewelleryTypes: string[];
+    subcategories: Record<string, string[]>;
   };
 }
 
@@ -35,6 +36,16 @@ function MobileFilterCheckbox({ label, checked, onChange }: { label: string; che
 
 export default function FilterBottomSheet({ filters, onFilterChange, onClear, activeCount, filterOptions }: FilterBottomSheetProps) {
   const [isOpen, setIsOpen] = useState(false);
+
+  // Lock body scroll when sheet is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => { document.body.style.overflow = ""; };
+  }, [isOpen]);
 
   return (
     <>
@@ -60,28 +71,31 @@ export default function FilterBottomSheet({ filters, onFilterChange, onClear, ac
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-black/40 backdrop-blur-sm z-50"
+              className="fixed inset-0 bg-black/40 backdrop-blur-sm z-[60]"
               onClick={() => setIsOpen(false)}
+              onTouchMove={(e) => e.preventDefault()}
             />
             <motion.div
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               exit={{ y: "100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
-              className="fixed bottom-0 left-0 right-0 z-50 bg-ivory border-t border-[rgba(160,115,42,0.20)] rounded-t-3xl max-h-[75vh] overflow-y-auto"
+              className="fixed bottom-0 left-0 right-0 z-[60] bg-ivory border-t border-[rgba(160,115,42,0.20)] rounded-t-3xl max-h-[80vh] flex flex-col"
             >
               {/* Handle */}
-              <div className="flex justify-center py-3">
+              <div className="flex justify-center py-3 flex-shrink-0">
                 <div className="w-10 h-1 bg-brand-muted/30 rounded-full" />
               </div>
 
-              <div className="px-5 pb-6">
-                <div className="flex items-center justify-between mb-5">
-                  <h3 className="luxury-heading text-lg font-normal text-brand-heading">Filters</h3>
-                  <button onClick={() => setIsOpen(false)}>
-                    <X className="w-5 h-5 text-brand-muted" />
-                  </button>
-                </div>
+              <div className="flex items-center justify-between mb-3 px-5 flex-shrink-0">
+                <h3 className="luxury-heading text-lg font-normal text-brand-heading">Filters</h3>
+                <button onClick={() => setIsOpen(false)}>
+                  <X className="w-5 h-5 text-brand-muted" />
+                </button>
+              </div>
+
+              {/* Scrollable filter content */}
+              <div className="px-5 pb-4 overflow-y-auto flex-1 min-h-0">
 
                 {/* Metal Type */}
                 <div className="mb-4">
@@ -128,6 +142,36 @@ export default function FilterBottomSheet({ filters, onFilterChange, onClear, ac
                   </div>
                 </div>
 
+                {/* Subcategory */}
+                {Object.keys(filterOptions.subcategories).length > 0 && (
+                  <div className="mb-4">
+                    <p className="text-xs font-sans font-medium text-brand-muted uppercase tracking-wider mb-2">Subcategory</p>
+                    <div className="flex flex-wrap gap-2">
+                      {filters.jewelleryType && filterOptions.subcategories[filters.jewelleryType] ? (
+                        filterOptions.subcategories[filters.jewelleryType].map(sub => (
+                          <MobileFilterCheckbox
+                            key={sub}
+                            label={sub}
+                            checked={filters.subcategory === sub}
+                            onChange={() => onFilterChange("subcategory", filters.subcategory === sub ? undefined : sub)}
+                          />
+                        ))
+                      ) : (
+                        Object.entries(filterOptions.subcategories).flatMap(([type, subs]) =>
+                          subs.map(sub => (
+                            <MobileFilterCheckbox
+                              key={`${type}-${sub}`}
+                              label={sub}
+                              checked={filters.subcategory === sub}
+                              onChange={() => onFilterChange("subcategory", filters.subcategory === sub ? undefined : sub)}
+                            />
+                          ))
+                        )
+                      )}
+                    </div>
+                  </div>
+                )}
+
                 {/* Occasion */}
                 <div className="mb-6">
                   <p className="text-xs font-sans font-medium text-brand-muted uppercase tracking-wider mb-2">Occasion</p>
@@ -143,21 +187,22 @@ export default function FilterBottomSheet({ filters, onFilterChange, onClear, ac
                   </div>
                 </div>
 
-                {/* Actions */}
-                <div className="flex gap-3">
-                  <button
-                    onClick={() => { onClear(); setIsOpen(false); }}
-                    className="flex-1 py-2.5 text-sm font-sans font-medium text-brand-muted border border-[rgba(160,115,42,0.20)] rounded-xl hover:border-[rgba(160,115,42,0.40)] transition-colors"
-                  >
-                    Clear All
-                  </button>
-                  <button
-                    onClick={() => setIsOpen(false)}
-                    className="flex-1 py-2.5 text-sm font-sans font-medium bg-brand-gold text-white rounded-xl hover:bg-gold-600 transition-colors"
-                  >
-                    Apply
-                  </button>
-                </div>
+              </div>
+
+              {/* Sticky action buttons — outside scrollable area */}
+              <div className="flex gap-3 px-5 py-4 border-t border-[rgba(160,115,42,0.15)] bg-ivory flex-shrink-0">
+                <button
+                  onClick={() => { onClear(); setIsOpen(false); }}
+                  className="flex-1 py-2.5 text-sm font-sans font-medium text-brand-muted border border-[rgba(160,115,42,0.20)] rounded-xl hover:border-[rgba(160,115,42,0.40)] transition-colors"
+                >
+                  Clear All
+                </button>
+                <button
+                  onClick={() => setIsOpen(false)}
+                  className="flex-1 py-2.5 text-sm font-sans font-medium bg-brand-gold text-white rounded-xl hover:bg-gold-600 transition-colors"
+                >
+                  Apply
+                </button>
               </div>
             </motion.div>
           </>

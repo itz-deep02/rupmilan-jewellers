@@ -14,6 +14,7 @@ export function useFilters() {
     occasion: searchParams.get("occasion") || undefined,
     jewelleryType: searchParams.get("type") || undefined,
     category: searchParams.get("category") || undefined,
+    subcategory: searchParams.get("sub") || undefined,
   }), [searchParams]);
 
   const sort: SortOption = (searchParams.get("sort") as SortOption) || "popular";
@@ -38,8 +39,14 @@ export function useFilters() {
       occasion: "occasion",
       jewelleryType: "type",
       category: "category",
+      subcategory: "sub",
     };
-    updateParams({ [paramMap[key]]: value || null });
+    // When jewelleryType changes, clear subcategory (subcategories are type-dependent)
+    if (key === "jewelleryType") {
+      updateParams({ [paramMap[key]]: value || null, sub: null });
+    } else {
+      updateParams({ [paramMap[key]]: value || null });
+    }
   }, [updateParams]);
 
   const setSort = useCallback((value: SortOption) => {

@@ -1,0 +1,50 @@
+{
+  "necklace": {
+    "label": "Necklaces",
+    "subcategories": ["Gol Haar", "Long Haar", "Choker", "Lakh Mala", "Hasli"]
+  },
+  "bangle": {
+    "label": "Bangles",
+    "subcategories": ["Patla Chudhi", "Hathi Mundi Kangan", "Normal Bangles"]
+  },
+  "ring": {
+    "label": "Rings",
+    "subcategories": ["Gents Casting Ring", "Ladies Casting Ring", "Gents & Ladies Regular", "Stone Ring", "Devraha"]
+  },
+  "pendant": {
+    "label": "Lockets",
+    "subcategories": ["Double Kunda Locket", "Single Kunda Locket", "Dorla", "Manchali"]
+  },
+  "earring": {
+    "label": "Earrings",
+    "subcategories": ["Kanoti Earring", "Sui Dhaga", "Bali", "Tops", "Jhala", "Tarki", "Stone Earrings"]
+  },
+  "jhumka": {
+    "label": "Jhumka",
+    "subcategories": ["Single Step Jhumka", "Double Step Jhumka", "Jhumka Jhala"]
+  },
+  "bracelet": {
+    "label": "Bracelet",
+    "subcategories": ["Gents", "Ladies"]
+  },
+  "chain": {
+    "label": "Chain",
+    "subcategories": ["Ladies", "Gents", "Baby"]
+  },
+  "mangalsutra": {
+    "label": "Mangalsutra",
+    "subcategories": []
+  },
+  "bindiya": {
+    "label": "Bindiya",
+    "subcategories": []
+  },
+  "nath": {
+    "label": "Nath",
+    "subcategories": []
+  },
+  "bendi": {
+    "label": "Bendi",
+    "subcategories": []
+  }
+}

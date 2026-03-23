@@ -6,5 +6,10 @@
   { "id": "cat-5", "name": "Chains", "image": "/images/categories/chains.jpg", "productCount": 60, "slug": "chains" },
   { "id": "cat-6", "name": "Mangalsutra", "image": "/images/categories/mangalsutra.jpg", "productCount": 45, "slug": "mangalsutra" },
   { "id": "cat-7", "name": "Pendants", "image": "/images/categories/pendants.jpg", "productCount": 70, "slug": "pendants" },
-  { "id": "cat-8", "name": "Bracelets", "image": "/images/categories/bracelets.jpg", "productCount": 55, "slug": "bracelets" }
+  { "id": "cat-8", "name": "Bracelets", "image": "/images/categories/bracelets.jpg", "productCount": 55, "slug": "bracelets" },
+  { "id": "cat-9", "name": "Jhumka", "image": "/images/categories/jhumka.jpg", "productCount": 30, "slug": "jhumka" },
+  { "id": "cat-10", "name": "Lockets", "image": "/images/categories/lockets.jpg", "productCount": 25, "slug": "lockets" },
+  { "id": "cat-11", "name": "Bindiya", "image": "/images/categories/bindiya.jpg", "productCount": 15, "slug": "bindiya" },
+  { "id": "cat-12", "name": "Nath", "image": "/images/categories/nath.jpg", "productCount": 10, "slug": "nath" },
+  { "id": "cat-13", "name": "Bendi", "image": "/images/categories/bendi.jpg", "productCount": 10, "slug": "bendi" }
 ]

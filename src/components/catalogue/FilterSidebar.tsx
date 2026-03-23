@@ -14,21 +14,23 @@ interface FilterSidebarProps {
     carats: string[];
     occasions: string[];
     jewelleryTypes: string[];
+    subcategories: Record<string, string[]>;
   };
 }
 
-function FilterSection({ title, children, defaultOpen = true }: { title: string; children: React.ReactNode; defaultOpen?: boolean }) {
+function FilterSection({ title, children, defaultOpen = true, forceOpen }: { title: string; children: React.ReactNode; defaultOpen?: boolean; forceOpen?: boolean }) {
   const [isOpen, setIsOpen] = useState(defaultOpen);
+  const open = forceOpen !== undefined ? forceOpen : isOpen;
   return (
     <div className="border-b border-[rgba(160,115,42,0.15)] py-3">
       <button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => setIsOpen(!open)}
         className="flex items-center justify-between w-full text-left"
       >
         <span className="text-sm font-sans font-medium text-brand-body">{title}</span>
-        <ChevronDown className={`w-4 h-4 text-brand-muted transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
+        <ChevronDown className={`w-4 h-4 text-brand-muted transition-transform duration-200 ${open ? "rotate-180" : ""}`} />
       </button>
-      {isOpen && <div className="mt-2.5 space-y-1.5">{children}</div>}
+      {open && <div className="mt-2.5 space-y-1.5">{children}</div>}
     </div>
   );
 }
@@ -92,6 +94,38 @@ export default function FilterSidebar({ filters, onFilterChange, onClear, active
             />
           ))}
         </FilterSection>
+
+        {/* Subcategory — show relevant subcategories */}
+        {Object.keys(filterOptions.subcategories).length > 0 && (
+          <FilterSection title="Subcategory" forceOpen={!!filters.jewelleryType}>
+            {filters.jewelleryType && filterOptions.subcategories[filters.jewelleryType] ? (
+              // Show only subcategories for the selected jewellery type
+              filterOptions.subcategories[filters.jewelleryType].map(sub => (
+                <FilterCheckbox
+                  key={sub}
+                  label={sub}
+                  checked={filters.subcategory === sub}
+                  onChange={() => onFilterChange("subcategory", filters.subcategory === sub ? undefined : sub)}
+                />
+              ))
+            ) : (
+              // Show all subcategories grouped by type
+              Object.entries(filterOptions.subcategories).map(([type, subs]) => (
+                <div key={type} className="mb-2">
+                  <p className="text-[10px] font-sans font-medium text-brand-muted uppercase tracking-wider mb-1 mt-2">{type}</p>
+                  {subs.map(sub => (
+                    <FilterCheckbox
+                      key={`${type}-${sub}`}
+                      label={sub}
+                      checked={filters.subcategory === sub}
+                      onChange={() => onFilterChange("subcategory", filters.subcategory === sub ? undefined : sub)}
+                    />
+                  ))}
+                </div>
+              ))
+            )}
+          </FilterSection>
+        )}
 
         <FilterSection title="Occasion">
           {filterOptions.occasions.map(occ => (
