@@ -18,9 +18,10 @@ const ITEMS_PER_PAGE = 12;
 interface CatalogueClientProps {
   initialProducts: ExtendedProduct[];
   categoryName?: string;
+  categorySlug?: string;
 }
 
-function CatalogueContent({ initialProducts, categoryName }: CatalogueClientProps) {
+function CatalogueContent({ initialProducts, categoryName, categorySlug }: CatalogueClientProps) {
   const { filters, sort, setFilter, setSort, clearFilters, activeFilterCount } = useFilters();
   const [displayedCount, setDisplayedCount] = useState(ITEMS_PER_PAGE);
 
@@ -68,6 +69,7 @@ function CatalogueContent({ initialProducts, categoryName }: CatalogueClientProp
         onClear={handleClear}
         activeCount={activeFilterCount}
         filterOptions={filterOptions}
+        categorySlug={categorySlug}
       />
 
       {/* Main content */}
@@ -81,6 +83,7 @@ function CatalogueContent({ initialProducts, categoryName }: CatalogueClientProp
               onClear={handleClear}
               activeCount={activeFilterCount}
               filterOptions={filterOptions}
+              categorySlug={categorySlug}
             />
             <p className="text-xs font-sans text-brand-muted">
               {filteredProducts.length} product{filteredProducts.length !== 1 ? "s" : ""}

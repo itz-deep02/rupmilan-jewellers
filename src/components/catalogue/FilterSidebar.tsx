@@ -16,6 +16,7 @@ interface FilterSidebarProps {
     jewelleryTypes: string[];
     subcategories: Record<string, string[]>;
   };
+  categorySlug?: string;
 }
 
 function FilterSection({ title, children, defaultOpen = true, forceOpen }: { title: string; children: React.ReactNode; defaultOpen?: boolean; forceOpen?: boolean }) {
@@ -49,7 +50,10 @@ function FilterCheckbox({ label, checked, onChange }: { label: string; checked: 
   );
 }
 
-export default function FilterSidebar({ filters, onFilterChange, onClear, activeCount, filterOptions }: FilterSidebarProps) {
+export default function FilterSidebar({ filters, onFilterChange, onClear, activeCount, filterOptions, categorySlug }: FilterSidebarProps) {
+  // Determine active type: explicit filter OR category page slug (handle plural: "necklaces" → "necklace")
+  const activeType = filters.jewelleryType || (categorySlug ? (categorySlug.endsWith("s") ? categorySlug.slice(0, -1) : categorySlug) : undefined);
+  const activeSubcategories = activeType ? filterOptions.subcategories[activeType] : undefined;
   return (
     <div className="hidden lg:block w-56 flex-shrink-0">
       <div className="sticky top-24 bg-white border border-[rgba(160,115,42,0.20)] rounded-2xl shadow-sm p-4">
@@ -95,35 +99,17 @@ export default function FilterSidebar({ filters, onFilterChange, onClear, active
           ))}
         </FilterSection>
 
-        {/* Subcategory — show relevant subcategories */}
-        {Object.keys(filterOptions.subcategories).length > 0 && (
-          <FilterSection title="Subcategory" forceOpen={!!filters.jewelleryType}>
-            {filters.jewelleryType && filterOptions.subcategories[filters.jewelleryType] ? (
-              // Show only subcategories for the selected jewellery type
-              filterOptions.subcategories[filters.jewelleryType].map(sub => (
-                <FilterCheckbox
-                  key={sub}
-                  label={sub}
-                  checked={filters.subcategory === sub}
-                  onChange={() => onFilterChange("subcategory", filters.subcategory === sub ? undefined : sub)}
-                />
-              ))
-            ) : (
-              // Show all subcategories grouped by type
-              Object.entries(filterOptions.subcategories).map(([type, subs]) => (
-                <div key={type} className="mb-2">
-                  <p className="text-[10px] font-sans font-medium text-brand-muted uppercase tracking-wider mb-1 mt-2">{type}</p>
-                  {subs.map(sub => (
-                    <FilterCheckbox
-                      key={`${type}-${sub}`}
-                      label={sub}
-                      checked={filters.subcategory === sub}
-                      onChange={() => onFilterChange("subcategory", filters.subcategory === sub ? undefined : sub)}
-                    />
-                  ))}
-                </div>
-              ))
-            )}
+        {/* Subcategory — only show when a jewellery type is active */}
+        {activeSubcategories && activeSubcategories.length > 0 && (
+          <FilterSection title="Subcategory" forceOpen={true}>
+            {activeSubcategories.map(sub => (
+              <FilterCheckbox
+                key={sub}
+                label={sub}
+                checked={filters.subcategory === sub}
+                onChange={() => onFilterChange("subcategory", filters.subcategory === sub ? undefined : sub)}
+              />
+            ))}
           </FilterSection>
         )}
 

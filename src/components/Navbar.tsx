@@ -54,8 +54,10 @@ export default function Navbar() {
             })}
           </div>
 
-          {/* Search */}
-          <AnimatedSearchBar />
+          {/* Search — hidden on contact & about pages */}
+          {pathname !== "/contact" && pathname !== "/about" && (
+            <AnimatedSearchBar />
+          )}
         </div>
       </div>
     </nav>

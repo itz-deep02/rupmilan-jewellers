@@ -17,6 +17,7 @@ interface FilterBottomSheetProps {
     jewelleryTypes: string[];
     subcategories: Record<string, string[]>;
   };
+  categorySlug?: string;
 }
 
 function MobileFilterCheckbox({ label, checked, onChange }: { label: string; checked: boolean; onChange: () => void }) {
@@ -34,8 +35,10 @@ function MobileFilterCheckbox({ label, checked, onChange }: { label: string; che
   );
 }
 
-export default function FilterBottomSheet({ filters, onFilterChange, onClear, activeCount, filterOptions }: FilterBottomSheetProps) {
+export default function FilterBottomSheet({ filters, onFilterChange, onClear, activeCount, filterOptions, categorySlug }: FilterBottomSheetProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const activeType = filters.jewelleryType || (categorySlug ? (categorySlug.endsWith("s") ? categorySlug.slice(0, -1) : categorySlug) : undefined);
+  const activeSubcategories = activeType ? filterOptions.subcategories[activeType] : undefined;
 
   // Lock body scroll when sheet is open
   useEffect(() => {
@@ -142,32 +145,19 @@ export default function FilterBottomSheet({ filters, onFilterChange, onClear, ac
                   </div>
                 </div>
 
-                {/* Subcategory */}
-                {Object.keys(filterOptions.subcategories).length > 0 && (
+                {/* Subcategory — only show when a jewellery type is active */}
+                {activeSubcategories && activeSubcategories.length > 0 && (
                   <div className="mb-4">
                     <p className="text-xs font-sans font-medium text-brand-muted uppercase tracking-wider mb-2">Subcategory</p>
                     <div className="flex flex-wrap gap-2">
-                      {filters.jewelleryType && filterOptions.subcategories[filters.jewelleryType] ? (
-                        filterOptions.subcategories[filters.jewelleryType].map(sub => (
-                          <MobileFilterCheckbox
-                            key={sub}
-                            label={sub}
-                            checked={filters.subcategory === sub}
-                            onChange={() => onFilterChange("subcategory", filters.subcategory === sub ? undefined : sub)}
-                          />
-                        ))
-                      ) : (
-                        Object.entries(filterOptions.subcategories).flatMap(([type, subs]) =>
-                          subs.map(sub => (
-                            <MobileFilterCheckbox
-                              key={`${type}-${sub}`}
-                              label={sub}
-                              checked={filters.subcategory === sub}
-                              onChange={() => onFilterChange("subcategory", filters.subcategory === sub ? undefined : sub)}
-                            />
-                          ))
-                        )
-                      )}
+                      {activeSubcategories.map(sub => (
+                        <MobileFilterCheckbox
+                          key={sub}
+                          label={sub}
+                          checked={filters.subcategory === sub}
+                          onChange={() => onFilterChange("subcategory", filters.subcategory === sub ? undefined : sub)}
+                        />
+                      ))}
                     </div>
                   </div>
                 )}

@@ -58,7 +58,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             subtitle={`${products.length} exquisite design${products.length !== 1 ? "s" : ""} to explore`}
           />
           <div className="mt-8">
-            <CatalogueClient initialProducts={products} categoryName={displayName} />
+            <CatalogueClient initialProducts={products} categoryName={displayName} categorySlug={category} />
           </div>
         </div>
       </main>
