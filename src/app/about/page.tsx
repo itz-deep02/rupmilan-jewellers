@@ -6,6 +6,8 @@ import MobileBottomNav from "@/components/layout/MobileBottomNav";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import AboutHero from "@/components/about/AboutHero";
 import StorySection from "@/components/about/StorySection";
+import JourneyTimeline from "@/components/about/JourneyTimeline";
+import ShowroomGallery from "@/components/about/ShowroomGallery";
 import OfferingsSection from "@/components/about/OfferingsSection";
 import CraftsmanshipSection from "@/components/about/CraftsmanshipSection";
 import WhyChooseUs from "@/components/about/WhyChooseUs";
@@ -25,8 +27,10 @@ export default function AboutPage() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
           <AboutHero />
           <StorySection />
+          <JourneyTimeline />
           <OfferingsSection />
           <CraftsmanshipSection />
+          <ShowroomGallery />
           <WhyChooseUs />
           <OurPromise />
         </div>
