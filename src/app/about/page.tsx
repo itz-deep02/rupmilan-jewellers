@@ -24,7 +24,7 @@ export default function AboutPage() {
       <Navbar />
       <DecorativeOrbs />
       <main className="min-h-screen pb-20 md:pb-0">
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-6 pb-12 sm:pb-16">
           <AboutHero />
           <StorySection />
           <JourneyTimeline />

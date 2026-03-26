@@ -30,7 +30,7 @@
   }
 
   .luxury-heading {
-    @apply font-serif tracking-wide;
+    @apply font-brand tracking-wide;
   }
 
   .brand-name {
