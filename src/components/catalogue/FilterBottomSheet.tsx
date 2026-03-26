@@ -20,6 +20,10 @@ interface FilterBottomSheetProps {
   categorySlug?: string;
 }
 
+function capitalize(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 function MobileFilterCheckbox({ label, checked, onChange }: { label: string; checked: boolean; onChange: () => void }) {
   return (
     <button
@@ -30,7 +34,7 @@ function MobileFilterCheckbox({ label, checked, onChange }: { label: string; che
           : "border-[rgba(160,115,42,0.20)] text-brand-muted hover:border-[rgba(160,115,42,0.40)]"
       }`}
     >
-      {label}
+      {capitalize(label)}
     </button>
   );
 }
