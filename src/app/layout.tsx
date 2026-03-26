@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   title: "Rupmilan Jewellers",
   description:
     "Premium jewellery store in Champa, Chhattisgarh. BIS Hallmarked. Trusted since 1988.",
-  icons: { icon: "/favicon.ico" },
+  icons: { icon: "/icon.png" },
 };
 
 export default function RootLayout({
