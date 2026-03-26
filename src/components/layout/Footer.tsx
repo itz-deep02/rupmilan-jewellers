@@ -1,4 +1,5 @@
-import { Gem, MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import Image from "next/image";
 
 const quickLinks = [
   { href: "/", label: "Home" },
@@ -15,8 +16,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center">
-                <Gem className="w-4 h-4 text-white" />
+              <div className="w-8 h-8 rounded-full overflow-hidden flex-shrink-0">
+                <Image src="/icon.png" alt="Rupmilan Jewellers Logo" width={64} height={64} className="w-full h-full object-cover" unoptimized />
               </div>
               <span className="brand-name text-lg font-semibold text-brand-gold">
                 Rupmilan Jewellers

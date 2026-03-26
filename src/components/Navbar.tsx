@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Gem } from "lucide-react";
+import Image from "next/image";
 import AnimatedSearchBar from "@/components/ui/AnimatedSearchBar";
 
 const navLinks = [
@@ -21,8 +21,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 gap-3">
           {/* Logo / Brand */}
           <Link href="/" className="flex items-center gap-2 group flex-shrink-0">
-            <div className="w-9 h-9 rounded-full bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center shadow-md group-hover:shadow-gold-400/40 transition-shadow duration-300">
-              <Gem className="w-5 h-5 text-white" />
+            <div className="w-9 h-9 rounded-full overflow-hidden shadow-md group-hover:shadow-gold-400/40 transition-shadow duration-300 flex-shrink-0">
+              <Image src="/icon.png" alt="Rupmilan Jewellers Logo" width={72} height={72} className="w-full h-full object-cover" priority unoptimized />
             </div>
             <div className="flex flex-col">
               <span className="brand-name text-lg font-semibold text-brand-gold leading-tight">
