@@ -2,7 +2,7 @@
   { "id": "cat-1", "name": "Necklaces", "image": "/images/categories/necklaces.jpg", "productCount": 120, "slug": "necklaces" },
   { "id": "cat-2", "name": "Earrings", "image": "/images/categories/earrings.jpg", "productCount": 95, "slug": "earrings" },
   { "id": "cat-3", "name": "Rings", "image": "/images/categories/rings.jpg", "productCount": 80, "slug": "rings" },
-  { "id": "cat-4", "name": "Bangles", "image": "/images/categories/bangles.jpg", "productCount": 110, "slug": "bangles" },
+  { "id": "cat-4", "name": "Gold Bangle", "image": "/images/categories/bangles.jpg", "productCount": 110, "slug": "bangles" },
   { "id": "cat-5", "name": "Chains", "image": "/images/categories/chains.jpg", "productCount": 60, "slug": "chains" },
   { "id": "cat-6", "name": "Mangalsutra", "image": "/images/categories/mangalsutra.jpg", "productCount": 45, "slug": "mangalsutra" },
   { "id": "cat-7", "name": "Pendants", "image": "/images/categories/pendants.jpg", "productCount": 70, "slug": "pendants" },

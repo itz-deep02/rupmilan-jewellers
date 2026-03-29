@@ -1,733 +1,1996 @@
 [
   {
     "id": "product-1",
-    "name": "Royal Heritage Necklace",
+    "name": "Rajsi Floral Pendant Necklace",
     "category": "Necklace",
-    "tagNumber": "#101",
+    "tagNumber": "#GH52",
     "image": "/images/products/necklace-1.jpg",
-    "badge": "Bestseller",
-    "collection": "bridal",
-    "slug": "royal-heritage-necklace",
+    "badge": "New",
+    "collection": "heritage",
+    "slug": "rajsi-floral-pendant-necklace",
     "metalType": "gold",
-    "carat": "22K",
-    "weight": "45.2g",
-    "occasion": ["wedding", "festive"],
-    "gender": "women",
-    "jewelleryType": "necklace",
-    "subcategory": "Long Haar",
-    "description": "A grand bridal necklace featuring intricate heritage motifs, perfect for the modern bride who treasures tradition.",
-    "images": ["/images/products/necklace-1.jpg", "/images/products/necklace-1-2.jpg", "/images/products/necklace-1-3.jpg"],
-    "sku": "RM-NK-001",
-    "sortOrder": 1,
-    "dateAdded": "2024-08-15",
-    "tags": ["bestseller", "bridal"]
-  },
-  {
-    "id": "product-2",
-    "name": "Kundan Bridal Set",
-    "category": "Necklace",
-    "tagNumber": "#102",
-    "image": "/images/products/necklace-2.jpg",
-    "badge": "Bestseller",
-    "collection": "bridal",
-    "slug": "kundan-bridal-set",
-    "metalType": "gold",
-    "carat": "22K",
-    "weight": "52.8g",
-    "occasion": ["wedding"],
+    "carat": "23K",
+    "weight": "19.690g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
-    "description": "A stunning kundan bridal set with meenakari work on the reverse, a true heirloom piece for generations.",
-    "images": ["/images/products/necklace-2.jpg", "/images/products/necklace-2-2.jpg", "/images/products/necklace-2-3.jpg"],
-    "sku": "RM-NK-002",
+    "description": "An elegant gold necklace featuring intricate floral detailing with a statement pendant, crafted for timeless festive and bridal charm.",
+    "images": [
+      "/images/products/necklace-1.jpg",
+      "/images/products/necklace-1-2.jpg",
+      "/images/products/necklace-1-3.jpg"
+    ],
+    "sortOrder": 1,
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "heritage"
+    ]
+  },
+  {
+    "id": "product-2",
+    "name": "Meenakari Drop Pendant Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH38",
+    "image": "/images/products/necklace-2.jpg",
+    "badge": "New",
+    "collection": "festive",
+    "slug": "meenakari-drop-pendant-necklace",
+    "metalType": "gold",
+    "carat": "23K",
+    "weight": "25.500g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A beautifully crafted gold necklace adorned with meenakari accents and delicate drop elements, perfect for festive elegance and wedding occasions.",
+    "images": [
+      "/images/products/necklace-2.jpg",
+      "/images/products/necklace-2-2.jpg",
+      "/images/products/necklace-2-3.jpg"
+    ],
     "sortOrder": 2,
-    "dateAdded": "2024-07-20",
-    "tags": ["bestseller", "bridal"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "festive"
+    ]
   },
   {
     "id": "product-3",
-    "name": "Temple Gold Earrings",
-    "category": "Earrings",
-    "tagNumber": "#201",
-    "image": "/images/products/earring-1.jpg",
-    "badge": "Trending",
-    "collection": "heritage",
-    "slug": "temple-gold-earrings",
+    "name": "Rajvanshi Cascade Temple Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH49",
+    "image": "/images/products/necklace-3.jpg",
+    "badge": "New",
+    "collection": "bridal",
+    "slug": "rajvanshi-cascade-temple-necklace",
     "metalType": "gold",
-    "carat": "22K",
-    "weight": "12.4g",
-    "occasion": ["festive", "wedding"],
+    "carat": "23K",
+    "weight": "28.860g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
     "gender": "women",
-    "jewelleryType": "earring",
-    "subcategory": "Tops",
-    "description": "Temple-inspired gold earrings with detailed deity motifs, crafted for devotees who love traditional artistry.",
-    "images": ["/images/products/earring-1.jpg", "/images/products/earring-1-2.jpg", "/images/products/earring-1-3.jpg"],
-    "sku": "RM-ER-001",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A grand temple-inspired gold necklace featuring layered cascading elements and intricate motifs, designed to elevate bridal and festive ensembles.",
+    "images": [
+      "/images/products/necklace-3.jpg",
+      "/images/products/necklace-3-2.jpg",
+      "/images/products/necklace-3-3.jpg"
+    ],
     "sortOrder": 3,
-    "dateAdded": "2024-09-10",
-    "tags": ["trending", "heritage"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "bridal"
+    ]
   },
   {
     "id": "product-4",
-    "name": "Diamond Solitaire Ring",
-    "category": "Ring",
-    "tagNumber": "#301",
-    "image": "/images/products/ring-1.jpg",
+    "name": "Shringar Engraved Panel Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH33",
+    "image": "/images/products/necklace-4.jpg",
     "badge": "Trending",
-    "collection": "daily-wear",
-    "slug": "diamond-solitaire-ring",
-    "metalType": "diamond",
-    "carat": "18K",
-    "weight": "4.2g",
-    "occasion": ["engagement", "daily-wear"],
+    "collection": "heritage",
+    "slug": "shringar-engraved-panel-necklace",
+    "metalType": "gold",
+    "carat": "24K",
+    "weight": "21.770g",
+    "occasion": [
+      "festive",
+      "engagement"
+    ],
     "gender": "women",
-    "jewelleryType": "ring",
-    "subcategory": "Ladies Casting Ring",
-    "description": "A classic solitaire diamond ring set in 18K white gold, ideal for engagements or everyday elegance.",
-    "images": ["/images/products/ring-1.jpg", "/images/products/ring-1-2.jpg", "/images/products/ring-1-3.jpg"],
-    "sku": "RM-RG-001",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A finely engraved gold necklace featuring structured panel detailing with a central floral motif, offering a refined look for festive and special occasions.",
+    "images": [
+      "/images/products/necklace-4.jpg",
+      "/images/products/necklace-4-2.jpg",
+      "/images/products/necklace-4-3.jpg"
+    ],
     "sortOrder": 4,
-    "dateAdded": "2024-10-05",
-    "tags": ["trending"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "trending",
+      "heritage"
+    ]
   },
   {
     "id": "product-5",
-    "name": "Gold Kada Bangle",
-    "category": "Bangle",
-    "tagNumber": "#401",
-    "image": "/images/products/bangle-1.jpg",
-    "badge": "Bestseller",
-    "collection": "festive",
-    "slug": "gold-kada-bangle",
+    "name": "Pushpa Viraasat Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH48",
+    "image": "/images/products/necklace-5.jpg",
+    "badge": "New",
+    "collection": "daily-wear",
+    "slug": "pushpa-viraasat-drop-necklace",
     "metalType": "gold",
     "carat": "22K",
-    "weight": "28.6g",
-    "occasion": ["festive", "daily-wear"],
+    "weight": "16.660g",
+    "occasion": [
+      "daily-wear",
+      "gifting"
+    ],
     "gender": "women",
-    "jewelleryType": "bangle",
-    "subcategory": "Hathi Mundi Kangan",
-    "description": "A solid gold kada bangle with traditional motifs, a statement piece for festive occasions.",
-    "images": ["/images/products/bangle-1.jpg", "/images/products/bangle-1-2.jpg", "/images/products/bangle-1-3.jpg"],
-    "sku": "RM-BG-001",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A graceful gold necklace featuring floral motifs with a delicate drop pendant, perfect for everyday elegance and gifting occasions.",
+    "images": [
+      "/images/products/necklace-5.jpg",
+      "/images/products/necklace-5-2.jpg",
+      "/images/products/necklace-5-3.jpg"
+    ],
     "sortOrder": 5,
-    "dateAdded": "2024-06-18",
-    "tags": ["bestseller", "festive"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-6",
-    "name": "Antique Gold Chain",
-    "category": "Chain",
-    "tagNumber": "#501",
-    "image": "/images/products/chain-1.jpg",
-    "badge": "New",
+    "name": "Rajmudra Coin Pendant Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH27",
+    "image": "/images/products/necklace-6.jpg",
+    "badge": "Bestseller",
     "collection": "heritage",
-    "slug": "antique-gold-chain",
+    "slug": "rajmudra-coin-pendant-necklace",
     "metalType": "gold",
-    "carat": "22K",
-    "weight": "18.3g",
-    "occasion": ["daily-wear"],
-    "gender": "men",
-    "jewelleryType": "chain",
-    "subcategory": "Gents",
-    "description": "An antique-finish gold chain with timeless appeal, perfect for men who appreciate heritage craftsmanship.",
-    "images": ["/images/products/chain-1.jpg", "/images/products/chain-1-2.jpg", "/images/products/chain-1-3.jpg"],
-    "sku": "RM-CH-001",
+    "carat": "23K",
+    "weight": "17.420g",
+    "occasion": [
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A striking gold necklace featuring a bold coin-style pendant with intricate engravings and layered detailing, perfect for traditional festive wear.",
+    "images": [
+      "/images/products/necklace-6.jpg",
+      "/images/products/necklace-6-2.jpg",
+      "/images/products/necklace-6-3.jpg"
+    ],
     "sortOrder": 6,
-    "dateAdded": "2025-01-12",
-    "tags": ["new-launch", "heritage"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "bestseller",
+      "heritage"
+    ]
   },
   {
     "id": "product-7",
-    "name": "Pearl Drop Mangalsutra",
-    "category": "Mangalsutra",
-    "tagNumber": "#601",
-    "image": "/images/products/mangalsutra-1.jpg",
-    "badge": "Bestseller",
-    "collection": "bridal",
-    "slug": "pearl-drop-mangalsutra",
+    "name": "Kanak Lata Pendant Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH35",
+    "image": "/images/products/necklace-7.jpg",
+    "badge": "Trending",
+    "collection": "festive",
+    "slug": "kanak-lata-pendant-necklace",
     "metalType": "gold",
-    "carat": "22K",
-    "weight": "15.5g",
-    "occasion": ["wedding", "daily-wear"],
+    "carat": "23K",
+    "weight": "10.540g",
+    "occasion": [
+      "engagement",
+      "gifting"
+    ],
     "gender": "women",
-    "jewelleryType": "mangalsutra",
-    "description": "A delicate pearl drop mangalsutra that beautifully blends tradition with contemporary design.",
-    "images": ["/images/products/mangalsutra-1.jpg", "/images/products/mangalsutra-1-2.jpg", "/images/products/mangalsutra-1-3.jpg"],
-    "sku": "RM-MS-001",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A delicate gold necklace featuring fine chain detailing with a minimal pendant drop, ideal for elegant daily and occasion wear.",
+    "images": [
+      "/images/products/necklace-7.jpg",
+      "/images/products/necklace-7-2.jpg",
+      "/images/products/necklace-7-3.jpg"
+    ],
     "sortOrder": 7,
-    "dateAdded": "2024-05-22",
-    "tags": ["bestseller", "bridal"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "trending",
+      "lightweight"
+    ]
   },
   {
     "id": "product-8",
-    "name": "Filigree Jhumka Earrings",
-    "category": "Earrings",
-    "tagNumber": "#202",
-    "image": "/images/products/earring-2.jpg",
+    "name": "Svarnrekha Regal Collar Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH2",
+    "image": "/images/products/necklace-8.jpg",
     "badge": "Trending",
-    "collection": "festive",
-    "slug": "filigree-jhumka-earrings",
+    "collection": "bridal",
+    "slug": "svarnrekha-regal-collar-necklace",
     "metalType": "gold",
-    "carat": "22K",
-    "weight": "14.8g",
-    "occasion": ["festive", "wedding"],
+    "carat": "23K",
+    "weight": "34.900g",
+    "occasion": [
+      "wedding",
+      "engagement"
+    ],
     "gender": "women",
-    "jewelleryType": "earring",
-    "subcategory": "Jhala",
-    "description": "Intricately crafted filigree jhumkas that dance with every step, a festive favorite among brides.",
-    "images": ["/images/products/earring-2.jpg", "/images/products/earring-2-2.jpg", "/images/products/earring-2-3.jpg"],
-    "sku": "RM-ER-002",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A regal gold collar-style necklace featuring intricate layered detailing with a bold triangular centerpiece, crafted for grand wedding and engagement looks.",
+    "images": [
+      "/images/products/necklace-8.jpg",
+      "/images/products/necklace-8-2.jpg",
+      "/images/products/necklace-8-3.jpg"
+    ],
     "sortOrder": 8,
-    "dateAdded": "2024-11-03",
-    "tags": ["trending", "festive"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "trending",
+      "statement"
+    ]
   },
   {
     "id": "product-9",
-    "name": "Lightweight Daily Chain",
-    "category": "Chain",
-    "tagNumber": "#502",
-    "image": "/images/products/chain-2.jpg",
+    "name": "Meenakshi Floral Panel Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH73",
+    "image": "/images/products/necklace-9.jpg",
     "badge": "New",
-    "collection": "daily-wear",
-    "slug": "lightweight-daily-chain",
+    "collection": "festive",
+    "slug": "meenakshi-floral-panel-necklace",
     "metalType": "gold",
-    "carat": "18K",
-    "weight": "8.2g",
-    "occasion": ["daily-wear"],
-    "gender": "unisex",
-    "jewelleryType": "chain",
-    "subcategory": "Ladies",
-    "description": "A sleek, lightweight chain for everyday wear, offering understated elegance in 18K gold.",
-    "images": ["/images/products/chain-2.jpg", "/images/products/chain-2-2.jpg", "/images/products/chain-2-3.jpg"],
-    "sku": "RM-CH-002",
+    "carat": "22K",
+    "weight": "12.950g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A beautifully crafted gold necklace featuring meenakari floral panels with a central drop pendant, perfect for festive celebrations and wedding functions.",
+    "images": [
+      "/images/products/necklace-9.jpg",
+      "/images/products/necklace-9-2.jpg",
+      "/images/products/necklace-9-3.jpg"
+    ],
     "sortOrder": 9,
-    "dateAdded": "2025-02-01",
-    "tags": ["new-launch"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "meenakari"
+    ]
   },
   {
     "id": "product-10",
-    "name": "Bridal Choker Set",
+    "name": "Triveni Drop Motif Necklace",
     "category": "Necklace",
-    "tagNumber": "#103",
-    "image": "/images/products/necklace-3.jpg",
-    "badge": "Trending",
-    "collection": "bridal",
-    "slug": "bridal-choker-set",
+    "tagNumber": "#GH162",
+    "image": "/images/products/necklace-10.jpg",
+    "badge": "Bestseller",
+    "collection": "heritage",
+    "slug": "triveni-drop-motif-necklace",
     "metalType": "gold",
-    "carat": "22K",
-    "weight": "38.7g",
-    "occasion": ["wedding"],
+    "carat": "23K",
+    "weight": "15.910g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
-    "subcategory": "Choker",
-    "description": "A regal choker set with layered gold work, designed to make every bride feel like royalty.",
-    "images": ["/images/products/necklace-3.jpg", "/images/products/necklace-3-2.jpg", "/images/products/necklace-3-3.jpg"],
-    "sku": "RM-NK-003",
+    "subcategory": "Gol Haar",
+    "description": "An elegant gold necklace featuring layered detailing with a signature drop motif pendant, designed to bring a graceful heritage charm to festive and wedding looks.",
+    "images": [
+      "/images/products/necklace-10.jpg",
+      "/images/products/necklace-10-2.jpg",
+      "/images/products/necklace-10-3.jpg"
+    ],
     "sortOrder": 10,
-    "dateAdded": "2024-12-15",
-    "tags": ["trending", "bridal"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "bestseller",
+      "heritage"
+    ]
   },
   {
     "id": "product-11",
-    "name": "Gold Toe Ring Pair",
-    "category": "Ring",
-    "tagNumber": "#302",
-    "image": "/images/products/ring-2.jpg",
-    "badge": "New",
-    "collection": "daily-wear",
-    "slug": "gold-toe-ring-pair",
+    "name": "Morika Peacock Pendant Gol Haar",
+    "category": "Necklace",
+    "tagNumber": "#GH134",
+    "image": "/images/products/necklace-11.jpg",
+    "badge": "Trending",
+    "collection": "festive",
+    "slug": "morika-peacock-pendant-gol-haar",
     "metalType": "gold",
     "carat": "22K",
-    "weight": "3.6g",
-    "occasion": ["daily-wear", "wedding"],
+    "weight": "25.410g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
     "gender": "women",
-    "jewelleryType": "ring",
-    "subcategory": "Gents & Ladies Regular",
-    "description": "A pair of beautifully crafted gold toe rings, a traditional essential for every married woman.",
-    "images": ["/images/products/ring-2.jpg", "/images/products/ring-2-2.jpg", "/images/products/ring-2-3.jpg"],
-    "sku": "RM-RG-002",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A stunning gold gol haar featuring intricate peacock-inspired motifs with a statement pendant and delicate hanging elements, perfect for festive and wedding occasions.",
+    "images": [
+      "/images/products/necklace-11.jpg",
+      "/images/products/necklace-11-2.jpg",
+      "/images/products/necklace-11-3.jpg"
+    ],
     "sortOrder": 11,
-    "dateAdded": "2025-01-28",
-    "tags": ["new-launch"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "trending",
+      "peacock"
+    ]
   },
   {
     "id": "product-12",
-    "name": "Polki Diamond Necklace",
+    "name": "Rajwanshi Layered Bridal Gol Haar",
     "category": "Necklace",
-    "tagNumber": "#104",
-    "image": "/images/products/necklace-4.jpg",
+    "tagNumber": "#GH62",
+    "image": "/images/products/necklace-12.jpg",
     "badge": "Bestseller",
-    "collection": "heritage",
-    "slug": "polki-diamond-necklace",
-    "metalType": "diamond",
-    "carat": "22K",
-    "weight": "42.1g",
-    "occasion": ["wedding", "festive"],
+    "collection": "bridal",
+    "slug": "rajwanshi-layered-bridal-gol-haar",
+    "metalType": "gold",
+    "carat": "24K",
+    "weight": "54.070g",
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
-    "subcategory": "Hasli",
-    "description": "An exquisite polki diamond necklace set in gold, handcrafted to perfection for the discerning bride.",
-    "images": ["/images/products/necklace-4.jpg", "/images/products/necklace-4-2.jpg", "/images/products/necklace-4-3.jpg"],
-    "sku": "RM-NK-004",
+    "subcategory": "Gol Haar",
+    "description": "A grand layered gold gol haar featuring intricate floral and geometric detailing with multiple cascading chains, crafted for luxurious bridal elegance.",
+    "images": [
+      "/images/products/necklace-12.jpg",
+      "/images/products/necklace-12-2.jpg",
+      "/images/products/necklace-12-3.jpg"
+    ],
     "sortOrder": 12,
-    "dateAdded": "2024-04-10",
-    "tags": ["bestseller", "heritage"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "bridal",
+      "layered"
+    ]
   },
   {
     "id": "product-13",
-    "name": "Twisted Gold Bangle Set",
-    "category": "Bangle",
-    "tagNumber": "#402",
-    "image": "/images/products/bangle-2.jpg",
-    "badge": "Trending",
-    "collection": "daily-wear",
-    "slug": "twisted-gold-bangle-set",
+    "name": "Padmika Floral Pendant Gol Haar",
+    "category": "Necklace",
+    "tagNumber": "#GH110",
+    "image": "/images/products/necklace-13.jpg",
+    "badge": "New",
+    "collection": "heritage",
+    "slug": "padmika-floral-pendant-gol-haar",
     "metalType": "gold",
     "carat": "22K",
-    "weight": "22.3g",
-    "occasion": ["daily-wear", "festive"],
+    "weight": "13.620g",
+    "occasion": [
+      "festive",
+      "gifting"
+    ],
     "gender": "women",
-    "jewelleryType": "bangle",
-    "subcategory": "Patla Chudhi",
-    "description": "A set of twisted gold bangles with a modern aesthetic, versatile enough for daily wear and celebrations.",
-    "images": ["/images/products/bangle-2.jpg", "/images/products/bangle-2-2.jpg", "/images/products/bangle-2-3.jpg"],
-    "sku": "RM-BG-002",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A graceful gold gol haar featuring a detailed floral pendant with subtle meenakari accents, designed for elegant festive wear and special gifting moments.",
+    "images": [
+      "/images/products/necklace-13.jpg",
+      "/images/products/necklace-13-2.jpg",
+      "/images/products/necklace-13-3.jpg"
+    ],
     "sortOrder": 13,
-    "dateAdded": "2024-11-20",
-    "tags": ["trending"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "floral"
+    ]
   },
   {
     "id": "product-14",
-    "name": "Meenakari Pendant Set",
+    "name": "Kundan Floral Drop Heritage Gol Haar",
     "category": "Necklace",
-    "tagNumber": "#105",
-    "image": "/images/products/necklace-5.jpg",
-    "badge": "New",
+    "tagNumber": "#GH8",
+    "image": "/images/products/necklace-14.jpg",
+    "badge": "Trending",
     "collection": "festive",
-    "slug": "meenakari-pendant-set",
+    "slug": "kundan-floral-drop-heritage-gol-haar",
     "metalType": "gold",
     "carat": "22K",
-    "weight": "18.9g",
-    "occasion": ["festive"],
+    "weight": "20.590g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
-    "subcategory": "Lakh Mala",
-    "description": "A vibrant meenakari pendant set with colourful enamel work, celebrating the art of Rajasthani jewellery.",
-    "images": ["/images/products/necklace-5.jpg", "/images/products/necklace-5-2.jpg", "/images/products/necklace-5-3.jpg"],
-    "sku": "RM-NK-005",
+    "subcategory": "Gol Haar",
+    "description": "An exquisite gold gol haar adorned with floral kundan accents and a graceful drop pendant, perfect for festive elegance and wedding celebrations.",
+    "images": [
+      "/images/products/necklace-14.jpg",
+      "/images/products/necklace-14-2.jpg",
+      "/images/products/necklace-14-3.jpg"
+    ],
     "sortOrder": 14,
-    "dateAdded": "2025-02-14",
-    "tags": ["new-launch", "festive"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "trending",
+      "kundan"
+    ]
   },
   {
     "id": "product-15",
-    "name": "Classic Gold Studs",
-    "category": "Earrings",
-    "tagNumber": "#203",
-    "image": "/images/products/earring-3.jpg",
-    "badge": "Bestseller",
+    "name": "Surmayi Floral Drop Gol Haar",
+    "category": "Necklace",
+    "tagNumber": "#GH51",
+    "image": "/images/products/necklace-15.jpg",
+    "badge": "New",
     "collection": "daily-wear",
-    "slug": "classic-gold-studs",
+    "slug": "surmayi-floral-drop-gol-haar",
     "metalType": "gold",
-    "carat": "18K",
-    "weight": "4.5g",
-    "occasion": ["daily-wear"],
+    "carat": "23K",
+    "weight": "20.400g",
+    "occasion": [
+      "gifting",
+      "festive"
+    ],
     "gender": "women",
-    "jewelleryType": "earring",
-    "subcategory": "Tops",
-    "description": "Timeless gold stud earrings with a polished finish, an everyday essential for the modern woman.",
-    "images": ["/images/products/earring-3.jpg", "/images/products/earring-3-2.jpg", "/images/products/earring-3-3.jpg"],
-    "sku": "RM-ER-003",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A refined gold gol haar featuring delicate floral elements and a graceful drop pendant, ideal for everyday elegance and festive gifting.",
+    "images": [
+      "/images/products/necklace-15.jpg",
+      "/images/products/necklace-15-2.jpg",
+      "/images/products/necklace-15-3.jpg"
+    ],
     "sortOrder": 15,
-    "dateAdded": "2024-03-05",
-    "tags": ["bestseller"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "floral"
+    ]
   },
   {
     "id": "product-16",
-    "name": "Heavy Bridal Bangles",
-    "category": "Bangle",
-    "tagNumber": "#403",
-    "image": "/images/products/bangle-3.jpg",
+    "name": "Rajsi Mesh Pendant Gol Haar",
+    "category": "Necklace",
+    "tagNumber": "#GH9",
+    "image": "/images/products/necklace-16.jpg",
     "badge": "Trending",
-    "collection": "bridal",
-    "slug": "heavy-bridal-bangles",
+    "collection": "heritage",
+    "slug": "rajsi-mesh-pendant-gol-haar",
     "metalType": "gold",
     "carat": "22K",
-    "weight": "56.4g",
-    "occasion": ["wedding"],
+    "weight": "26.100g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
     "gender": "women",
-    "jewelleryType": "bangle",
-    "subcategory": "Normal Bangles",
-    "description": "A set of heavy bridal bangles with elaborate engraving, designed to complement the grandest wedding attire.",
-    "images": ["/images/products/bangle-3.jpg", "/images/products/bangle-3-2.jpg", "/images/products/bangle-3-3.jpg"],
-    "sku": "RM-BG-003",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A striking gold gol haar featuring a detailed mesh-inspired design with a bold circular pendant, reflecting timeless royal craftsmanship.",
+    "images": [
+      "/images/products/necklace-16.jpg",
+      "/images/products/necklace-16-2.jpg",
+      "/images/products/necklace-16-3.jpg"
+    ],
     "sortOrder": 16,
-    "dateAdded": "2024-10-25",
-    "tags": ["trending", "bridal"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "trending",
+      "heritage"
+    ]
   },
   {
     "id": "product-17",
-    "name": "Gold Rope Chain",
-    "category": "Chain",
-    "tagNumber": "#503",
-    "image": "/images/products/chain-3.jpg",
-    "badge": "Bestseller",
-    "collection": "daily-wear",
-    "slug": "gold-rope-chain",
+    "name": "Kanak Vritta Jaali Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH156",
+    "image": "/images/products/necklace-17.jpg",
+    "badge": "Trending",
+    "collection": "festive",
+    "slug": "kanak-vritta-jaali-necklace",
     "metalType": "gold",
     "carat": "22K",
-    "weight": "25.0g",
-    "occasion": ["daily-wear", "festive"],
-    "gender": "men",
-    "jewelleryType": "chain",
-    "subcategory": "Gents",
-    "description": "A classic rope chain in 22K gold, a versatile accessory for men who value quality craftsmanship.",
-    "images": ["/images/products/chain-3.jpg", "/images/products/chain-3-2.jpg", "/images/products/chain-3-3.jpg"],
-    "sku": "RM-CH-003",
+    "weight": "16.080g",
+    "occasion": [
+      "festive",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A finely detailed 22K gold necklace featuring a circular jaali pattern with layered drops, offering a perfect blend of traditional charm and festive elegance.",
+    "images": [
+      "/images/products/necklace-17.jpg",
+      "/images/products/necklace-17-2.jpg",
+      "/images/products/necklace-17-3.jpg"
+    ],
     "sortOrder": 17,
-    "dateAdded": "2024-06-30",
-    "tags": ["bestseller"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-18",
-    "name": "Emerald Cocktail Ring",
-    "category": "Ring",
-    "tagNumber": "#303",
-    "image": "/images/products/ring-3.jpg",
-    "badge": "New",
-    "collection": "festive",
-    "slug": "emerald-cocktail-ring",
+    "name": "Rajsi Mayur Kundan Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH3",
+    "image": "/images/products/necklace-18.jpg",
+    "badge": "Bestseller",
+    "collection": "bridal",
+    "slug": "rajsi-mayur-kundan-drop-necklace",
     "metalType": "gold",
-    "carat": "18K",
-    "weight": "6.8g",
-    "occasion": ["festive", "engagement"],
+    "carat": "24K",
+    "weight": "38.870g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
     "gender": "women",
-    "jewelleryType": "ring",
-    "subcategory": "Stone Ring",
-    "description": "A dazzling emerald cocktail ring set in 18K gold, perfect for adding a pop of colour to any outfit.",
-    "images": ["/images/products/ring-3.jpg", "/images/products/ring-3-2.jpg", "/images/products/ring-3-3.jpg"],
-    "sku": "RM-RG-003",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A grand 24K gold necklace adorned with intricate peacock-inspired motifs and rich kundan-style detailing. Perfect for bridal wear, this statement piece exudes royal elegance and traditional charm.",
+    "images": [
+      "/images/products/necklace-18.jpg",
+      "/images/products/necklace-18-2.jpg",
+      "/images/products/necklace-18-3.jpg"
+    ],
     "sortOrder": 18,
-    "dateAdded": "2025-01-05",
-    "tags": ["new-launch", "festive"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "bestseller",
+      "bridal"
+    ]
   },
   {
     "id": "product-19",
-    "name": "Diamond Tennis Bracelet",
-    "category": "Bangle",
-    "tagNumber": "#404",
-    "image": "/images/products/bangle-4.jpg",
+    "name": "Chandrika Floral Medallion Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH160",
+    "image": "/images/products/necklace-19.jpg",
     "badge": "New",
     "collection": "daily-wear",
-    "slug": "diamond-tennis-bracelet",
-    "metalType": "diamond",
-    "carat": "18K",
-    "weight": "12.5g",
-    "occasion": ["daily-wear", "festive"],
+    "slug": "chandrika-floral-medallion-necklace",
+    "metalType": "gold",
+    "carat": "20K",
+    "weight": "11.270g",
+    "occasion": [
+      "daily-wear",
+      "gifting"
+    ],
     "gender": "women",
-    "jewelleryType": "bracelet",
-    "subcategory": "Ladies",
-    "description": "A stunning diamond tennis bracelet in 18K white gold, perfect for adding sparkle to everyday outfits.",
-    "images": ["/images/products/bangle-4.jpg", "/images/products/bangle-4-2.jpg", "/images/products/bangle-4-3.jpg"],
-    "sku": "RM-BR-001",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A delicate gold necklace featuring floral motifs with a central medallion and hanging drops. Lightweight and elegant, it is perfect for everyday wear with a traditional touch.",
+    "images": [
+      "/images/products/necklace-19.jpg",
+      "/images/products/necklace-19-2.jpg",
+      "/images/products/necklace-19-3.jpg"
+    ],
     "sortOrder": 19,
-    "dateAdded": "2025-02-20",
-    "tags": ["new-launch"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-20",
-    "name": "Silver Anklet Pair",
-    "category": "Ring",
-    "tagNumber": "#701",
-    "image": "/images/products/silver-anklet-1.jpg",
+    "name": "Chandrarekha Layered Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH84",
+    "image": "/images/products/necklace-20.jpg",
     "badge": "Trending",
-    "collection": "daily-wear",
-    "slug": "silver-anklet-pair",
-    "metalType": "silver",
-    "weight": "32.0g",
-    "occasion": ["daily-wear", "festive"],
+    "collection": "festive",
+    "slug": "chandrarekha-layered-drop-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "27.320g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
     "gender": "women",
-    "jewelleryType": "bracelet",
-    "subcategory": "Ladies",
-    "description": "A pair of handcrafted 925 sterling silver anklets with delicate bell charms and traditional patterns.",
-    "images": ["/images/products/silver-anklet-1.jpg", "/images/products/silver-anklet-1-2.jpg", "/images/products/silver-anklet-1-3.jpg"],
-    "sku": "RM-SL-001",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A striking 22K gold necklace featuring a crescent-inspired centerpiece with layered detailing and elegant hanging drops. Perfect for festive occasions and traditional celebrations.",
+    "images": [
+      "/images/products/necklace-20.jpg",
+      "/images/products/necklace-20-2.jpg",
+      "/images/products/necklace-20-3.jpg"
+    ],
     "sortOrder": 20,
-    "dateAdded": "2024-12-01",
-    "tags": ["trending"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-21",
-    "name": "Gold Coin 24K - 10g",
-    "category": "Chain",
-    "tagNumber": "#801",
-    "image": "/images/products/coin-1.jpg",
-    "badge": "Bestseller",
-    "collection": "festive",
-    "slug": "gold-coin-24k-10g",
+    "name": "Surya Mandala Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH39",
+    "image": "/images/products/necklace-21.jpg",
+    "badge": "New",
+    "collection": "daily-wear",
+    "slug": "surya-mandala-drop-necklace",
     "metalType": "gold",
-    "carat": "24K",
-    "weight": "10.0g",
-    "occasion": ["festive", "gifting"],
-    "gender": "unisex",
-    "jewelleryType": "pendant",
-    "subcategory": "Single Kunda Locket",
-    "description": "A 24K pure gold coin, BIS hallmarked, perfect for Dhanteras, Akshaya Tritiya, or any auspicious occasion.",
-    "images": ["/images/products/coin-1.jpg", "/images/products/coin-1-2.jpg", "/images/products/coin-1-3.jpg"],
-    "sku": "RM-GC-001",
+    "carat": "18K",
+    "weight": "13.930g",
+    "occasion": [
+      "daily-wear",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A refined gold necklace featuring a sun-inspired mandala centerpiece with delicate drop chains. Lightweight and elegant, perfect for adding a traditional touch to everyday wear.",
+    "images": [
+      "/images/products/necklace-21.jpg",
+      "/images/products/necklace-21-2.jpg",
+      "/images/products/necklace-21-3.jpg"
+    ],
     "sortOrder": 21,
-    "dateAdded": "2024-09-28",
-    "tags": ["bestseller", "festive"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-22",
-    "name": "Diamond Stud Earrings",
-    "category": "Earrings",
-    "tagNumber": "#204",
-    "image": "/images/products/earring-4.jpg",
+    "name": "Pushpika Triple Chain Pendant Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH41",
+    "image": "/images/products/necklace-22.jpg",
     "badge": "Trending",
-    "collection": "daily-wear",
-    "slug": "diamond-stud-earrings",
-    "metalType": "diamond",
-    "carat": "18K",
-    "weight": "3.8g",
-    "occasion": ["daily-wear", "engagement"],
+    "collection": "festive",
+    "slug": "pushpika-triple-chain-pendant-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "20.230g",
+    "occasion": [
+      "festive",
+      "gifting"
+    ],
     "gender": "women",
-    "jewelleryType": "earring",
-    "subcategory": "Sui Dhaga",
-    "description": "Elegant diamond stud earrings in 18K gold setting, offering timeless brilliance for every occasion.",
-    "images": ["/images/products/earring-4.jpg", "/images/products/earring-4-2.jpg", "/images/products/earring-4-3.jpg"],
-    "sku": "RM-ER-004",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A beautifully crafted 22K gold necklace featuring a triple-chain design with a detailed floral pendant and delicate drop element. Perfectly balanced for festive wear with a refined traditional appeal.",
+    "images": [
+      "/images/products/necklace-22.jpg",
+      "/images/products/necklace-22-2.jpg",
+      "/images/products/necklace-22-3.jpg"
+    ],
     "sortOrder": 22,
-    "dateAdded": "2025-01-18",
-    "tags": ["trending"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-23",
-    "name": "Navratna Gold Ring",
-    "category": "Ring",
-    "tagNumber": "#304",
-    "image": "/images/products/ring-4.jpg",
-    "badge": "Bestseller",
-    "collection": "heritage",
-    "slug": "navratna-gold-ring",
+    "name": "Teardrop Nakshi Pendant Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH104",
+    "image": "/images/products/necklace-23.jpg",
+    "badge": "New",
+    "collection": "daily-wear",
+    "slug": "teardrop-nakshi-pendant-necklace",
     "metalType": "gold",
-    "carat": "22K",
-    "weight": "8.5g",
-    "occasion": ["daily-wear", "festive"],
-    "gender": "unisex",
-    "jewelleryType": "ring",
-    "subcategory": "Stone Ring",
-    "description": "A traditional Navratna ring featuring nine auspicious gemstones set in 22K gold, believed to bring prosperity.",
-    "images": ["/images/products/ring-4.jpg", "/images/products/ring-4-2.jpg", "/images/products/ring-4-3.jpg"],
-    "sku": "RM-RG-004",
+    "carat": "23K",
+    "weight": "12.590g",
+    "occasion": [
+      "daily-wear",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A finely detailed gold necklace featuring a teardrop-shaped nakshi pendant with delicate edging. Lightweight and elegant, ideal for everyday traditional styling.",
+    "images": [
+      "/images/products/necklace-23.jpg",
+      "/images/products/necklace-23-2.jpg",
+      "/images/products/necklace-23-3.jpg"
+    ],
     "sortOrder": 23,
-    "dateAdded": "2024-08-02",
-    "tags": ["bestseller", "heritage"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-24",
-    "name": "Silver Pooja Thali Set",
-    "category": "Bangle",
-    "tagNumber": "#702",
-    "image": "/images/products/silver-thali-1.jpg",
+    "name": "Vamika Round Nakshi Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH53",
+    "image": "/images/products/necklace-24.jpg",
     "badge": "New",
-    "collection": "festive",
-    "slug": "silver-pooja-thali-set",
-    "metalType": "silver",
-    "weight": "185.0g",
-    "occasion": ["festive", "gifting"],
-    "gender": "unisex",
-    "jewelleryType": "pendant",
-    "subcategory": "Double Kunda Locket",
-    "description": "A beautifully crafted 925 sterling silver pooja thali set, an ideal gift for housewarmings and festivals.",
-    "images": ["/images/products/silver-thali-1.jpg", "/images/products/silver-thali-1-2.jpg", "/images/products/silver-thali-1-3.jpg"],
-    "sku": "RM-SL-002",
+    "collection": "daily-wear",
+    "slug": "vamika-round-nakshi-drop-necklace",
+    "metalType": "gold",
+    "carat": "18K",
+    "weight": "11.000g",
+    "occasion": [
+      "daily-wear",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A finely crafted gold necklace featuring a round nakshi centerpiece with delicate hanging drop elements and detailed edging. Lightweight yet elegant, it offers a perfect blend of traditional charm and everyday grace.",
+    "images": [
+      "/images/products/necklace-24.jpg",
+      "/images/products/necklace-24-2.jpg",
+      "/images/products/necklace-24-3.jpg"
+    ],
     "sortOrder": 24,
-    "dateAdded": "2025-03-01",
-    "tags": ["new-launch", "festive"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-25",
-    "name": "Men's Gold Bracelet",
-    "category": "Bangle",
-    "tagNumber": "#405",
-    "image": "/images/products/bracelet-1.jpg",
-    "badge": "Trending",
+    "name": "Ruchira Floral Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH37",
+    "image": "/images/products/necklace-25.jpg",
+    "badge": "New",
     "collection": "daily-wear",
-    "slug": "mens-gold-bracelet",
+    "slug": "ruchira-floral-drop-necklace",
     "metalType": "gold",
     "carat": "22K",
-    "weight": "35.2g",
-    "occasion": ["daily-wear"],
-    "gender": "men",
-    "jewelleryType": "bracelet",
-    "subcategory": "Gents",
-    "description": "A bold 22K gold bracelet for men with a polished link design, combining strength with sophistication.",
-    "images": ["/images/products/bracelet-1.jpg", "/images/products/bracelet-1-2.jpg", "/images/products/bracelet-1-3.jpg"],
-    "sku": "RM-BR-002",
+    "weight": "9.060g",
+    "occasion": [
+      "daily-wear",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A delicate 22K gold necklace featuring floral motifs with fine detailing and small hanging drop elements. Lightweight and elegant, it is perfect for adding a subtle traditional charm to everyday wear.",
+    "images": [
+      "/images/products/necklace-25.jpg",
+      "/images/products/necklace-25-2.jpg",
+      "/images/products/necklace-25-3.jpg"
+    ],
     "sortOrder": 25,
-    "dateAdded": "2024-11-10",
-    "tags": ["trending"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-26",
-    "name": "Layered Gold Necklace",
+    "name": "Royal Kundan Floral Pendant Necklace",
     "category": "Necklace",
-    "tagNumber": "#106",
-    "image": "/images/products/necklace-6.jpg",
-    "badge": "New",
-    "collection": "daily-wear",
-    "slug": "layered-gold-necklace",
+    "tagNumber": "#GH46",
+    "image": "/images/products/necklace-26.jpg",
+    "badge": "Bestseller",
+    "collection": "heritage",
+    "slug": "royal-kundan-floral-pendant-necklace",
     "metalType": "gold",
-    "carat": "18K",
-    "weight": "14.2g",
-    "occasion": ["daily-wear", "festive"],
+    "carat": "22K",
+    "weight": "19.790g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
-    "subcategory": "Hasli",
-    "description": "A modern layered necklace in 18K gold with minimalist charms, ideal for stacking or wearing solo.",
-    "images": ["/images/products/necklace-6.jpg", "/images/products/necklace-6-2.jpg", "/images/products/necklace-6-3.jpg"],
-    "sku": "RM-NK-006",
+    "subcategory": "Gol Haar",
+    "description": "An intricately designed gold necklace featuring traditional motifs with a detailed pendant accented by subtle stone work and drop element. Perfect for wedding and festive occasions.",
+    "images": [
+      "/images/products/necklace-26.jpg",
+      "/images/products/necklace-26-2.jpg",
+      "/images/products/necklace-26-3.jpg"
+    ],
     "sortOrder": 26,
-    "dateAdded": "2025-03-05",
-    "tags": ["new-launch"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "bestseller",
+      "heritage"
+    ]
   },
   {
     "id": "product-27",
-    "name": "Diamond Mangalsutra",
-    "category": "Mangalsutra",
-    "tagNumber": "#602",
-    "image": "/images/products/mangalsutra-2.jpg",
+    "name": "Padmika Meenakari Pendant Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH163",
+    "image": "/images/products/necklace-27.jpg",
     "badge": "Trending",
-    "collection": "bridal",
-    "slug": "diamond-mangalsutra",
-    "metalType": "diamond",
-    "carat": "18K",
-    "weight": "10.8g",
-    "occasion": ["wedding", "daily-wear"],
+    "collection": "festive",
+    "slug": "padmika-meenakari-pendant-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "21.090g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
     "gender": "women",
-    "jewelleryType": "mangalsutra",
-    "description": "A contemporary diamond mangalsutra with a sleek pendant design, perfect for the modern working woman.",
-    "images": ["/images/products/mangalsutra-2.jpg", "/images/products/mangalsutra-2-2.jpg", "/images/products/mangalsutra-2-3.jpg"],
-    "sku": "RM-MS-002",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A stunning gold necklace featuring a detailed meenakari pendant with floral accents and a graceful drop element. Rich in traditional artistry, it is perfect for festive and wedding wear.",
+    "images": [
+      "/images/products/necklace-27.jpg",
+      "/images/products/necklace-27-2.jpg",
+      "/images/products/necklace-27-3.jpg"
+    ],
     "sortOrder": 27,
-    "dateAdded": "2025-01-25",
-    "tags": ["trending", "bridal"]
+    "dateAdded": "2026-03-27",
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-28",
-    "name": "Gold Baby Bangle Pair",
-    "category": "Bangle",
-    "tagNumber": "#406",
-    "image": "/images/products/bangle-5.jpg",
-    "badge": "Bestseller",
+    "name": "Triveni Leaf Grace Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH132",
+    "image": "/images/products/necklace-28.jpg",
+    "badge": "New",
     "collection": "daily-wear",
-    "slug": "gold-baby-bangle-pair",
+    "slug": "triveni-leaf-grace-necklace",
     "metalType": "gold",
     "carat": "22K",
-    "weight": "6.4g",
-    "occasion": ["gifting", "daily-wear"],
-    "gender": "unisex",
-    "jewelleryType": "bangle",
-    "subcategory": "Normal Bangles",
-    "description": "A pair of delicate 22K gold bangles for babies, featuring smooth edges and adorable motifs.",
-    "images": ["/images/products/bangle-5.jpg", "/images/products/bangle-5-2.jpg", "/images/products/bangle-5-3.jpg"],
-    "sku": "RM-BG-004",
+    "weight": "18.270g",
+    "occasion": [
+      "daily-wear",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A sleek triple-chain gold necklace highlighted with elegant leaf motifs, blending modern minimalism with nature-inspired charm. Perfect for daily elegance and light festive styling.",
+    "images": [
+      "/images/products/necklace-28.jpg",
+      "/images/products/necklace-28-2.jpg",
+      "/images/products/necklace-28-3.jpg"
+    ],
     "sortOrder": 28,
-    "dateAdded": "2024-07-14",
-    "tags": ["bestseller", "gifting"]
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-29",
-    "name": "Silver Oxidised Jhumkas",
-    "category": "Earrings",
-    "tagNumber": "#703",
-    "image": "/images/products/silver-jhumka-1.jpg",
+    "name": "Vanshika Fringe Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH20",
+    "image": "/images/products/necklace-29.jpg",
     "badge": "New",
-    "collection": "heritage",
-    "slug": "silver-oxidised-jhumkas",
-    "metalType": "silver",
-    "weight": "16.2g",
-    "occasion": ["festive", "daily-wear"],
+    "collection": "daily-wear",
+    "slug": "vanshika-fringe-drop-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "7.030g",
+    "occasion": [
+      "daily-wear",
+      "gifting"
+    ],
     "gender": "women",
-    "jewelleryType": "earring",
-    "subcategory": "Bali",
-    "description": "Oxidised silver jhumkas with intricate tribal patterns, a boho-chic accessory for any outfit.",
-    "images": ["/images/products/silver-jhumka-1.jpg", "/images/products/silver-jhumka-1-2.jpg", "/images/products/silver-jhumka-1-3.jpg"],
-    "sku": "RM-SL-003",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A lightweight gold necklace featuring fine fringe-style drop detailing and subtle textured elements. Designed for effortless elegance, perfect for everyday wear and minimal festive styling.",
+    "images": [
+      "/images/products/necklace-29.jpg",
+      "/images/products/necklace-29-2.jpg",
+      "/images/products/necklace-29-3.jpg"
+    ],
     "sortOrder": 29,
-    "dateAdded": "2025-02-28",
-    "tags": ["new-launch"]
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-30",
-    "name": "Men's Diamond Ring",
-    "category": "Ring",
-    "tagNumber": "#305",
-    "image": "/images/products/ring-5.jpg",
-    "badge": "New",
-    "collection": "daily-wear",
-    "slug": "mens-diamond-ring",
-    "metalType": "diamond",
-    "carat": "18K",
-    "weight": "7.2g",
-    "occasion": ["daily-wear", "engagement"],
-    "gender": "men",
-    "jewelleryType": "ring",
-    "subcategory": "Gents Casting Ring",
-    "description": "A sophisticated men's ring with channel-set diamonds in 18K gold, blending luxury with understated style.",
-    "images": ["/images/products/ring-5.jpg", "/images/products/ring-5-2.jpg", "/images/products/ring-5-3.jpg"],
-    "sku": "RM-RG-005",
+    "name": "Aarvika Temple Crest Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH164",
+    "image": "/images/products/necklace-30.jpg",
+    "badge": "Trending",
+    "collection": "festive",
+    "slug": "aarvika-temple-crest-necklace",
+    "metalType": "gold",
+    "carat": "24K",
+    "weight": "15.570g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A beautifully detailed gold necklace featuring temple-inspired motifs with a structured central crest design. Elegant and rich in tradition, it is perfect for festive and wedding occasions.",
+    "images": [
+      "/images/products/necklace-30.jpg",
+      "/images/products/necklace-30-2.jpg",
+      "/images/products/necklace-30-3.jpg"
+    ],
     "sortOrder": 30,
-    "dateAdded": "2025-03-10",
-    "tags": ["new-launch"]
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-31",
-    "name": "Chandbali Gold Earrings",
-    "category": "Earrings",
-    "tagNumber": "#205",
-    "image": "/images/products/earring-5.jpg",
+    "name": "Devanshi Floral Pendant Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH11",
+    "image": "/images/products/necklace-31.jpg",
     "badge": "Bestseller",
-    "collection": "bridal",
-    "slug": "chandbali-gold-earrings",
+    "collection": "festive",
+    "slug": "devanshi-floral-pendant-necklace",
     "metalType": "gold",
     "carat": "22K",
-    "weight": "18.6g",
-    "occasion": ["wedding", "festive"],
+    "weight": "20.600g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
     "gender": "women",
-    "jewelleryType": "earring",
-    "subcategory": "Kanoti Earring",
-    "description": "Exquisite chandbali earrings inspired by Mughal artistry, adorned with pearls and gold filigree work.",
-    "images": ["/images/products/earring-5.jpg", "/images/products/earring-5-2.jpg", "/images/products/earring-5-3.jpg"],
-    "sku": "RM-ER-005",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A refined gold necklace featuring dual chain styling with a detailed floral pendant and elegant drop element. Rich in traditional design, it is perfect for festive and wedding wear.",
+    "images": [
+      "/images/products/necklace-31.jpg",
+      "/images/products/necklace-31-2.jpg",
+      "/images/products/necklace-31-3.jpg"
+    ],
     "sortOrder": 31,
-    "dateAdded": "2024-09-15",
-    "tags": ["bestseller", "bridal"]
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "bestseller",
+      "festive"
+    ]
   },
   {
     "id": "product-32",
-    "name": "Gold Pendant with Chain",
+    "name": "Linear Cascade Collar Necklace",
     "category": "Necklace",
-    "tagNumber": "#107",
-    "image": "/images/products/pendant-1.jpg",
+    "tagNumber": "#GH54",
+    "image": "/images/products/necklace-32.jpg",
     "badge": "Trending",
-    "collection": "daily-wear",
-    "slug": "gold-pendant-with-chain",
+    "collection": "heritage",
+    "slug": "linear-cascade-collar-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "30.380g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A striking gold collar necklace featuring a structured row of elongated cascade elements, creating a bold and rhythmic design. Perfect for grand occasions, it delivers a strong statement with refined craftsmanship.",
+    "images": [
+      "/images/products/necklace-32.jpg",
+      "/images/products/necklace-32-2.jpg",
+      "/images/products/necklace-32-3.jpg"
+    ],
+    "sortOrder": 32,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "trending",
+      "heritage"
+    ]
+  },
+  {
+    "id": "product-33",
+    "name": "Heart Motif Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH150",
+    "image": "/images/products/necklace-33.jpg",
+    "badge": "New",
+    "collection": "festive",
+    "slug": "heart-motif-drop-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "13.920g",
+    "occasion": [
+      "festive",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A graceful gold necklace featuring a detailed heart-shaped motif with a delicate drop element, blending soft design aesthetics with traditional craftsmanship for elegant festive wear.",
+    "images": [
+      "/images/products/necklace-33.jpg",
+      "/images/products/necklace-33-2.jpg",
+      "/images/products/necklace-33-3.jpg"
+    ],
+    "sortOrder": 33,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "new",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-34",
+    "name": "Rajsi Filigree Chandrika Haar",
+    "category": "Necklace",
+    "tagNumber": "#GH161",
+    "image": "/images/products/necklace-34.jpg",
+    "badge": "New",
+    "collection": "heritage",
+    "slug": "rajsi-filigree-chandrika-haar",
+    "metalType": "gold",
+    "carat": "23K",
+    "weight": "12.470g",
+    "occasion": [
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A beautifully crafted filigree gold necklace featuring delicate floral motifs and a graceful crescent centerpiece, perfect for festive elegance and traditional charm.",
+    "images": [
+      "/images/products/necklace-34.jpg",
+      "/images/products/necklace-34-2.jpg",
+      "/images/products/necklace-34-3.jpg"
+    ],
+    "sortOrder": 34,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "heritage",
+      "filigree",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-35",
+    "name": "Surya Tilak Antique Cascade Haar",
+    "category": "Necklace",
+    "tagNumber": "#GH129",
+    "image": "/images/products/necklace-35.jpg",
+    "badge": "Trending",
+    "collection": "festive",
+    "slug": "surya-tilak-antique-cascade-haar",
     "metalType": "gold",
     "carat": "20K",
-    "weight": "9.8g",
-    "occasion": ["daily-wear"],
+    "weight": "9.750g",
+    "occasion": [
+      "festive",
+      "daily-wear"
+    ],
     "gender": "women",
-    "jewelleryType": "pendant",
-    "subcategory": "Dorla",
-    "description": "A minimalist gold pendant on a delicate chain, perfect for layering or wearing as a standalone piece.",
-    "images": ["/images/products/pendant-1.jpg", "/images/products/pendant-1-2.jpg", "/images/products/pendant-1-3.jpg"],
-    "sku": "RM-PD-001",
-    "sortOrder": 32,
-    "dateAdded": "2025-01-08",
-    "tags": ["trending"]
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "An antique-inspired gold necklace featuring a bold central tilak motif with cascading drop elements, designed to add a regal touch to both festive and elegant daily looks.",
+    "images": [
+      "/images/products/necklace-35.jpg",
+      "/images/products/necklace-35-2.jpg",
+      "/images/products/necklace-35-3.jpg"
+    ],
+    "sortOrder": 35,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "antique",
+      "cascade",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-36",
+    "name": "Pushp Raga Elegance Drop Haar",
+    "category": "Necklace",
+    "tagNumber": "#GH29",
+    "image": "/images/products/necklace-36.jpg",
+    "badge": "Bestseller",
+    "collection": "daily-wear",
+    "slug": "pushp-raga-elegance-drop-haar",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "14.360g",
+    "occasion": [
+      "engagement",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A graceful floral-inspired gold necklace adorned with vibrant stone accents and a delicate drop pendant, blending everyday elegance with festive charm.",
+    "images": [
+      "/images/products/necklace-36.jpg",
+      "/images/products/necklace-36-2.jpg",
+      "/images/products/necklace-36-3.jpg"
+    ],
+    "sortOrder": 36,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "floral",
+      "elegant",
+      "lightweight"
+    ]
+  },
+  {
+    "id": "product-37",
+    "name": "Meenakari Mayur Pendant Haar",
+    "category": "Necklace",
+    "tagNumber": "#GH87",
+    "image": "/images/products/necklace-37.jpg",
+    "badge": "New",
+    "collection": "heritage",
+    "slug": "meenakari-mayur-pendant-haar",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "16.860g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "An exquisite gold necklace featuring intricate meenakari work with a majestic peacock-inspired pendant and delicate hanging elements, perfect for grand festive and wedding looks.",
+    "images": [
+      "/images/products/necklace-37.jpg",
+      "/images/products/necklace-37-2.jpg",
+      "/images/products/necklace-37-3.jpg"
+    ],
+    "sortOrder": 37,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "meenakari",
+      "peacock",
+      "heritage"
+    ]
+  },
+  {
+    "id": "product-38",
+    "name": "Rajlaxmi Jaal Drop Heritage Haar",
+    "category": "Necklace",
+    "tagNumber": "#GH50",
+    "image": "/images/products/necklace-38.jpg",
+    "badge": "Trending",
+    "collection": "bridal",
+    "slug": "rajlaxmi-jaal-drop-heritage-haar",
+    "metalType": "gold",
+    "carat": "23K",
+    "weight": "14.590g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "An intricately crafted gold necklace featuring a regal jaal pattern with elegant drop hangings, designed to enhance bridal and festive looks with timeless heritage charm.",
+    "images": [
+      "/images/products/necklace-38.jpg",
+      "/images/products/necklace-38-2.jpg",
+      "/images/products/necklace-38-3.jpg"
+    ],
+    "sortOrder": 38,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "jaal",
+      "heritage",
+      "bridal"
+    ]
+  },
+  {
+    "id": "product-39",
+    "name": "Devi Pratima Antique Pendant Haar",
+    "category": "Necklace",
+    "tagNumber": "#GH24",
+    "image": "/images/products/necklace-39.jpg",
+    "badge": "New",
+    "collection": "heritage",
+    "slug": "devi-pratima-antique-pendant-haar",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "18.730g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "An ornate gold necklace featuring a divine temple-inspired pendant with intricate deity motifs and antique detailing, crafted to elevate bridal and festive ensembles.",
+    "images": [
+      "/images/products/necklace-39.jpg",
+      "/images/products/necklace-39-2.jpg",
+      "/images/products/necklace-39-3.jpg"
+    ],
+    "sortOrder": 39,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "temple",
+      "antique",
+      "heritage"
+    ]
+  },
+  {
+    "id": "product-40",
+    "name": "Rajsi Jaal Latkan Haar",
+    "category": "Necklace",
+    "tagNumber": "#GH22",
+    "image": "/images/products/necklace-40.jpg",
+    "badge": "Trending",
+    "collection": "festive",
+    "slug": "rajsi-jaal-latkan-haar",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "17.420g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A beautifully crafted gold necklace featuring intricate jaal work with elegant hanging latkan drops, designed to add a royal touch to festive and special occasions.",
+    "images": [
+      "/images/products/necklace-40.jpg",
+      "/images/products/necklace-40-2.jpg",
+      "/images/products/necklace-40-3.jpg"
+    ],
+    "sortOrder": 40,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "jaal",
+      "latkan",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-41",
+    "name": "Elegant Kundan Floral Pendant Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH77",
+    "image": "/images/products/necklace-41.jpg",
+    "badge": "Bestseller",
+    "collection": "bridal",
+    "slug": "elegant-kundan-floral-pendant-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "14.733g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A finely crafted gold necklace featuring intricate kundan stone settings with floral motifs and a detailed pendant design, perfect for festive and wedding occasions.",
+    "images": [
+      "/images/products/necklace-41.jpg",
+      "/images/products/necklace-41-2.jpg",
+      "/images/products/necklace-41-3.jpg"
+    ],
+    "sortOrder": 41,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "kundan",
+      "floral",
+      "pendant"
+    ]
+  },
+  {
+    "id": "product-42",
+    "name": "Classic Floral Gold Pendant Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH109",
+    "image": "/images/products/necklace-42.jpg",
+    "badge": "New",
+    "collection": "daily-wear",
+    "slug": "classic-floral-gold-pendant-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "11.370g",
+    "occasion": [
+      "daily-wear",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A delicately crafted gold necklace featuring elegant floral elements with a minimal pendant design, perfect for daily wear and light festive occasions.",
+    "images": [
+      "/images/products/necklace-42.jpg",
+      "/images/products/necklace-42-2.jpg",
+      "/images/products/necklace-42-3.jpg"
+    ],
+    "sortOrder": 42,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "floral",
+      "dailywear",
+      "lightweight"
+    ]
+  },
+  {
+    "id": "product-43",
+    "name": "Royal Peacock Medallion Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH80",
+    "image": "/images/products/necklace-43.jpg",
+    "badge": "Trending",
+    "collection": "heritage",
+    "slug": "royal-peacock-medallion-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "16.450g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "An exquisite gold necklace featuring a detailed peacock medallion with intricate craftsmanship, perfect for festive elegance and traditional occasions.",
+    "images": [
+      "/images/products/necklace-43.jpg",
+      "/images/products/necklace-43-2.jpg",
+      "/images/products/necklace-43-3.jpg"
+    ],
+    "sortOrder": 43,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "peacock",
+      "heritage",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-44",
+    "name": "Regal Layered Gold Choker Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH79",
+    "image": "/images/products/necklace-44.jpg",
+    "badge": "Trending",
+    "collection": "festive",
+    "slug": "regal-layered-gold-choker-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "19.120g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A beautifully crafted gold necklace featuring intricate layered detailing with traditional motifs, designed to add a regal touch to festive and special occasions.",
+    "images": [
+      "/images/products/necklace-44.jpg",
+      "/images/products/necklace-44-2.jpg",
+      "/images/products/necklace-44-3.jpg"
+    ],
+    "sortOrder": 44,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "layered",
+      "heritage",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-45",
+    "name": "Grand Filigree Bridal Statement Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH12",
+    "image": "/images/products/necklace-45.jpg",
+    "badge": "Bestseller",
+    "collection": "bridal",
+    "slug": "grand-filigree-bridal-statement-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "34.920g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A majestic gold necklace featuring intricate filigree craftsmanship with layered detailing and a bold statement pendant, perfect for bridal and grand festive occasions.",
+    "images": [
+      "/images/products/necklace-45.jpg",
+      "/images/products/necklace-45-2.jpg",
+      "/images/products/necklace-45-3.jpg"
+    ],
+    "sortOrder": 45,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "bridal",
+      "statement",
+      "heritage"
+    ]
+  },
+  {
+    "id": "product-46",
+    "name": "Floral Radiance Gold Statement Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH136",
+    "image": "/images/products/necklace-46.jpg",
+    "badge": "Trending",
+    "collection": "festive",
+    "slug": "floral-radiance-gold-statement-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "14.870g",
+    "occasion": [
+      "festive",
+      "engagement"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A beautifully crafted gold necklace featuring a central floral motif with layered textures and delicate hanging elements, perfect for festive celebrations and elegant occasions.",
+    "images": [
+      "/images/products/necklace-46.jpg",
+      "/images/products/necklace-46-2.jpg",
+      "/images/products/necklace-46-3.jpg"
+    ],
+    "sortOrder": 46,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "floral",
+      "festive",
+      "lightweight"
+    ]
+  },
+  {
+    "id": "product-47",
+    "name": "Floral Crest Gold Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH10",
+    "image": "/images/products/necklace-47.jpg",
+    "badge": "New",
+    "collection": "daily-wear",
+    "slug": "floral-crest-gold-necklace",
+    "metalType": "gold",
+    "carat": "20K",
+    "weight": "18.710g",
+    "occasion": [
+      "daily-wear",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A finely detailed gold necklace featuring a structured floral pattern with a central embellished drop, offering a perfect balance of elegance and everyday sophistication.",
+    "images": [
+      "/images/products/necklace-47.jpg",
+      "/images/products/necklace-47-2.jpg",
+      "/images/products/necklace-47-3.jpg"
+    ],
+    "sortOrder": 47,
+    "dateAdded": "2026-03-28",
+    "tags": [
+      "floral",
+      "elegant",
+      "lightweight"
+    ]
+  },
+  {
+    "id": "product-48",
+    "name": "Rajsi Lata Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH107",
+    "image": "/images/products/necklace-48.jpg",
+    "badge": "New",
+    "collection": "festive",
+    "slug": "rajsi-lata-drop-necklace",
+    "metalType": "gold",
+    "carat": "23K",
+    "weight": "13.120g",
+    "occasion": [
+      "festive",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A beautifully crafted 23K gold necklace featuring intricate lattice detailing with elegant drop danglers, perfect for festive charm and graceful occasions.",
+    "images": [
+      "/images/products/necklace-48.jpg",
+      "/images/products/necklace-48-2.jpg",
+      "/images/products/necklace-48-3.jpg"
+    ],
+    "sortOrder": 48,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "new",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-49",
+    "name": "Chandrika Veil Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH6",
+    "image": "/images/products/necklace-49.jpg",
+    "badge": "Trending",
+    "collection": "heritage",
+    "slug": "chandrika-veil-drop-necklace",
+    "metalType": "gold",
+    "carat": "24K",
+    "weight": "16.120g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "An exquisite 24K gold necklace featuring layered crescent motifs with cascading drop chains, inspired by traditional heritage craftsmanship for grand occasions.",
+    "images": [
+      "/images/products/necklace-49.jpg",
+      "/images/products/necklace-49-2.jpg",
+      "/images/products/necklace-49-3.jpg"
+    ],
+    "sortOrder": 49,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "trending",
+      "heritage"
+    ]
+  },
+  {
+    "id": "product-50",
+    "name": "Mayura Veena Heritage Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH31",
+    "image": "/images/products/necklace-50.jpg",
+    "badge": "Bestseller",
+    "collection": "bridal",
+    "slug": "mayura-veena-heritage-necklace",
+    "metalType": "gold",
+    "carat": "24K",
+    "weight": "16.520g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A majestic 24K gold necklace inspired by peacock and veena motifs, featuring intricate layered craftsmanship and bold central detailing for a regal bridal look.",
+    "images": [
+      "/images/products/necklace-50.jpg",
+      "/images/products/necklace-50-2.jpg",
+      "/images/products/necklace-50-3.jpg"
+    ],
+    "sortOrder": 50,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "bestseller",
+      "bridal"
+    ]
+  },
+  {
+    "id": "product-51",
+    "name": "Padma Valli Cascade Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH86",
+    "image": "/images/products/necklace-51.jpg",
+    "badge": "New",
+    "collection": "festive",
+    "slug": "padma-valli-cascade-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "29.390g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A graceful 22K gold necklace adorned with lotus-inspired motifs and a cascading pendant design, perfect for festive elegance and statement celebrations.",
+    "images": [
+      "/images/products/necklace-51.jpg",
+      "/images/products/necklace-51-2.jpg",
+      "/images/products/necklace-51-3.jpg"
+    ],
+    "sortOrder": 51,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "new",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-52",
+    "name": "Mrinalini Crest Pendant Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH142",
+    "image": "/images/products/necklace-52.jpg",
+    "badge": "Trending",
+    "collection": "daily-wear",
+    "slug": "mrinalini-crest-pendant-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "21.550g",
+    "occasion": [
+      "gifting",
+      "daily-wear"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A refined 22K gold necklace featuring a bold circular crest pendant with delicate layered chains, offering a perfect blend of elegance and everyday sophistication.",
+    "images": [
+      "/images/products/necklace-52.jpg",
+      "/images/products/necklace-52-2.jpg",
+      "/images/products/necklace-52-3.jpg"
+    ],
+    "sortOrder": 52,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "trending",
+      "daily"
+    ]
+  },
+  {
+    "id": "product-53",
+    "name": "Surya Pushpa Cascade Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH133",
+    "image": "/images/products/necklace-53.jpg",
+    "badge": "Trending",
+    "collection": "festive",
+    "slug": "surya-pushpa-cascade-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "24.970g",
+    "occasion": [
+      "festive",
+      "wedding"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A radiant 22K gold necklace featuring sun-inspired floral motifs with a layered cascade pendant, designed to add brilliance to festive and wedding occasions.",
+    "images": [
+      "/images/products/necklace-53.jpg",
+      "/images/products/necklace-53-2.jpg",
+      "/images/products/necklace-53-3.jpg"
+    ],
+    "sortOrder": 53,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "trending",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-54",
+    "name": "Raktika Floral Crest Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH34",
+    "image": "/images/products/necklace-54.jpg",
+    "badge": "New",
+    "collection": "heritage",
+    "slug": "raktika-floral-crest-necklace",
+    "metalType": "gold",
+    "carat": "24K",
+    "weight": "17.590g",
+    "occasion": [
+      "festive",
+      "engagement"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A striking 24K gold necklace featuring floral crest motifs with a subtle red stone centerpiece, offering a perfect blend of traditional elegance and modern charm.",
+    "images": [
+      "/images/products/necklace-54.jpg",
+      "/images/products/necklace-54-2.jpg",
+      "/images/products/necklace-54-3.jpg"
+    ],
+    "sortOrder": 54,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "new",
+      "heritage"
+    ]
+  },
+  {
+    "id": "product-55",
+    "name": "Vamika Mayur Crest Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH135",
+    "image": "/images/products/necklace-55.jpg",
+    "badge": "Trending",
+    "collection": "heritage",
+    "slug": "vamika-mayur-crest-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "23.480g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A regal 22K gold necklace featuring peacock-inspired crest detailing with a floral centerpiece and cascading elements, crafted to elevate festive and wedding looks.",
+    "images": [
+      "/images/products/necklace-55.jpg",
+      "/images/products/necklace-55-2.jpg",
+      "/images/products/necklace-55-3.jpg"
+    ],
+    "sortOrder": 55,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "trending",
+      "heritage"
+    ]
+  },
+  {
+    "id": "product-56",
+    "name": "Padmavalli Heritage Cascade Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH131",
+    "image": "/images/products/necklace-56.jpg",
+    "badge": "Bestseller",
+    "collection": "bridal",
+    "slug": "padmavalli-heritage-cascade-necklace",
+    "metalType": "gold",
+    "carat": "24K",
+    "weight": "29.580g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "An exquisite 24K gold necklace featuring intricate padma-inspired motifs with a grand cascading pendant, crafted for bridal elegance and timeless heritage appeal.",
+    "images": [
+      "/images/products/necklace-56.jpg",
+      "/images/products/necklace-56-2.jpg",
+      "/images/products/necklace-56-3.jpg"
+    ],
+    "sortOrder": 56,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "bestseller",
+      "bridal"
+    ]
+  },
+  {
+    "id": "product-57",
+    "name": "Rajvanshi Surya Haar Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH1",
+    "image": "/images/products/necklace-57.jpg",
+    "badge": "Trending",
+    "collection": "heritage",
+    "slug": "rajvanshi-surya-haar-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "37.270g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A grand 22K gold necklace inspired by royal sun motifs, featuring intricate layered detailing and a bold cascading pendant, perfect for statement bridal elegance.",
+    "images": [
+      "/images/products/necklace-57.jpg",
+      "/images/products/necklace-57-2.jpg",
+      "/images/products/necklace-57-3.jpg"
+    ],
+    "sortOrder": 57,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "trending",
+      "heritage"
+    ]
+  },
+  {
+    "id": "product-58",
+    "name": "Mrinalini Antique Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH43",
+    "image": "/images/products/necklace-58.jpg",
+    "badge": "New",
+    "collection": "festive",
+    "slug": "mrinalini-antique-drop-necklace",
+    "metalType": "gold",
+    "carat": "24K",
+    "weight": "17.850g",
+    "occasion": [
+      "festive",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A graceful 24K gold necklace featuring antique-inspired floral motifs with a delicate drop pendant, perfect for elegant festive wear and special gifting.",
+    "images": [
+      "/images/products/necklace-58.jpg",
+      "/images/products/necklace-58-2.jpg",
+      "/images/products/necklace-58-3.jpg"
+    ],
+    "sortOrder": 58,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "new",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-59",
+    "name": "Rajpushpa Filigree Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH106",
+    "image": "/images/products/necklace-59.jpg",
+    "badge": "Trending",
+    "collection": "festive",
+    "slug": "rajpushpa-filigree-drop-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "13.480g",
+    "occasion": [
+      "festive",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A graceful gold necklace featuring intricate floral filigree work with a delicate drop pendant. Perfect for festive occasions and elegant traditional styling.",
+    "images": [
+      "/images/products/necklace-59.jpg",
+      "/images/products/necklace-59-2.jpg",
+      "/images/products/necklace-59-3.jpg"
+    ],
+    "sortOrder": 59,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "trending",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-60",
+    "name": "Rajvrit Coin Drop Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH81",
+    "image": "/images/products/necklace-60.jpg",
+    "badge": "New",
+    "collection": "heritage",
+    "slug": "rajvrit-coin-drop-necklace",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "21.280g",
+    "occasion": [
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "An exquisite gold necklace adorned with intricate coin motifs and a statement circular pendant. A perfect blend of heritage artistry and festive elegance.",
+    "images": [
+      "/images/products/necklace-60.jpg",
+      "/images/products/necklace-60-2.jpg",
+      "/images/products/necklace-60-3.jpg"
+    ],
+    "sortOrder": 60,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "new",
+      "heritage"
+    ]
+  },
+  {
+    "id": "product-61",
+    "name": "Hridaya Tilak Gold Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH28",
+    "image": "/images/products/necklace-61.jpg",
+    "badge": "Trending",
+    "collection": "festive",
+    "slug": "hridaya-tilak-gold-necklace",
+    "metalType": "gold",
+    "carat": "23K",
+    "weight": "20.820g",
+    "occasion": [
+      "festive",
+      "gifting"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A finely crafted gold necklace featuring a delicate layered design with a signature tilak-inspired pendant. Perfect for festive elegance and graceful everyday celebrations.",
+    "images": [
+      "/images/products/necklace-61.jpg",
+      "/images/products/necklace-61-2.jpg",
+      "/images/products/necklace-61-3.jpg"
+    ],
+    "sortOrder": 61,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "trending",
+      "festive"
+    ]
+  },
+  {
+    "id": "product-62",
+    "name": "Devanshi Layered Drape Necklace",
+    "category": "Necklace",
+    "tagNumber": "#GH32",
+    "image": "/images/products/necklace-62.jpg",
+    "badge": "Bestseller",
+    "collection": "bridal",
+    "slug": "devanshi-layered-drape-necklace",
+    "metalType": "gold",
+    "carat": "23K",
+    "weight": "20.130g",
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "gender": "women",
+    "jewelleryType": "necklace",
+    "subcategory": "Gol Haar",
+    "description": "A graceful layered gold necklace featuring intricate detailing with delicate drape chains and a statement pendant. Designed to add royal charm to bridal and festive looks.",
+    "images": [
+      "/images/products/necklace-62.jpg",
+      "/images/products/necklace-62-2.jpg",
+      "/images/products/necklace-62-3.jpg"
+    ],
+    "sortOrder": 62,
+    "dateAdded": "2026-03-29",
+    "tags": [
+      "bestseller",
+      "bridal"
+    ]
   }
 ]
