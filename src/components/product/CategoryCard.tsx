@@ -8,7 +8,7 @@ interface CategoryCardProps {
 export default function CategoryCard({ category }: CategoryCardProps) {
   return (
     <a
-      href={`/catalogue/${category.slug}`}
+      href={`/catalogue?type=${category.jewelleryType}`}
       className="snap-start flex-shrink-0 w-[160px] sm:w-[200px] group"
     >
       <div className="relative w-28 h-28 sm:w-36 sm:h-36 mx-auto mb-3 rounded-full bg-ivory-100 border-2 border-[rgba(160,115,42,0.20)] group-hover:border-brand-gold/40 group-hover:shadow-md transition-all duration-300 flex items-center justify-center overflow-hidden">

@@ -4,34 +4,39 @@
     "name": "Bridal Collection",
     "description": "Exquisite pieces for your most special day",
     "image": "/images/collections/bridal.jpg",
-    "productCount": 45
+    "productCount": 45,
+    "slug": "bridal"
   },
   {
     "id": "daily-wear",
     "name": "Daily Wear",
     "description": "Elegant lightweight jewellery for everyday grace",
     "image": "/images/collections/daily-wear.jpg",
-    "productCount": 60
+    "productCount": 60,
+    "slug": "daily-wear"
   },
   {
     "id": "festive",
     "name": "Festive Collection",
     "description": "Celebrate every occasion with timeless designs",
     "image": "/images/collections/festive.jpg",
-    "productCount": 35
+    "productCount": 35,
+    "slug": "festive"
   },
   {
     "id": "heritage",
     "name": "Heritage Collection",
     "description": "Traditional craftsmanship passed through generations",
     "image": "/images/collections/heritage.jpg",
-    "productCount": 40
+    "productCount": 40,
+    "slug": "heritage"
   },
   {
     "id": "diamond",
     "name": "Diamond Collection",
     "description": "Stunning diamond pieces that captivate and sparkle",
     "image": "/images/collections/diamond.jpg",
-    "productCount": 25
+    "productCount": 25,
+    "slug": "diamond"
   }
 ]

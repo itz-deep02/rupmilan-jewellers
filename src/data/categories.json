@@ -1,15 +1,15 @@
 [
-  { "id": "cat-1", "name": "Necklaces", "image": "/images/categories/necklaces.jpg", "productCount": 120, "slug": "necklaces" },
-  { "id": "cat-2", "name": "Earrings", "image": "/images/categories/earrings.jpg", "productCount": 95, "slug": "earrings" },
-  { "id": "cat-3", "name": "Rings", "image": "/images/categories/rings.jpg", "productCount": 80, "slug": "rings" },
-  { "id": "cat-4", "name": "Gold Bangle", "image": "/images/categories/bangles.jpg", "productCount": 110, "slug": "bangles" },
-  { "id": "cat-5", "name": "Chains", "image": "/images/categories/chains.jpg", "productCount": 60, "slug": "chains" },
-  { "id": "cat-6", "name": "Mangalsutra", "image": "/images/categories/mangalsutra.jpg", "productCount": 45, "slug": "mangalsutra" },
-  { "id": "cat-7", "name": "Pendants", "image": "/images/categories/pendants.jpg", "productCount": 70, "slug": "pendants" },
-  { "id": "cat-8", "name": "Bracelets", "image": "/images/categories/bracelets.jpg", "productCount": 55, "slug": "bracelets" },
-  { "id": "cat-9", "name": "Jhumka", "image": "/images/categories/jhumka.jpg", "productCount": 30, "slug": "jhumka" },
-  { "id": "cat-10", "name": "Lockets", "image": "/images/categories/lockets.jpg", "productCount": 25, "slug": "lockets" },
-  { "id": "cat-11", "name": "Bindiya", "image": "/images/categories/bindiya.jpg", "productCount": 15, "slug": "bindiya" },
-  { "id": "cat-12", "name": "Nath", "image": "/images/categories/nath.jpg", "productCount": 10, "slug": "nath" },
-  { "id": "cat-13", "name": "Bendi", "image": "/images/categories/bendi.jpg", "productCount": 10, "slug": "bendi" }
+  { "id": "cat-1", "name": "Necklaces", "image": "/images/categories/necklaces.jpg", "productCount": 120, "slug": "necklaces", "jewelleryType": "necklace" },
+  { "id": "cat-2", "name": "Earrings", "image": "/images/categories/earrings.jpg", "productCount": 95, "slug": "earrings", "jewelleryType": "earring" },
+  { "id": "cat-3", "name": "Rings", "image": "/images/categories/rings.jpg", "productCount": 80, "slug": "rings", "jewelleryType": "ring" },
+  { "id": "cat-4", "name": "Gold Bangle", "image": "/images/categories/bangles.jpg", "productCount": 110, "slug": "bangles", "jewelleryType": "bangle" },
+  { "id": "cat-5", "name": "Chains", "image": "/images/categories/chains.jpg", "productCount": 60, "slug": "chains", "jewelleryType": "chain" },
+  { "id": "cat-6", "name": "Mangalsutra", "image": "/images/categories/mangalsutra.jpg", "productCount": 45, "slug": "mangalsutra", "jewelleryType": "mangalsutra" },
+  { "id": "cat-7", "name": "Pendants", "image": "/images/categories/pendants.jpg", "productCount": 70, "slug": "pendants", "jewelleryType": "pendant" },
+  { "id": "cat-8", "name": "Bracelets", "image": "/images/categories/bracelets.jpg", "productCount": 55, "slug": "bracelets", "jewelleryType": "bracelet" },
+  { "id": "cat-9", "name": "Jhumka", "image": "/images/categories/jhumka.jpg", "productCount": 30, "slug": "jhumka", "jewelleryType": "jhumka" },
+  { "id": "cat-10", "name": "Lockets", "image": "/images/categories/lockets.jpg", "productCount": 25, "slug": "lockets", "jewelleryType": "locket" },
+  { "id": "cat-11", "name": "Bindiya", "image": "/images/categories/bindiya.jpg", "productCount": 15, "slug": "bindiya", "jewelleryType": "bindiya" },
+  { "id": "cat-12", "name": "Nath", "image": "/images/categories/nath.jpg", "productCount": 10, "slug": "nath", "jewelleryType": "nath" },
+  { "id": "cat-13", "name": "Bendi", "image": "/images/categories/bendi.jpg", "productCount": 10, "slug": "bendi", "jewelleryType": "bendi" }
 ]

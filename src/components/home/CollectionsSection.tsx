@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Gem } from "lucide-react";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeader from "@/components/layout/SectionHeader";
@@ -23,8 +24,9 @@ export default function CollectionsSection({ collections }: CollectionsSectionPr
 
         <HorizontalScroll>
           {collections.map((collection) => (
-            <div
+            <Link
               key={collection.id}
+              href={`/catalogue?collection=${collection.slug}`}
               className="snap-start flex-shrink-0 w-[280px] sm:w-[320px] glass-card-hover overflow-hidden group cursor-pointer"
             >
               <div className="relative aspect-[4/3] bg-ivory-300 flex items-center justify-center">
@@ -46,7 +48,7 @@ export default function CollectionsSection({ collections }: CollectionsSectionPr
                   {collection.description}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </HorizontalScroll>
       </section>

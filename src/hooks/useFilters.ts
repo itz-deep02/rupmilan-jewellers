@@ -15,6 +15,7 @@ export function useFilters() {
     jewelleryType: searchParams.get("type") || undefined,
     category: searchParams.get("category") || undefined,
     subcategory: searchParams.get("sub") || undefined,
+    collection: searchParams.get("collection") || undefined,
   }), [searchParams]);
 
   const sort: SortOption = (searchParams.get("sort") as SortOption) || "popular";
@@ -40,10 +41,14 @@ export function useFilters() {
       jewelleryType: "type",
       category: "category",
       subcategory: "sub",
+      collection: "collection",
     };
-    // When jewelleryType changes, clear subcategory (subcategories are type-dependent)
+    // When jewelleryType changes, clear subcategory and collection
     if (key === "jewelleryType") {
-      updateParams({ [paramMap[key]]: value || null, sub: null });
+      updateParams({ [paramMap[key]]: value || null, sub: null, collection: null });
+    // When collection changes, clear jewelleryType (mutually exclusive)
+    } else if (key === "collection") {
+      updateParams({ [paramMap[key]]: value || null, type: null, sub: null });
     } else {
       updateParams({ [paramMap[key]]: value || null });
     }

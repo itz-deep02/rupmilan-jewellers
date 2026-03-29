@@ -57,11 +57,11 @@ export default function Home() {
           <StatsSection stats={stats} />
           <CollectionsSection collections={collections} />
           <CategorySection categories={categories} />
-          <BestsellersSection products={bestsellers} />
-          <TrendingSection products={trending} />
-          <NewLaunchesSection products={newLaunches} />
-          <GoldProductsSection products={goldProducts} />
-          <SilverProductsSection products={silverProducts} />
+          {bestsellers.length > 0 && <BestsellersSection products={bestsellers} />}
+          {trending.length > 0 && <TrendingSection products={trending} />}
+          {newLaunches.length > 0 && <NewLaunchesSection products={newLaunches} />}
+          {goldProducts.length > 0 && <GoldProductsSection products={goldProducts} />}
+          {silverProducts.length > 0 && <SilverProductsSection products={silverProducts} />}
           <RupmilanWorldSection />
           <CustomerStories testimonials={testimonials} />
         </div>

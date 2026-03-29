@@ -17,8 +17,9 @@ export function getProductsByCategory(categorySlug: string): ExtendedProduct[] {
   return products.filter(p => {
     const type = p.jewelleryType.toLowerCase();
     const cat = p.category.toLowerCase();
+    const col = (p.collection || "").toLowerCase();
     // Match exact, plural (necklaces → necklace), or singular (necklace → necklaces)
-    return type === slug || cat === slug
+    return type === slug || cat === slug || col === slug
       || type + "s" === slug || slug + "s" === type
       || cat + "s" === slug || slug + "s" === cat;
   });
@@ -50,6 +51,9 @@ export function getFilteredProducts(allProducts: ExtendedProduct[], filters: Fil
   }
   if (filters.subcategory) {
     filtered = filtered.filter(p => p.subcategory === filters.subcategory);
+  }
+  if (filters.collection) {
+    filtered = filtered.filter(p => (p.collection || "").toLowerCase() === filters.collection!.toLowerCase());
   }
 
   // Helper to parse carat number (e.g. "22K" → 22, "18K" → 18)

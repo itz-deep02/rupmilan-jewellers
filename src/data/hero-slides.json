@@ -3,32 +3,24 @@
     "id": "slide-1",
     "title": "Timeless Elegance",
     "subtitle": "Discover BIS Hallmarked jewellery crafted with generations of expertise since 1988",
-    "ctaText": "Explore Collection",
-    "ctaLink": "#collections",
-    "image": "/images/hero/slide-1.jpg"
+    "ctaText": "Explore More",
+    "ctaLink": "/catalogue",
+    "image": "/images/about/showroom-1.jpg"
   },
   {
     "id": "slide-2",
-    "title": "Bridal Grandeur",
-    "subtitle": "Make your special day unforgettable with our exquisite bridal jewellery collection",
-    "ctaText": "View Bridal Collection",
-    "ctaLink": "#collections",
-    "image": "/images/hero/slide-2.jpg"
+    "title": "Exquisite Necklaces",
+    "subtitle": "Handcrafted gold necklaces that speak the language of elegance and tradition",
+    "ctaText": "Shop Necklaces",
+    "ctaLink": "/catalogue?type=necklace",
+    "image": "/images/about/showroom-2.jpg"
   },
   {
     "id": "slide-3",
-    "title": "Everyday Luxury",
-    "subtitle": "Lightweight, elegant pieces designed for the modern woman's daily style",
-    "ctaText": "Shop Daily Wear",
-    "ctaLink": "#categories",
-    "image": "/images/hero/slide-3.jpg"
-  },
-  {
-    "id": "slide-4",
-    "title": "Pure Gold Promise",
-    "subtitle": "100% purity guaranteed with BIS Hallmark certification on every piece",
-    "ctaText": "Know Our Promise",
+    "title": "Visit Our Showroom",
+    "subtitle": "Experience the beauty of our collections in person at Rupmilan Jewellers, Champa",
+    "ctaText": "Contact Us",
     "ctaLink": "/contact",
-    "image": "/images/hero/slide-4.jpg"
+    "image": "/images/about/showroom-3.jpg"
   }
 ]

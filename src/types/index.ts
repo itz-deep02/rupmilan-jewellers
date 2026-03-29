@@ -14,6 +14,7 @@ export interface Category {
   image: string;
   productCount: number;
   slug: string;
+  jewelleryType: string;
 }
 
 export interface Collection {
@@ -22,6 +23,7 @@ export interface Collection {
   description: string;
   image: string;
   productCount: number;
+  slug: string;
 }
 
 export interface HeroSlide {
@@ -84,6 +86,7 @@ export interface FilterState {
   jewelleryType?: string;
   category?: string;
   subcategory?: string;
+  collection?: string;
 }
 
 export type SortOption = "newest" | "popular" | "name-asc" | "name-desc" | "carat-high" | "carat-low" | "weight-high" | "weight-low";
