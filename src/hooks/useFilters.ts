@@ -16,6 +16,7 @@ export function useFilters() {
     category: searchParams.get("category") || undefined,
     subcategory: searchParams.get("sub") || undefined,
     collection: searchParams.get("collection") || undefined,
+    q: searchParams.get("q") || undefined,
   }), [searchParams]);
 
   const sort: SortOption = (searchParams.get("sort") as SortOption) || "popular";
@@ -42,6 +43,7 @@ export function useFilters() {
       category: "category",
       subcategory: "sub",
       collection: "collection",
+      q: "q",
     };
     // When jewelleryType changes, clear subcategory and collection
     if (key === "jewelleryType") {

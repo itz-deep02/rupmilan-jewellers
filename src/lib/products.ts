@@ -55,6 +55,14 @@ export function getFilteredProducts(allProducts: ExtendedProduct[], filters: Fil
   if (filters.collection) {
     filtered = filtered.filter(p => (p.collection || "").toLowerCase() === filters.collection!.toLowerCase());
   }
+  if (filters.q) {
+    const raw = filters.q.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    const terms = raw.map(correctTerm);
+    filtered = filtered.filter(p => {
+      const h = buildHaystack(p);
+      return terms.every(term => h.includes(term));
+    });
+  }
 
   // Helper to parse carat number (e.g. "22K" → 22, "18K" → 18)
   const parseCarat = (c?: string) => parseInt(c || "0", 10) || 0;
@@ -115,6 +123,77 @@ export function getUniqueFilterValues(allProducts: ExtendedProduct[]) {
   }
 
   return { metalTypes, carats, occasions, jewelleryTypes, categories, subcategories };
+}
+
+// Levenshtein edit distance
+function editDistance(a: string, b: string): number {
+  const m = a.length, n = b.length;
+  const dp: number[] = Array.from({ length: n + 1 }, (_, j) => j);
+  for (let i = 1; i <= m; i++) {
+    let prev = dp[0];
+    dp[0] = i;
+    for (let j = 1; j <= n; j++) {
+      const tmp = dp[j];
+      dp[j] = a[i - 1] === b[j - 1] ? prev : 1 + Math.min(prev, dp[j], dp[j - 1]);
+      prev = tmp;
+    }
+  }
+  return dp[n];
+}
+
+// Build a flat set of all unique tokens across products for fuzzy correction
+let _tokenIndex: string[] | null = null;
+function getTokenIndex(): string[] {
+  if (_tokenIndex) return _tokenIndex;
+  const tokens = new Set<string>();
+  for (const p of products) {
+    const words = [
+      p.name, p.category, p.jewelleryType, p.subcategory || "",
+      p.metalType, p.collection || "", p.description || "",
+      ...(p.tags || []), ...(p.occasion || []),
+    ].join(" ").toLowerCase().split(/\s+/);
+    words.forEach(w => { if (w.length > 2) tokens.add(w); });
+  }
+  _tokenIndex = [...tokens];
+  return _tokenIndex;
+}
+
+// If a term doesn't match exactly, find the closest token within edit distance threshold
+function correctTerm(term: string): string {
+  const tokens = getTokenIndex();
+  // Already present — no correction needed
+  if (tokens.some(t => t.includes(term))) return term;
+  const maxDist = term.length <= 5 ? 1 : 2;
+  let best = term, bestDist = Infinity;
+  for (const token of tokens) {
+    if (Math.abs(token.length - term.length) > maxDist) continue;
+    const d = editDistance(term, token);
+    if (d < bestDist && d <= maxDist) { bestDist = d; best = token; }
+  }
+  return best;
+}
+
+function buildHaystack(p: ExtendedProduct): string {
+  return [
+    p.name, p.category, p.jewelleryType, p.subcategory || "",
+    p.metalType, p.collection || "", p.description || "", p.tagNumber,
+    ...(p.tags || []), ...(p.occasion || []),
+  ].join(" ").toLowerCase();
+}
+
+export function correctQuery(query: string): string {
+  if (!query.trim()) return query;
+  return query.toLowerCase().trim().split(/\s+/).filter(Boolean).map(correctTerm).join(" ");
+}
+
+export function searchProducts(query: string, limit = 6): ExtendedProduct[] {
+  if (!query.trim()) return [];
+  const raw = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  const terms = raw.map(correctTerm);
+  return products.filter(p => {
+    const h = buildHaystack(p);
+    return terms.every(term => h.includes(term));
+  }).slice(0, limit);
 }
 
 export function generateSlug(name: string): string {

@@ -87,6 +87,7 @@ export interface FilterState {
   category?: string;
   subcategory?: string;
   collection?: string;
+  q?: string;
 }
 
 export type SortOption = "newest" | "popular" | "name-asc" | "name-desc" | "carat-high" | "carat-low" | "weight-high" | "weight-low";

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo, useCallback, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import type { ExtendedProduct } from "@/types";
 import { getFilteredProducts, getUniqueFilterValues } from "@/lib/products";
 import { useFilters } from "@/hooks/useFilters";
@@ -23,6 +24,8 @@ interface CatalogueClientProps {
 
 function CatalogueContent({ initialProducts, categoryName, categorySlug }: CatalogueClientProps) {
   const { filters, sort, setFilter, setSort, clearFilters, activeFilterCount } = useFilters();
+  const searchParams = useSearchParams();
+  const originalQuery = searchParams.get("oq") || null;
   const [displayedCount, setDisplayedCount] = useState(ITEMS_PER_PAGE);
 
   const filteredProducts = useMemo(
@@ -74,6 +77,19 @@ function CatalogueContent({ initialProducts, categoryName, categorySlug }: Catal
 
       {/* Main content */}
       <div className="flex-1 min-w-0">
+        {/* Search heading */}
+        {filters.q && (
+          <div className="mb-5">
+            <p className="text-sm font-sans text-brand-muted">
+              Search results for{" "}
+              <span className="text-brand-heading font-medium">&ldquo;{filters.q}&rdquo;</span>
+              {originalQuery && (
+                <span> instead of <span className="line-through">&ldquo;{originalQuery}&rdquo;</span></span>
+              )}
+            </p>
+          </div>
+        )}
+
         {/* Toolbar */}
         <div className="flex items-center justify-between mb-5">
           <div className="flex items-center gap-3">
