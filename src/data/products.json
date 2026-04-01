@@ -5,16 +5,12 @@
     "category": "Necklace",
     "tagNumber": "#GH52",
     "image": "/images/products/necklace-1.jpg",
-    "badge": "New",
     "collection": "heritage",
     "slug": "rajsi-floral-pendant-necklace",
     "metalType": "gold",
     "carat": "23K",
     "weight": "19.690g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -26,10 +22,7 @@
     ],
     "sortOrder": 1,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "heritage"
-    ]
+    "tags": ["new", "heritage"]
   },
   {
     "id": "product-2",
@@ -37,16 +30,12 @@
     "category": "Necklace",
     "tagNumber": "#GH38",
     "image": "/images/products/necklace-2.jpg",
-    "badge": "New",
-    "collection": "festive",
+    "collection": "bridal ",
     "slug": "meenakari-drop-pendant-necklace",
     "metalType": "gold",
     "carat": "23K",
     "weight": "25.500g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -58,10 +47,7 @@
     ],
     "sortOrder": 2,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "festive"
-    ]
+    "tags": ["new", "festive"]
   },
   {
     "id": "product-3",
@@ -69,16 +55,12 @@
     "category": "Necklace",
     "tagNumber": "#GH49",
     "image": "/images/products/necklace-3.jpg",
-    "badge": "New",
     "collection": "bridal",
     "slug": "rajvanshi-cascade-temple-necklace",
     "metalType": "gold",
     "carat": "23K",
     "weight": "28.860g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -90,10 +72,8 @@
     ],
     "sortOrder": 3,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "bridal"
-    ]
+    "tags": ["new", "bridal"],
+    "badge": "Trending"
   },
   {
     "id": "product-4",
@@ -101,16 +81,12 @@
     "category": "Necklace",
     "tagNumber": "#GH33",
     "image": "/images/products/necklace-4.jpg",
-    "badge": "Trending",
     "collection": "heritage",
     "slug": "shringar-engraved-panel-necklace",
     "metalType": "gold",
     "carat": "24K",
     "weight": "21.770g",
-    "occasion": [
-      "festive",
-      "engagement"
-    ],
+    "occasion": ["festive", "engagement"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -122,10 +98,7 @@
     ],
     "sortOrder": 4,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "trending",
-      "heritage"
-    ]
+    "tags": ["trending", "heritage"]
   },
   {
     "id": "product-5",
@@ -133,16 +106,12 @@
     "category": "Necklace",
     "tagNumber": "#GH48",
     "image": "/images/products/necklace-5.jpg",
-    "badge": "New",
     "collection": "daily-wear",
     "slug": "pushpa-viraasat-drop-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "16.660g",
-    "occasion": [
-      "daily-wear",
-      "gifting"
-    ],
+    "occasion": ["daily-wear", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -154,10 +123,7 @@
     ],
     "sortOrder": 5,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "daily-wear"
-    ]
+    "tags": ["new", "daily-wear"]
   },
   {
     "id": "product-6",
@@ -165,15 +131,12 @@
     "category": "Necklace",
     "tagNumber": "#GH27",
     "image": "/images/products/necklace-6.jpg",
-    "badge": "Bestseller",
     "collection": "heritage",
     "slug": "rajmudra-coin-pendant-necklace",
     "metalType": "gold",
     "carat": "23K",
     "weight": "17.420g",
-    "occasion": [
-      "festive"
-    ],
+    "occasion": ["festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -185,10 +148,7 @@
     ],
     "sortOrder": 6,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "bestseller",
-      "heritage"
-    ]
+    "tags": ["bestseller", "heritage"]
   },
   {
     "id": "product-7",
@@ -196,16 +156,12 @@
     "category": "Necklace",
     "tagNumber": "#GH35",
     "image": "/images/products/necklace-7.jpg",
-    "badge": "Trending",
-    "collection": "festive",
+    "collection": "daily-wear",
     "slug": "kanak-lata-pendant-necklace",
     "metalType": "gold",
     "carat": "23K",
     "weight": "10.540g",
-    "occasion": [
-      "engagement",
-      "gifting"
-    ],
+    "occasion": ["daily-wear", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -217,10 +173,7 @@
     ],
     "sortOrder": 7,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "trending",
-      "lightweight"
-    ]
+    "tags": ["trending", "lightweight"]
   },
   {
     "id": "product-8",
@@ -228,16 +181,12 @@
     "category": "Necklace",
     "tagNumber": "#GH2",
     "image": "/images/products/necklace-8.jpg",
-    "badge": "Trending",
     "collection": "bridal",
     "slug": "svarnrekha-regal-collar-necklace",
     "metalType": "gold",
     "carat": "23K",
     "weight": "34.900g",
-    "occasion": [
-      "wedding",
-      "engagement"
-    ],
+    "occasion": ["wedding", "engagement"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -249,10 +198,7 @@
     ],
     "sortOrder": 8,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "trending",
-      "statement"
-    ]
+    "tags": ["trending", "statement"]
   },
   {
     "id": "product-9",
@@ -260,16 +206,12 @@
     "category": "Necklace",
     "tagNumber": "#GH73",
     "image": "/images/products/necklace-9.jpg",
-    "badge": "New",
     "collection": "festive",
     "slug": "meenakshi-floral-panel-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "12.950g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["festive", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -281,10 +223,7 @@
     ],
     "sortOrder": 9,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "meenakari"
-    ]
+    "tags": ["new", "meenakari"]
   },
   {
     "id": "product-10",
@@ -292,16 +231,12 @@
     "category": "Necklace",
     "tagNumber": "#GH162",
     "image": "/images/products/necklace-10.jpg",
-    "badge": "Bestseller",
     "collection": "heritage",
     "slug": "triveni-drop-motif-necklace",
     "metalType": "gold",
     "carat": "23K",
     "weight": "15.910g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -313,10 +248,7 @@
     ],
     "sortOrder": 10,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "bestseller",
-      "heritage"
-    ]
+    "tags": ["bestseller", "heritage"]
   },
   {
     "id": "product-11",
@@ -324,16 +256,12 @@
     "category": "Necklace",
     "tagNumber": "#GH134",
     "image": "/images/products/necklace-11.jpg",
-    "badge": "Trending",
     "collection": "festive",
     "slug": "morika-peacock-pendant-gol-haar",
     "metalType": "gold",
     "carat": "22K",
     "weight": "25.410g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -345,10 +273,8 @@
     ],
     "sortOrder": 11,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "trending",
-      "peacock"
-    ]
+    "tags": ["trending", "peacock"],
+    "badge": "Trending"
   },
   {
     "id": "product-12",
@@ -356,15 +282,12 @@
     "category": "Necklace",
     "tagNumber": "#GH62",
     "image": "/images/products/necklace-12.jpg",
-    "badge": "Bestseller",
     "collection": "bridal",
     "slug": "rajwanshi-layered-bridal-gol-haar",
     "metalType": "gold",
     "carat": "24K",
     "weight": "54.070g",
-    "occasion": [
-      "wedding"
-    ],
+    "occasion": ["wedding"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -376,10 +299,8 @@
     ],
     "sortOrder": 12,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "bridal",
-      "layered"
-    ]
+    "tags": ["bridal", "layered"],
+    "badge": "Bestseller"
   },
   {
     "id": "product-13",
@@ -387,16 +308,12 @@
     "category": "Necklace",
     "tagNumber": "#GH110",
     "image": "/images/products/necklace-13.jpg",
-    "badge": "New",
     "collection": "heritage",
     "slug": "padmika-floral-pendant-gol-haar",
     "metalType": "gold",
     "carat": "22K",
     "weight": "13.620g",
-    "occasion": [
-      "festive",
-      "gifting"
-    ],
+    "occasion": ["festive", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -408,10 +325,7 @@
     ],
     "sortOrder": 13,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "floral"
-    ]
+    "tags": ["new", "floral"]
   },
   {
     "id": "product-14",
@@ -419,16 +333,12 @@
     "category": "Necklace",
     "tagNumber": "#GH8",
     "image": "/images/products/necklace-14.jpg",
-    "badge": "Trending",
-    "collection": "festive",
+    "collection": "heritage",
     "slug": "kundan-floral-drop-heritage-gol-haar",
     "metalType": "gold",
     "carat": "22K",
     "weight": "20.590g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["festive", "wedding"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -440,10 +350,7 @@
     ],
     "sortOrder": 14,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "trending",
-      "kundan"
-    ]
+    "tags": ["trending", "kundan"]
   },
   {
     "id": "product-15",
@@ -451,16 +358,12 @@
     "category": "Necklace",
     "tagNumber": "#GH51",
     "image": "/images/products/necklace-15.jpg",
-    "badge": "New",
-    "collection": "daily-wear",
+    "collection": "festive",
     "slug": "surmayi-floral-drop-gol-haar",
     "metalType": "gold",
     "carat": "23K",
     "weight": "20.400g",
-    "occasion": [
-      "gifting",
-      "festive"
-    ],
+    "occasion": ["festive", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -472,10 +375,7 @@
     ],
     "sortOrder": 15,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "floral"
-    ]
+    "tags": ["new", "floral"]
   },
   {
     "id": "product-16",
@@ -483,16 +383,12 @@
     "category": "Necklace",
     "tagNumber": "#GH9",
     "image": "/images/products/necklace-16.jpg",
-    "badge": "Trending",
     "collection": "heritage",
     "slug": "rajsi-mesh-pendant-gol-haar",
     "metalType": "gold",
     "carat": "22K",
     "weight": "26.100g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -504,10 +400,7 @@
     ],
     "sortOrder": 16,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "trending",
-      "heritage"
-    ]
+    "tags": ["trending", "heritage"]
   },
   {
     "id": "product-17",
@@ -515,16 +408,12 @@
     "category": "Necklace",
     "tagNumber": "#GH156",
     "image": "/images/products/necklace-17.jpg",
-    "badge": "Trending",
     "collection": "festive",
     "slug": "kanak-vritta-jaali-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "16.080g",
-    "occasion": [
-      "festive",
-      "gifting"
-    ],
+    "occasion": ["festive", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -536,10 +425,7 @@
     ],
     "sortOrder": 17,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "trending",
-      "festive"
-    ]
+    "tags": ["trending", "festive"]
   },
   {
     "id": "product-18",
@@ -547,16 +433,12 @@
     "category": "Necklace",
     "tagNumber": "#GH3",
     "image": "/images/products/necklace-18.jpg",
-    "badge": "Bestseller",
     "collection": "bridal",
     "slug": "rajsi-mayur-kundan-drop-necklace",
     "metalType": "gold",
     "carat": "24K",
     "weight": "38.870g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -568,10 +450,8 @@
     ],
     "sortOrder": 18,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "bestseller",
-      "bridal"
-    ]
+    "tags": ["bestseller", "bridal"],
+    "badge": "Bestseller"
   },
   {
     "id": "product-19",
@@ -579,16 +459,12 @@
     "category": "Necklace",
     "tagNumber": "#GH160",
     "image": "/images/products/necklace-19.jpg",
-    "badge": "New",
     "collection": "daily-wear",
     "slug": "chandrika-floral-medallion-necklace",
     "metalType": "gold",
     "carat": "20K",
     "weight": "11.270g",
-    "occasion": [
-      "daily-wear",
-      "gifting"
-    ],
+    "occasion": ["daily-wear", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -600,10 +476,7 @@
     ],
     "sortOrder": 19,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "daily-wear"
-    ]
+    "tags": ["new", "daily-wear"]
   },
   {
     "id": "product-20",
@@ -611,16 +484,12 @@
     "category": "Necklace",
     "tagNumber": "#GH84",
     "image": "/images/products/necklace-20.jpg",
-    "badge": "Trending",
-    "collection": "festive",
+    "collection": "bridal",
     "slug": "chandrarekha-layered-drop-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "27.320g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["daily-wear", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -632,10 +501,7 @@
     ],
     "sortOrder": 20,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "trending",
-      "festive"
-    ]
+    "tags": ["trending", "festive"]
   },
   {
     "id": "product-21",
@@ -643,16 +509,12 @@
     "category": "Necklace",
     "tagNumber": "#GH39",
     "image": "/images/products/necklace-21.jpg",
-    "badge": "New",
     "collection": "daily-wear",
     "slug": "surya-mandala-drop-necklace",
     "metalType": "gold",
     "carat": "18K",
     "weight": "13.930g",
-    "occasion": [
-      "daily-wear",
-      "festive"
-    ],
+    "occasion": ["daily-wear", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -664,10 +526,7 @@
     ],
     "sortOrder": 21,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "daily-wear"
-    ]
+    "tags": ["new", "daily-wear"]
   },
   {
     "id": "product-22",
@@ -675,16 +534,12 @@
     "category": "Necklace",
     "tagNumber": "#GH41",
     "image": "/images/products/necklace-22.jpg",
-    "badge": "Trending",
     "collection": "festive",
     "slug": "pushpika-triple-chain-pendant-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "20.230g",
-    "occasion": [
-      "festive",
-      "gifting"
-    ],
+    "occasion": ["festive", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -696,10 +551,7 @@
     ],
     "sortOrder": 22,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "trending",
-      "festive"
-    ]
+    "tags": ["trending", "festive"]
   },
   {
     "id": "product-23",
@@ -707,16 +559,12 @@
     "category": "Necklace",
     "tagNumber": "#GH104",
     "image": "/images/products/necklace-23.jpg",
-    "badge": "New",
     "collection": "daily-wear",
     "slug": "teardrop-nakshi-pendant-necklace",
     "metalType": "gold",
     "carat": "23K",
     "weight": "12.590g",
-    "occasion": [
-      "daily-wear",
-      "gifting"
-    ],
+    "occasion": ["daily-wear", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -728,10 +576,7 @@
     ],
     "sortOrder": 23,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "daily-wear"
-    ]
+    "tags": ["new", "daily-wear"]
   },
   {
     "id": "product-24",
@@ -739,16 +584,12 @@
     "category": "Necklace",
     "tagNumber": "#GH53",
     "image": "/images/products/necklace-24.jpg",
-    "badge": "New",
     "collection": "daily-wear",
     "slug": "vamika-round-nakshi-drop-necklace",
     "metalType": "gold",
     "carat": "18K",
     "weight": "11.000g",
-    "occasion": [
-      "daily-wear",
-      "gifting"
-    ],
+    "occasion": ["daily-wear", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -760,10 +601,7 @@
     ],
     "sortOrder": 24,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "daily-wear"
-    ]
+    "tags": ["new", "daily-wear"]
   },
   {
     "id": "product-25",
@@ -771,16 +609,12 @@
     "category": "Necklace",
     "tagNumber": "#GH37",
     "image": "/images/products/necklace-25.jpg",
-    "badge": "New",
     "collection": "daily-wear",
     "slug": "ruchira-floral-drop-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "9.060g",
-    "occasion": [
-      "daily-wear",
-      "gifting"
-    ],
+    "occasion": ["daily-wear", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -792,10 +626,7 @@
     ],
     "sortOrder": 25,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "new",
-      "daily-wear"
-    ]
+    "tags": ["new", "daily-wear"]
   },
   {
     "id": "product-26",
@@ -803,16 +634,12 @@
     "category": "Necklace",
     "tagNumber": "#GH46",
     "image": "/images/products/necklace-26.jpg",
-    "badge": "Bestseller",
     "collection": "heritage",
     "slug": "royal-kundan-floral-pendant-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "19.790g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -824,10 +651,7 @@
     ],
     "sortOrder": 26,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "bestseller",
-      "heritage"
-    ]
+    "tags": ["bestseller", "heritage"]
   },
   {
     "id": "product-27",
@@ -835,16 +659,12 @@
     "category": "Necklace",
     "tagNumber": "#GH163",
     "image": "/images/products/necklace-27.jpg",
-    "badge": "Trending",
     "collection": "festive",
     "slug": "padmika-meenakari-pendant-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "21.090g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["festive", "wedding"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -856,10 +676,7 @@
     ],
     "sortOrder": 27,
     "dateAdded": "2026-03-27",
-    "tags": [
-      "trending",
-      "festive"
-    ]
+    "tags": ["trending", "festive"]
   },
   {
     "id": "product-28",
@@ -867,16 +684,12 @@
     "category": "Necklace",
     "tagNumber": "#GH132",
     "image": "/images/products/necklace-28.jpg",
-    "badge": "New",
     "collection": "daily-wear",
     "slug": "triveni-leaf-grace-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "18.270g",
-    "occasion": [
-      "daily-wear",
-      "gifting"
-    ],
+    "occasion": ["daily-wear", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -888,10 +701,7 @@
     ],
     "sortOrder": 28,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "new",
-      "daily-wear"
-    ]
+    "tags": ["new", "daily-wear"]
   },
   {
     "id": "product-29",
@@ -899,16 +709,12 @@
     "category": "Necklace",
     "tagNumber": "#GH20",
     "image": "/images/products/necklace-29.jpg",
-    "badge": "New",
     "collection": "daily-wear",
     "slug": "vanshika-fringe-drop-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "7.030g",
-    "occasion": [
-      "daily-wear",
-      "gifting"
-    ],
+    "occasion": ["daily-wear", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -920,10 +726,7 @@
     ],
     "sortOrder": 29,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "new",
-      "daily-wear"
-    ]
+    "tags": ["new", "daily-wear"]
   },
   {
     "id": "product-30",
@@ -931,16 +734,12 @@
     "category": "Necklace",
     "tagNumber": "#GH164",
     "image": "/images/products/necklace-30.jpg",
-    "badge": "Trending",
-    "collection": "festive",
+    "collection": "heritage",
     "slug": "aarvika-temple-crest-necklace",
     "metalType": "gold",
     "carat": "24K",
     "weight": "15.570g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["festive", "wedding"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -952,10 +751,7 @@
     ],
     "sortOrder": 30,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "trending",
-      "festive"
-    ]
+    "tags": ["trending", "festive"]
   },
   {
     "id": "product-31",
@@ -963,16 +759,12 @@
     "category": "Necklace",
     "tagNumber": "#GH11",
     "image": "/images/products/necklace-31.jpg",
-    "badge": "Bestseller",
     "collection": "festive",
     "slug": "devanshi-floral-pendant-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "20.600g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["festive", "wedding"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -984,10 +776,7 @@
     ],
     "sortOrder": 31,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "bestseller",
-      "festive"
-    ]
+    "tags": ["bestseller", "festive"]
   },
   {
     "id": "product-32",
@@ -995,16 +784,12 @@
     "category": "Necklace",
     "tagNumber": "#GH54",
     "image": "/images/products/necklace-32.jpg",
-    "badge": "Trending",
     "collection": "heritage",
     "slug": "linear-cascade-collar-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "30.380g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1016,10 +801,8 @@
     ],
     "sortOrder": 32,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "trending",
-      "heritage"
-    ]
+    "tags": ["trending", "heritage"],
+    "badge": "New"
   },
   {
     "id": "product-33",
@@ -1027,16 +810,12 @@
     "category": "Necklace",
     "tagNumber": "#GH150",
     "image": "/images/products/necklace-33.jpg",
-    "badge": "New",
     "collection": "festive",
     "slug": "heart-motif-drop-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "13.920g",
-    "occasion": [
-      "festive",
-      "gifting"
-    ],
+    "occasion": ["engagement", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1048,10 +827,7 @@
     ],
     "sortOrder": 33,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "new",
-      "festive"
-    ]
+    "tags": ["new", "festive"]
   },
   {
     "id": "product-34",
@@ -1059,15 +835,12 @@
     "category": "Necklace",
     "tagNumber": "#GH161",
     "image": "/images/products/necklace-34.jpg",
-    "badge": "New",
     "collection": "heritage",
     "slug": "rajsi-filigree-chandrika-haar",
     "metalType": "gold",
     "carat": "23K",
     "weight": "12.470g",
-    "occasion": [
-      "festive"
-    ],
+    "occasion": ["festive", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1079,11 +852,7 @@
     ],
     "sortOrder": 34,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "heritage",
-      "filigree",
-      "festive"
-    ]
+    "tags": ["heritage", "filigree", "festive"]
   },
   {
     "id": "product-35",
@@ -1091,16 +860,12 @@
     "category": "Necklace",
     "tagNumber": "#GH129",
     "image": "/images/products/necklace-35.jpg",
-    "badge": "Trending",
-    "collection": "festive",
+    "collection": "heritage",
     "slug": "surya-tilak-antique-cascade-haar",
     "metalType": "gold",
     "carat": "20K",
     "weight": "9.750g",
-    "occasion": [
-      "festive",
-      "daily-wear"
-    ],
+    "occasion": ["festive", "daily-wear"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1112,11 +877,7 @@
     ],
     "sortOrder": 35,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "antique",
-      "cascade",
-      "festive"
-    ]
+    "tags": ["antique", "cascade", "festive"]
   },
   {
     "id": "product-36",
@@ -1124,16 +885,12 @@
     "category": "Necklace",
     "tagNumber": "#GH29",
     "image": "/images/products/necklace-36.jpg",
-    "badge": "Bestseller",
-    "collection": "daily-wear",
+    "collection": "festive",
     "slug": "pushp-raga-elegance-drop-haar",
     "metalType": "gold",
     "carat": "22K",
     "weight": "14.360g",
-    "occasion": [
-      "engagement",
-      "festive"
-    ],
+    "occasion": ["festive", "engagement"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1145,11 +902,7 @@
     ],
     "sortOrder": 36,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "floral",
-      "elegant",
-      "lightweight"
-    ]
+    "tags": ["floral", "elegant", "lightweight"]
   },
   {
     "id": "product-37",
@@ -1157,16 +910,12 @@
     "category": "Necklace",
     "tagNumber": "#GH87",
     "image": "/images/products/necklace-37.jpg",
-    "badge": "New",
     "collection": "heritage",
     "slug": "meenakari-mayur-pendant-haar",
     "metalType": "gold",
     "carat": "22K",
     "weight": "16.860g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["festive", "wedding"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1178,11 +927,7 @@
     ],
     "sortOrder": 37,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "meenakari",
-      "peacock",
-      "heritage"
-    ]
+    "tags": ["meenakari", "peacock", "heritage"]
   },
   {
     "id": "product-38",
@@ -1190,16 +935,12 @@
     "category": "Necklace",
     "tagNumber": "#GH50",
     "image": "/images/products/necklace-38.jpg",
-    "badge": "Trending",
-    "collection": "bridal",
+    "collection": "heritage",
     "slug": "rajlaxmi-jaal-drop-heritage-haar",
     "metalType": "gold",
     "carat": "23K",
     "weight": "14.590g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1211,11 +952,7 @@
     ],
     "sortOrder": 38,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "jaal",
-      "heritage",
-      "bridal"
-    ]
+    "tags": ["jaal", "heritage", "bridal"]
   },
   {
     "id": "product-39",
@@ -1223,16 +960,12 @@
     "category": "Necklace",
     "tagNumber": "#GH24",
     "image": "/images/products/necklace-39.jpg",
-    "badge": "New",
     "collection": "heritage",
     "slug": "devi-pratima-antique-pendant-haar",
     "metalType": "gold",
     "carat": "22K",
     "weight": "18.730g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1244,11 +977,7 @@
     ],
     "sortOrder": 39,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "temple",
-      "antique",
-      "heritage"
-    ]
+    "tags": ["temple", "antique", "heritage"]
   },
   {
     "id": "product-40",
@@ -1256,16 +985,12 @@
     "category": "Necklace",
     "tagNumber": "#GH22",
     "image": "/images/products/necklace-40.jpg",
-    "badge": "Trending",
-    "collection": "festive",
+    "collection": "heritage",
     "slug": "rajsi-jaal-latkan-haar",
     "metalType": "gold",
     "carat": "22K",
     "weight": "17.420g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1277,11 +1002,7 @@
     ],
     "sortOrder": 40,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "jaal",
-      "latkan",
-      "festive"
-    ]
+    "tags": ["jaal", "latkan", "festive"]
   },
   {
     "id": "product-41",
@@ -1289,16 +1010,12 @@
     "category": "Necklace",
     "tagNumber": "#GH77",
     "image": "/images/products/necklace-41.jpg",
-    "badge": "Bestseller",
     "collection": "bridal",
     "slug": "elegant-kundan-floral-pendant-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "14.733g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1310,11 +1027,7 @@
     ],
     "sortOrder": 41,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "kundan",
-      "floral",
-      "pendant"
-    ]
+    "tags": ["kundan", "floral", "pendant"]
   },
   {
     "id": "product-42",
@@ -1322,16 +1035,12 @@
     "category": "Necklace",
     "tagNumber": "#GH109",
     "image": "/images/products/necklace-42.jpg",
-    "badge": "New",
     "collection": "daily-wear",
     "slug": "classic-floral-gold-pendant-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "11.370g",
-    "occasion": [
-      "daily-wear",
-      "gifting"
-    ],
+    "occasion": ["daily-wear", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1343,11 +1052,7 @@
     ],
     "sortOrder": 42,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "floral",
-      "dailywear",
-      "lightweight"
-    ]
+    "tags": ["floral", "dailywear", "lightweight"]
   },
   {
     "id": "product-43",
@@ -1355,16 +1060,12 @@
     "category": "Necklace",
     "tagNumber": "#GH80",
     "image": "/images/products/necklace-43.jpg",
-    "badge": "Trending",
     "collection": "heritage",
     "slug": "royal-peacock-medallion-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "16.450g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["festive", "wedding"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1376,11 +1077,7 @@
     ],
     "sortOrder": 43,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "peacock",
-      "heritage",
-      "festive"
-    ]
+    "tags": ["peacock", "heritage", "festive"]
   },
   {
     "id": "product-44",
@@ -1388,16 +1085,12 @@
     "category": "Necklace",
     "tagNumber": "#GH79",
     "image": "/images/products/necklace-44.jpg",
-    "badge": "Trending",
     "collection": "festive",
     "slug": "regal-layered-gold-choker-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "19.120g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["festive", "wedding"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1409,11 +1102,7 @@
     ],
     "sortOrder": 44,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "layered",
-      "heritage",
-      "festive"
-    ]
+    "tags": ["layered", "heritage", "festive"]
   },
   {
     "id": "product-45",
@@ -1421,16 +1110,12 @@
     "category": "Necklace",
     "tagNumber": "#GH12",
     "image": "/images/products/necklace-45.jpg",
-    "badge": "Bestseller",
     "collection": "bridal",
     "slug": "grand-filigree-bridal-statement-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "34.920g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1442,11 +1127,7 @@
     ],
     "sortOrder": 45,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "bridal",
-      "statement",
-      "heritage"
-    ]
+    "tags": ["bridal", "statement", "heritage"]
   },
   {
     "id": "product-46",
@@ -1454,16 +1135,12 @@
     "category": "Necklace",
     "tagNumber": "#GH136",
     "image": "/images/products/necklace-46.jpg",
-    "badge": "Trending",
     "collection": "festive",
     "slug": "floral-radiance-gold-statement-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "14.870g",
-    "occasion": [
-      "festive",
-      "engagement"
-    ],
+    "occasion": ["festive", "engagement"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1475,11 +1152,7 @@
     ],
     "sortOrder": 46,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "floral",
-      "festive",
-      "lightweight"
-    ]
+    "tags": ["floral", "festive", "lightweight"]
   },
   {
     "id": "product-47",
@@ -1487,16 +1160,12 @@
     "category": "Necklace",
     "tagNumber": "#GH10",
     "image": "/images/products/necklace-47.jpg",
-    "badge": "New",
     "collection": "daily-wear",
     "slug": "floral-crest-gold-necklace",
     "metalType": "gold",
     "carat": "20K",
     "weight": "18.710g",
-    "occasion": [
-      "daily-wear",
-      "gifting"
-    ],
+    "occasion": ["daily-wear", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1508,11 +1177,7 @@
     ],
     "sortOrder": 47,
     "dateAdded": "2026-03-28",
-    "tags": [
-      "floral",
-      "elegant",
-      "lightweight"
-    ]
+    "tags": ["floral", "elegant", "lightweight"]
   },
   {
     "id": "product-48",
@@ -1520,16 +1185,12 @@
     "category": "Necklace",
     "tagNumber": "#GH107",
     "image": "/images/products/necklace-48.jpg",
-    "badge": "New",
     "collection": "festive",
     "slug": "rajsi-lata-drop-necklace",
     "metalType": "gold",
     "carat": "23K",
     "weight": "13.120g",
-    "occasion": [
-      "festive",
-      "gifting"
-    ],
+    "occasion": ["festive", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1541,10 +1202,7 @@
     ],
     "sortOrder": 48,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "new",
-      "festive"
-    ]
+    "tags": ["new", "festive"]
   },
   {
     "id": "product-49",
@@ -1552,16 +1210,12 @@
     "category": "Necklace",
     "tagNumber": "#GH6",
     "image": "/images/products/necklace-49.jpg",
-    "badge": "Trending",
     "collection": "heritage",
     "slug": "chandrika-veil-drop-necklace",
     "metalType": "gold",
     "carat": "24K",
     "weight": "16.120g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1573,10 +1227,7 @@
     ],
     "sortOrder": 49,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "trending",
-      "heritage"
-    ]
+    "tags": ["trending", "heritage"]
   },
   {
     "id": "product-50",
@@ -1584,16 +1235,12 @@
     "category": "Necklace",
     "tagNumber": "#GH31",
     "image": "/images/products/necklace-50.jpg",
-    "badge": "Bestseller",
     "collection": "bridal",
     "slug": "mayura-veena-heritage-necklace",
     "metalType": "gold",
     "carat": "24K",
     "weight": "16.520g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1605,10 +1252,7 @@
     ],
     "sortOrder": 50,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "bestseller",
-      "bridal"
-    ]
+    "tags": ["bestseller", "bridal"]
   },
   {
     "id": "product-51",
@@ -1616,16 +1260,12 @@
     "category": "Necklace",
     "tagNumber": "#GH86",
     "image": "/images/products/necklace-51.jpg",
-    "badge": "New",
-    "collection": "festive",
+    "collection": "bridal",
     "slug": "padma-valli-cascade-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "29.390g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1637,10 +1277,8 @@
     ],
     "sortOrder": 51,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "new",
-      "festive"
-    ]
+    "tags": ["new", "festive"],
+    "badge": "New"
   },
   {
     "id": "product-52",
@@ -1648,16 +1286,12 @@
     "category": "Necklace",
     "tagNumber": "#GH142",
     "image": "/images/products/necklace-52.jpg",
-    "badge": "Trending",
-    "collection": "daily-wear",
+    "collection": "heritage",
     "slug": "mrinalini-crest-pendant-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "21.550g",
-    "occasion": [
-      "gifting",
-      "daily-wear"
-    ],
+    "occasion": ["festive", "wedding"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1669,10 +1303,7 @@
     ],
     "sortOrder": 52,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "trending",
-      "daily"
-    ]
+    "tags": ["trending", "daily"]
   },
   {
     "id": "product-53",
@@ -1680,16 +1311,12 @@
     "category": "Necklace",
     "tagNumber": "#GH133",
     "image": "/images/products/necklace-53.jpg",
-    "badge": "Trending",
     "collection": "festive",
     "slug": "surya-pushpa-cascade-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "24.970g",
-    "occasion": [
-      "festive",
-      "wedding"
-    ],
+    "occasion": ["festive", "wedding"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1701,10 +1328,7 @@
     ],
     "sortOrder": 53,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "trending",
-      "festive"
-    ]
+    "tags": ["trending", "festive"]
   },
   {
     "id": "product-54",
@@ -1712,16 +1336,12 @@
     "category": "Necklace",
     "tagNumber": "#GH34",
     "image": "/images/products/necklace-54.jpg",
-    "badge": "New",
     "collection": "heritage",
     "slug": "raktika-floral-crest-necklace",
     "metalType": "gold",
     "carat": "24K",
     "weight": "17.590g",
-    "occasion": [
-      "festive",
-      "engagement"
-    ],
+    "occasion": ["festive", "engagement"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1733,10 +1353,7 @@
     ],
     "sortOrder": 54,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "new",
-      "heritage"
-    ]
+    "tags": ["new", "heritage"]
   },
   {
     "id": "product-55",
@@ -1744,16 +1361,12 @@
     "category": "Necklace",
     "tagNumber": "#GH135",
     "image": "/images/products/necklace-55.jpg",
-    "badge": "Trending",
     "collection": "heritage",
     "slug": "vamika-mayur-crest-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "23.480g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1765,10 +1378,7 @@
     ],
     "sortOrder": 55,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "trending",
-      "heritage"
-    ]
+    "tags": ["trending", "heritage"]
   },
   {
     "id": "product-56",
@@ -1776,16 +1386,12 @@
     "category": "Necklace",
     "tagNumber": "#GH131",
     "image": "/images/products/necklace-56.jpg",
-    "badge": "Bestseller",
     "collection": "bridal",
     "slug": "padmavalli-heritage-cascade-necklace",
     "metalType": "gold",
     "carat": "24K",
     "weight": "29.580g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1797,10 +1403,7 @@
     ],
     "sortOrder": 56,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "bestseller",
-      "bridal"
-    ]
+    "tags": ["bestseller", "bridal"]
   },
   {
     "id": "product-57",
@@ -1808,16 +1411,12 @@
     "category": "Necklace",
     "tagNumber": "#GH1",
     "image": "/images/products/necklace-57.jpg",
-    "badge": "Trending",
     "collection": "heritage",
     "slug": "rajvanshi-surya-haar-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "37.270g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1829,10 +1428,7 @@
     ],
     "sortOrder": 57,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "trending",
-      "heritage"
-    ]
+    "tags": ["trending", "heritage"]
   },
   {
     "id": "product-58",
@@ -1840,16 +1436,12 @@
     "category": "Necklace",
     "tagNumber": "#GH43",
     "image": "/images/products/necklace-58.jpg",
-    "badge": "New",
     "collection": "festive",
     "slug": "mrinalini-antique-drop-necklace",
     "metalType": "gold",
     "carat": "24K",
     "weight": "17.850g",
-    "occasion": [
-      "festive",
-      "gifting"
-    ],
+    "occasion": ["festive", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1861,10 +1453,7 @@
     ],
     "sortOrder": 58,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "new",
-      "festive"
-    ]
+    "tags": ["new", "festive"]
   },
   {
     "id": "product-59",
@@ -1872,16 +1461,12 @@
     "category": "Necklace",
     "tagNumber": "#GH106",
     "image": "/images/products/necklace-59.jpg",
-    "badge": "Trending",
     "collection": "festive",
     "slug": "rajpushpa-filigree-drop-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "13.480g",
-    "occasion": [
-      "festive",
-      "gifting"
-    ],
+    "occasion": ["festive", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1893,10 +1478,7 @@
     ],
     "sortOrder": 59,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "trending",
-      "festive"
-    ]
+    "tags": ["trending", "festive"]
   },
   {
     "id": "product-60",
@@ -1904,15 +1486,12 @@
     "category": "Necklace",
     "tagNumber": "#GH81",
     "image": "/images/products/necklace-60.jpg",
-    "badge": "New",
     "collection": "heritage",
     "slug": "rajvrit-coin-drop-necklace",
     "metalType": "gold",
     "carat": "22K",
     "weight": "21.280g",
-    "occasion": [
-      "festive"
-    ],
+    "occasion": ["festive", "wedding"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1924,10 +1503,7 @@
     ],
     "sortOrder": 60,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "new",
-      "heritage"
-    ]
+    "tags": ["new", "heritage"]
   },
   {
     "id": "product-61",
@@ -1935,16 +1511,12 @@
     "category": "Necklace",
     "tagNumber": "#GH28",
     "image": "/images/products/necklace-61.jpg",
-    "badge": "Trending",
-    "collection": "festive",
+    "collection": "heritage",
     "slug": "hridaya-tilak-gold-necklace",
     "metalType": "gold",
     "carat": "23K",
     "weight": "20.820g",
-    "occasion": [
-      "festive",
-      "gifting"
-    ],
+    "occasion": ["festive", "gifting"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1956,10 +1528,7 @@
     ],
     "sortOrder": 61,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "trending",
-      "festive"
-    ]
+    "tags": ["trending", "festive"]
   },
   {
     "id": "product-62",
@@ -1967,16 +1536,12 @@
     "category": "Necklace",
     "tagNumber": "#GH32",
     "image": "/images/products/necklace-62.jpg",
-    "badge": "Bestseller",
     "collection": "bridal",
     "slug": "devanshi-layered-drape-necklace",
     "metalType": "gold",
     "carat": "23K",
     "weight": "20.130g",
-    "occasion": [
-      "wedding",
-      "festive"
-    ],
+    "occasion": ["wedding", "festive"],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1988,9 +1553,837 @@
     ],
     "sortOrder": 62,
     "dateAdded": "2026-03-29",
-    "tags": [
-      "bestseller",
-      "bridal"
-    ]
+    "tags": ["bestseller", "bridal"]
+  },
+  {
+    "id": "product-63",
+    "name": "Meenakari Vine Elegance Bangle",
+    "category": "Bangle",
+    "tagNumber": "#GCI28",
+    "image": "/images/products/bangle-63.jpg",
+    "collection": "festive",
+    "slug": "meenakari-vine-elegance-bangle",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "24.790g",
+    "occasion": ["festive", "gifting"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "Graceful 22K gold bangles featuring intricate meenakari vine patterns with subtle green enamel detailing. A perfect blend of traditional artistry and modern elegance, ideal for festive wear and special occasions.",
+    "images": [
+      "/images/products/bangle-63.jpg",
+      "/images/products/bangle-63-2.jpg",
+      "/images/products/bangle-63-3.jpg"
+    ],
+    "sortOrder": 63,
+    "dateAdded": "2026-03-29",
+    "tags": ["trending", "festive"]
+  },
+  {
+    "id": "product-64",
+    "name": "Tricolor Meenakari Beadline Bangle",
+    "category": "Bangle",
+    "tagNumber": "#GCI23",
+    "image": "/images/products/bangle-64.jpg",
+    "collection": "daily-wear",
+    "slug": "tricolor-meenakari-beadline-bangle",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "20.150g",
+    "occasion": ["daily-wear", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "Elegant 22K gold bangles featuring fine beadline detailing with subtle tricolor meenakari accents. Designed for everyday grace with a touch of traditional charm, perfect for both daily wear and light festive styling.",
+    "images": [
+      "/images/products/bangle-64.jpg",
+      "/images/products/bangle-64-2.jpg",
+      "/images/products/bangle-64-3.jpg"
+    ],
+    "sortOrder": 64,
+    "dateAdded": "2026-03-29",
+    "tags": ["trending", "lightweight", "meenakari"]
+  },
+  {
+    "id": "product-65",
+    "name": "Gulnaar Meenakari Leaf Gold Bangle",
+    "category": "Bangle",
+    "tagNumber": "#GCI61",
+    "image": "/images/products/bangle-65.jpg",
+    "collection": "festive",
+    "slug": "gulnaar-meenakari-leaf-gold-bangle",
+    "metalType": "gold",
+    "carat": "20K",
+    "weight": "15.970g",
+    "occasion": ["festive", "gifting"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A graceful gold bangle adorned with delicate leaf motifs and rich red meenakari accents. Its lightweight design blends traditional artistry with modern elegance, making it perfect for festive wear and thoughtful gifting.",
+    "images": [
+      "/images/products/bangle-65.jpg",
+      "/images/products/bangle-65-2.jpg",
+      "/images/products/bangle-65-3.jpg"
+    ],
+    "sortOrder": 65,
+    "dateAdded": "2026-03-29",
+    "tags": ["new", "meenakari", "lightweight"]
+  },
+  {
+    "id": "product-66",
+    "name": "Pushpank Floral Texture Gold Bangle",
+    "category": "Bangle",
+    "tagNumber": "#GCI80",
+    "image": "/images/products/bangle-66.jpg",
+    "collection": "heritage",
+    "slug": "pushpank-floral-texture-gold-bangle",
+    "metalType": "gold",
+    "carat": "24K",
+    "weight": "20.030g",
+    "occasion": ["wedding", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A richly crafted gold bangle featuring intricate floral texture patterns with a classic embossed finish. Its bold 24K gold presence and detailed artistry make it a perfect choice for wedding and festive occasions.",
+    "images": [
+      "/images/products/bangle-66.jpg",
+      "/images/products/bangle-66-2.jpg",
+      "/images/products/bangle-66-3.jpg"
+    ],
+    "sortOrder": 66,
+    "dateAdded": "2026-03-29",
+    "tags": ["bestseller", "floral", "heritage"]
+  },
+  {
+    "id": "product-67",
+    "name": "Rangpushp Meenakari Floral Gold Bangle",
+    "category": "Bangle",
+    "tagNumber": "#GCI75",
+    "image": "/images/products/bangle-67.jpg",
+    "collection": "festive",
+    "slug": "rangpushp-meenakari-floral-gold-bangle",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "14.790g",
+    "occasion": ["festive", "gifting"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A beautifully crafted gold bangle featuring vibrant meenakari floral motifs with delicate embossed detailing. Its lightweight feel and colorful design make it an ideal choice for festive wear and elegant gifting.",
+    "images": [
+      "/images/products/bangle-67.jpg",
+      "/images/products/bangle-67-2.jpg",
+      "/images/products/bangle-67-3.jpg"
+    ],
+    "sortOrder": 67,
+    "dateAdded": "2026-03-29",
+    "tags": ["trending", "meenakari", "floral"]
+  },
+  {
+    "id": "product-68",
+    "name": "Suvarn Rekha Classic Embossed Gold Bangle",
+    "category": "Bangle",
+    "tagNumber": "#GCI65",
+    "image": "/images/products/bangle-68.jpg",
+    "collection": "daily-wear",
+    "slug": "suvarn-rekha-classic-embossed-gold-bangle",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "28.960g",
+    "occasion": ["daily-wear", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A bold and refined gold bangle featuring structured embossed lines with subtle red enamel accents and central dome detailing. Its solid weight and timeless design make it perfect for everyday elegance with a touch of tradition.",
+    "images": [
+      "/images/products/bangle-68.jpg",
+      "/images/products/bangle-68-2.jpg",
+      "/images/products/bangle-68-3.jpg"
+    ],
+    "sortOrder": 68,
+    "dateAdded": "2026-03-29",
+    "tags": ["bestseller", "classic", "embossed"]
+  },
+  {
+    "id": "product-69",
+    "name": "Mayur Lata Textured Gold Bangle",
+    "category": "Bangle",
+    "tagNumber": "#GCI31",
+    "image": "/images/products/bangle-69.jpg",
+    "collection": "heritage",
+    "slug": "mayur-lata-textured-gold-bangle",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "37.070g",
+    "occasion": ["wedding", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "An exquisite gold bangle showcasing fine textured lines with elegant peacock-inspired meenakari motifs and traditional spiral detailing. Its rich weight and heritage design make it a perfect statement piece for grand occasions.",
+    "images": [
+      "/images/products/bangle-69.jpg",
+      "/images/products/bangle-69-2.jpg",
+      "/images/products/bangle-69-3.jpg"
+    ],
+    "sortOrder": 69,
+    "dateAdded": "2026-03-29",
+    "tags": ["trending", "heritage", "meenakari"]
+  },
+  {
+    "id": "product-70",
+    "name": "Hridaya Rekha Meenakari Gold Bangle",
+    "category": "Bangle",
+    "tagNumber": "#GCI51",
+    "image": "/images/products/bangle-70.jpg",
+    "collection": "festive",
+    "slug": "hridaya-rekha-meenakari-gold-bangle",
+    "metalType": "gold",
+    "carat": "23K",
+    "weight": "30.870g",
+    "occasion": ["festive", "gifting"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A beautifully crafted gold bangle featuring delicate engraved lines paired with heart-shaped meenakari accents. The textured finish and elegant detailing make it an ideal choice for festive wear and thoughtful gifting.",
+    "images": [
+      "/images/products/bangle-70.jpg",
+      "/images/products/bangle-70-2.jpg",
+      "/images/products/bangle-70-3.jpg"
+    ],
+    "sortOrder": 70,
+    "dateAdded": "2026-03-29",
+    "tags": ["new", "meenakari", "festive"],
+    "badge": "New"
+  },
+  {
+    "id": "product-71",
+    "name": "Rajvaansh Layered Texture Gold Bangle",
+    "category": "Bangle",
+    "tagNumber": "#GCI21",
+    "image": "/images/products/bangle-71.jpg",
+    "collection": "heritage",
+    "slug": "rajvaansh-layered-texture-gold-bangle",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "36.890g",
+    "occasion": ["wedding", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A richly layered gold bangle featuring intricate textured detailing and bold ribbed patterns, inspired by traditional royal craftsmanship. Its structured design offers a perfect blend of heritage elegance and modern grandeur.",
+    "images": [
+      "/images/products/bangle-71.jpg",
+      "/images/products/bangle-71-2.jpg",
+      "/images/products/bangle-71-3.jpg"
+    ],
+    "sortOrder": 71,
+    "dateAdded": "2026-03-29",
+    "tags": ["trending", "heritage", "statement"]
+  },
+  {
+    "id": "product-72",
+    "name": "Meenakari Heritage Loop Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI17",
+    "image": "/images/products/bangle-72.jpg",
+    "collection": "heritage",
+    "slug": "meenakari-heritage-loop-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "28.230g",
+    "occasion": ["festive", "wedding"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A beautifully crafted gold kangan featuring intricate meenakari accents and loop motifs, blending traditional charm with a bold festive appeal.",
+    "images": [
+      "/images/products/bangle-72.jpg",
+      "/images/products/bangle-72-2.jpg",
+      "/images/products/bangle-72-3.jpg"
+    ],
+    "sortOrder": 72,
+    "dateAdded": "2026-03-30",
+    "tags": ["meenakari", "heritage"]
+  },
+  {
+    "id": "product-73",
+    "name": "Pushp Rekha Meenakari Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI20",
+    "image": "/images/products/bangle-73.jpg",
+    "collection": "festive",
+    "slug": "pushp-rekha-meenakari-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "35.690g",
+    "occasion": ["wedding", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "An elegant gold kangan featuring detailed floral meenakari motifs set within sleek structured bands, offering a perfect blend of traditional artistry and bold statement design.",
+    "images": [
+      "/images/products/bangle-73.jpg",
+      "/images/products/bangle-73-2.jpg",
+      "/images/products/bangle-73-3.jpg"
+    ],
+    "sortOrder": 73,
+    "dateAdded": "2026-03-30",
+    "tags": ["meenakari", "floral", "bestseller"]
+  },
+  {
+    "id": "product-74",
+    "name": "Hridaya Meenakari Gold Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI2",
+    "image": "/images/products/bangle-74.jpg",
+    "collection": "festive",
+    "slug": "hridaya-meenakari-gold-kangan",
+    "metalType": "gold",
+    "carat": "20K",
+    "weight": "18.460g",
+    "occasion": ["festive", "gifting"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A beautifully crafted gold kangan featuring delicate heart-shaped meenakari accents and fine textured patterns, perfect for adding a touch of elegance to festive and everyday looks.",
+    "images": [
+      "/images/products/bangle-74.jpg",
+      "/images/products/bangle-74-2.jpg",
+      "/images/products/bangle-74-3.jpg"
+    ],
+    "sortOrder": 74,
+    "dateAdded": "2026-03-31",
+    "tags": ["trending", "meenakari"]
+  },
+  {
+    "id": "product-75",
+    "name": "Ratnangi Meenakari Gold Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI55",
+    "image": "/images/products/bangle-75.jpg",
+    "collection": "heritage",
+    "slug": "ratnangi-meenakari-gold-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "18.200g",
+    "occasion": ["festive", "wedding"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "An elegant gold kangan adorned with rich meenakari teardrop motifs and intricate textured patterns, reflecting timeless heritage craftsmanship with a modern touch.",
+    "images": [
+      "/images/products/bangle-75.jpg",
+      "/images/products/bangle-75-2.jpg",
+      "/images/products/bangle-75-3.jpg"
+    ],
+    "sortOrder": 75,
+    "dateAdded": "2026-03-31",
+    "tags": ["bestseller", "meenakari", "heritage"]
+  },
+  {
+    "id": "product-76",
+    "name": "Zigvara Meenakari Gold Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI13",
+    "image": "/images/products/bangle-76.jpg",
+    "collection": "daily-wear",
+    "slug": "zigvara-meenakari-gold-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "29.880g",
+    "occasion": ["daily-wear", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A striking gold kangan featuring bold zigzag meenakari patterns with textured detailing, crafted for those who love a blend of contemporary style and traditional artistry.",
+    "images": [
+      "/images/products/bangle-76.jpg",
+      "/images/products/bangle-76-2.jpg",
+      "/images/products/bangle-76-3.jpg"
+    ],
+    "sortOrder": 76,
+    "dateAdded": "2026-03-31",
+    "tags": ["new", "meenakari", "geometric"]
+  },
+  {
+    "id": "product-77",
+    "name": "Mridula Meenakari Gold Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI42",
+    "image": "/images/products/bangle-77.jpg",
+    "collection": "festive",
+    "slug": "mridula-meenakari-gold-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "25.660g",
+    "occasion": ["festive", "gifting"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A graceful gold kangan featuring soft curved meenakari motifs with finely textured detailing, offering a perfect blend of elegance and traditional charm for festive occasions.",
+    "images": [
+      "/images/products/bangle-77.jpg",
+      "/images/products/bangle-77-2.jpg",
+      "/images/products/bangle-77-3.jpg"
+    ],
+    "sortOrder": 77,
+    "dateAdded": "2026-03-31",
+    "tags": ["new", "meenakari", "elegant"]
+  },
+  {
+    "id": "product-78",
+    "name": "Mayura Meenakari Gold Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI44",
+    "image": "/images/products/bangle-78.jpg",
+    "collection": "heritage",
+    "slug": "mayura-meenakari-gold-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "28.360g",
+    "occasion": ["wedding", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A distinctive gold kangan featuring elegant peacock-inspired meenakari motifs with fine textured detailing, blending royal heritage design with modern sophistication.",
+    "images": [
+      "/images/products/bangle-78.jpg",
+      "/images/products/bangle-78-2.jpg",
+      "/images/products/bangle-78-3.jpg"
+    ],
+    "sortOrder": 78,
+    "dateAdded": "2026-03-31",
+    "tags": ["trending", "meenakari", "peacock"]
+  },
+  {
+    "id": "product-79",
+    "name": "Rangtara Meenakari Classic Bangles",
+    "category": "Bangle",
+    "tagNumber": "#GCI3",
+    "image": "/images/products/bangle-79.jpg",
+    "collection": "festive",
+    "slug": "rangtara-meenakari-classic-bangles",
+    "metalType": "gold",
+    "carat": "23K",
+    "weight": "19.910g",
+    "occasion": ["festive", "daily-wear"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "Graceful gold bangles adorned with vibrant meenakari detailing and fine textured craftsmanship, perfect for adding a touch of color and tradition to everyday elegance.",
+    "images": [
+      "/images/products/bangle-79.jpg",
+      "/images/products/bangle-79-2.jpg",
+      "/images/products/bangle-79-3.jpg"
+    ],
+    "sortOrder": 79,
+    "dateAdded": "2026-03-31",
+    "tags": ["bestseller", "meenakari", "colorful"],
+    "badge": "Bestseller"
+  },
+  {
+    "id": "product-80",
+    "name": "Sutraka Antique Grid Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI5",
+    "image": "/images/products/bangle-80.jpg",
+    "collection": "heritage",
+    "slug": "sutraka-antique-grid-kangan",
+    "metalType": "gold",
+    "carat": "23K",
+    "weight": "32.240g",
+    "occasion": ["wedding", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A bold heritage-inspired kangan featuring structured openwork layers with meenakari accents, crafted to reflect timeless elegance and regal craftsmanship.",
+    "images": [
+      "/images/products/bangle-80.jpg",
+      "/images/products/bangle-80-2.jpg",
+      "/images/products/bangle-80-3.jpg"
+    ],
+    "sortOrder": 80,
+    "dateAdded": "2026-03-31",
+    "tags": ["heritage", "antique", "statement"]
+  },
+  {
+    "id": "product-81",
+    "name": "Nakshatra Rekha Designer Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI46",
+    "image": "/images/products/bangle-81.jpg",
+    "collection": "daily-wear",
+    "slug": "nakshatra-rekha-designer-kangan",
+    "metalType": "gold",
+    "carat": "18K",
+    "weight": "20.420g",
+    "occasion": ["daily-wear", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "An elegant lightweight kangan featuring fine linear textures with delicate star-inspired motifs, perfect for adding subtle shine to everyday and festive looks.",
+    "images": [
+      "/images/products/bangle-81.jpg",
+      "/images/products/bangle-81-2.jpg",
+      "/images/products/bangle-81-3.jpg"
+    ],
+    "sortOrder": 81,
+    "dateAdded": "2026-03-31",
+    "tags": ["lightweight", "dailywear", "elegant"]
+  },
+  {
+    "id": "product-82",
+    "name": "Meenakari Pushp Jaal Rajwadi Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI9",
+    "image": "/images/products/bangle-82.jpg",
+    "collection": "heritage",
+    "slug": "meenakari-pushp-jaal-rajwadi-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "41.450g",
+    "occasion": ["wedding", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A grand rajwadi kangan showcasing intricate meenakari floral motifs with detailed jaal patterns and bold gold craftsmanship, perfect for weddings and traditional celebrations.",
+    "images": [
+      "/images/products/bangle-82.jpg",
+      "/images/products/bangle-82-2.jpg",
+      "/images/products/bangle-82-3.jpg"
+    ],
+    "sortOrder": 82,
+    "dateAdded": "2026-03-31",
+    "tags": ["meenakari", "bridal", "heritage"]
+  },
+  {
+    "id": "product-83",
+    "name": "Meenakari Trikon Classic Daily Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI34",
+    "image": "/images/products/bangle-83.jpg",
+    "collection": "daily-wear",
+    "slug": "meenakari-trikon-classic-daily-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "18.730g",
+    "occasion": ["daily-wear", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A sleek and elegant gold kangan featuring subtle meenakari triangle accents with fine textured detailing, perfect for everyday grace with a festive touch.",
+    "images": [
+      "/images/products/bangle-83.jpg",
+      "/images/products/bangle-83-2.jpg",
+      "/images/products/bangle-83-3.jpg"
+    ],
+    "sortOrder": 83,
+    "dateAdded": "2026-03-31",
+    "tags": ["new", "meenakari", "dailywear"]
+  },
+  {
+    "id": "product-84",
+    "name": "Meenakari Pushp Rajvanshi Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI66",
+    "image": "/images/products/bangle-84.jpg",
+    "collection": "heritage",
+    "slug": "meenakari-pushp-rajvanshi-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "29.530g",
+    "occasion": ["festive", "wedding"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "An elegant pair of gold bangles featuring intricate textured detailing and vibrant meenakari floral motifs, crafted for a regal and timeless appeal.",
+    "images": [
+      "/images/products/bangle-84.jpg",
+      "/images/products/bangle-84-2.jpg",
+      "/images/products/bangle-84-3.jpg"
+    ],
+    "sortOrder": 84,
+    "dateAdded": "2026-03-31",
+    "tags": ["trending", "meenakari", "floral"]
+  },
+  {
+    "id": "product-85",
+    "name": "Rajwadi Jaal Meenakari Shringar Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI35",
+    "image": "/images/products/bangle-85.jpg",
+    "collection": "bridal",
+    "slug": "rajwadi-jaal-meenakari-shringar-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "48.840g",
+    "occasion": ["wedding", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A grand and richly detailed gold kangan featuring intricate jaal work, meenakari floral accents, and bold traditional patterns, crafted to elevate bridal elegance.",
+    "images": [
+      "/images/products/bangle-85.jpg",
+      "/images/products/bangle-85-2.jpg",
+      "/images/products/bangle-85-3.jpg"
+    ],
+    "sortOrder": 85,
+    "dateAdded": "2026-04-01",
+    "tags": ["bestseller", "bridal", "meenakari"],
+    "badge": "Bestseller"
+  },
+  {
+    "id": "product-86",
+    "name": "Meenakari Phool Jaal Heritage Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI19",
+    "image": "/images/products/bangle-86.jpg",
+    "collection": "festive",
+    "slug": "meenakari-phool-jaal-heritage-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "28.580g",
+    "occasion": ["festive", "daily-wear"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A beautifully crafted gold kangan featuring delicate jaal patterns with meenakari floral highlights, offering a perfect blend of traditional charm and everyday elegance.",
+    "images": [
+      "/images/products/bangle-86.jpg",
+      "/images/products/bangle-86-2.jpg",
+      "/images/products/bangle-86-3.jpg"
+    ],
+    "sortOrder": 86,
+    "dateAdded": "2026-04-01",
+    "tags": ["new", "festive", "meenakari"]
+  },
+  {
+    "id": "product-87",
+    "name": "Triveni Meenakari Rekha Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI81",
+    "image": "/images/products/bangle-87.jpg",
+    "collection": "daily-wear",
+    "slug": "triveni-meenakari-rekha-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "25.050g",
+    "occasion": ["daily-wear", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A sleek gold kangan highlighted with fine linear textures and subtle meenakari accents in dual tones, perfect for adding elegance to everyday and festive looks.",
+    "images": [
+      "/images/products/bangle-87.jpg",
+      "/images/products/bangle-87-2.jpg",
+      "/images/products/bangle-87-3.jpg"
+    ],
+    "sortOrder": 87,
+    "dateAdded": "2026-04-01",
+    "tags": ["trending", "daily-wear", "meenakari"]
+  },
+  {
+    "id": "product-88",
+    "name": "Surya Jaal Rekha Kangan",
+    "category": "Bangle",
+    "tagNumber": "#GCI59",
+    "image": "/images/products/bangle-88.jpg",
+    "collection": "heritage",
+    "slug": "surya-jaal-rekha-kangan",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "24.120g",
+    "occasion": ["festive", "daily-wear"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A refined gold kangan featuring textured linear bands with intricate jaal work and radiant surya motifs, blending heritage craftsmanship with everyday elegance.",
+    "images": [
+      "/images/products/bangle-88.jpg",
+      "/images/products/bangle-88-2.jpg",
+      "/images/products/bangle-88-3.jpg"
+    ],
+    "sortOrder": 88,
+    "dateAdded": "2026-04-01",
+    "tags": ["bestseller", "heritage", "textured"]
+  },
+  {
+    "id": "product-89",
+    "name": "Rajvanshi Nakshi Jaal Kada",
+    "category": "Bangle",
+    "tagNumber": "#GCI33",
+    "image": "/images/products/bangle-89.jpg",
+    "collection": "bridal",
+    "slug": "rajvanshi-nakshi-jaal-kada",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "49.870g",
+    "occasion": ["wedding", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A grand handcrafted gold kada featuring layered nakshi detailing with intricate jaal patterns, designed to bring a regal bridal statement to every special occasion.",
+    "images": [
+      "/images/products/bangle-89.jpg",
+      "/images/products/bangle-89-2.jpg",
+      "/images/products/bangle-89-3.jpg"
+    ],
+    "sortOrder": 89,
+    "dateAdded": "2026-04-01",
+    "tags": ["trending", "bridal", "heavy"],
+    "badge": "Trending"
+  },
+  {
+    "id": "product-90",
+    "name": "Surya Pushpa Meenakari Kada",
+    "category": "Bangle",
+    "tagNumber": "#GCI12",
+    "image": "/images/products/bangle-90.jpg",
+    "collection": "festive",
+    "slug": "surya-pushpa-meenakari-kada",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "34.200g",
+    "occasion": ["festive", "gifting"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "A beautifully crafted gold kada featuring a radiant floral centerpiece with rich meenakari accents and fine linear detailing, perfect for festive elegance and everyday royal charm.",
+    "images": [
+      "/images/products/bangle-90.jpg",
+      "/images/products/bangle-90-2.jpg",
+      "/images/products/bangle-90-3.jpg"
+    ],
+    "sortOrder": 90,
+    "dateAdded": "2026-04-01",
+    "tags": ["bestseller", "festive", "meenakari"]
+  },
+  {
+    "id": "product-91",
+    "name": "Vallari Floral Filigree Bangles",
+    "category": "Bangle",
+    "tagNumber": "#GCI16",
+    "image": "/images/products/bangle-91.jpg",
+    "collection": "heritage",
+    "slug": "vallari-floral-filigree-bangles",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "33.490g",
+    "occasion": ["festive", "wedding"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "Elegant gold bangles featuring intricate floral vine filigree work with delicate bead detailing, crafted to reflect timeless heritage charm and graceful festive appeal.",
+    "images": [
+      "/images/products/bangle-91.jpg",
+      "/images/products/bangle-91-2.jpg",
+      "/images/products/bangle-91-3.jpg"
+    ],
+    "sortOrder": 91,
+    "dateAdded": "2026-04-01",
+    "tags": ["trending", "heritage", "filigree"]
+  },
+  {
+    "id": "product-92",
+    "name": "Suhana Nakshi Daily Gold Bangles",
+    "category": "Bangle",
+    "tagNumber": "#GCI70",
+    "image": "/images/products/bangle-92.jpg",
+    "collection": "daily-wear",
+    "slug": "suhana-nakshi-daily-gold-bangles",
+    "metalType": "gold",
+    "carat": "20K",
+    "weight": "10.140g",
+    "occasion": ["daily-wear", "gifting"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "Graceful lightweight gold bangles featuring subtle nakshi motifs and polished accents, perfect for everyday elegance with a touch of traditional charm.",
+    "images": [
+      "/images/products/bangle-92.jpg",
+      "/images/products/bangle-92-2.jpg",
+      "/images/products/bangle-92-3.jpg"
+    ],
+    "sortOrder": 92,
+    "dateAdded": "2026-04-01",
+    "tags": ["new", "dailywear", "lightweight"],
+    "badge": "New"
+  },
+  {
+    "id": "product-93",
+    "name": "Meher Kalash Meenakari Gold Bangles",
+    "category": "Bangle",
+    "tagNumber": "#GCI74",
+    "image": "/images/products/bangle-93.jpg",
+    "collection": "festive",
+    "slug": "meher-kalash-meenakari-gold-bangles",
+    "metalType": "gold",
+    "carat": "22K",
+    "weight": "26.060g",
+    "occasion": ["festive", "wedding"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "Elegant gold bangles featuring meenakari kalash-inspired motifs with textured detailing and bold gold accents, perfect for festive grace and traditional celebrations.",
+    "images": [
+      "/images/products/bangle-93.jpg",
+      "/images/products/bangle-93-2.jpg",
+      "/images/products/bangle-93-3.jpg"
+    ],
+    "sortOrder": 93,
+    "dateAdded": "2026-04-01",
+    "tags": ["trending", "festive", "meenakari"]
+  },
+  {
+    "id": "product-94",
+    "name": "Vanshika Texture Jaal Gold Bangles",
+    "category": "Bangle",
+    "tagNumber": "#GCI7",
+    "image": "/images/products/bangle-94.jpg",
+    "collection": "heritage",
+    "slug": "vanshika-texture-jaal-gold-bangles",
+    "metalType": "gold",
+    "carat": "24K",
+    "weight": "31.530g",
+    "occasion": ["wedding", "festive"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "Rich 24K gold bangles crafted with intricate jaal texture and fine detailing, offering a timeless heritage look with a bold and luxurious finish.",
+    "images": [
+      "/images/products/bangle-94.jpg",
+      "/images/products/bangle-94-2.jpg",
+      "/images/products/bangle-94-3.jpg"
+    ],
+    "sortOrder": 94,
+    "dateAdded": "2026-04-01",
+    "tags": ["bestseller", "heritage", "traditional"]
+  },
+  {
+    "id": "product-95",
+    "name": "Mridul Geometric Nakshi Gold Bangles",
+    "category": "Bangle",
+    "tagNumber": "#GCI53",
+    "image": "/images/products/bangle-95.jpg",
+    "collection": "daily-wear",
+    "slug": "mridul-geometric-nakshi-gold-bangles",
+    "metalType": "gold",
+    "carat": "23K",
+    "weight": "16.940g",
+    "occasion": ["daily-wear", "gifting"],
+    "gender": "women",
+    "jewelleryType": "bangle",
+    "subcategory": "Gold Bangle",
+    "description": "Elegant 23K gold bangles featuring refined geometric nakshi patterns with a sleek finish, perfect for everyday grace and subtle festive charm.",
+    "images": [
+      "/images/products/bangle-95.jpg",
+      "/images/products/bangle-95-2.jpg",
+      "/images/products/bangle-95-3.jpg"
+    ],
+    "sortOrder": 95,
+    "dateAdded": "2026-04-01",
+    "tags": ["trending", "dailywear", "elegant"],
+    "badge": "Trending"
   }
 ]
