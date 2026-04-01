@@ -71,9 +71,17 @@ export function getFilteredProducts(allProducts: ExtendedProduct[], filters: Fil
 
   // Sort
   switch (sort) {
-    case "newest":
-      filtered.sort((a, b) => (b.dateAdded || "").localeCompare(a.dateAdded || ""));
+    case "newest": {
+      const isNew = (p: ExtendedProduct) => p.badge === "New" ? 1 : 0;
+      filtered.sort((a, b) => {
+        const badgeDiff = isNew(b) - isNew(a);
+        if (badgeDiff !== 0) return badgeDiff;
+        const dateDiff = (b.dateAdded || "").localeCompare(a.dateAdded || "");
+        if (dateDiff !== 0) return dateDiff;
+        return (b.sortOrder ?? 0) - (a.sortOrder ?? 0);
+      });
       break;
+    }
     case "popular": {
       const badgePriority: Record<string, number> = { Bestseller: 3, Trending: 2, New: 1 };
       filtered.sort((a, b) => (badgePriority[b.badge || ""] || 0) - (badgePriority[a.badge || ""] || 0));
