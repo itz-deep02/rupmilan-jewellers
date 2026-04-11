@@ -26,10 +26,10 @@ export default function StorySection() {
             Our Founder
           </p>
 
-          <div className="flex flex-col sm:flex-row items-start gap-5 sm:gap-8">
+          <div className="flex flex-row items-start gap-3 sm:gap-8">
             {/* Photo with badge */}
-            <div className="relative flex-shrink-0 w-[140px] sm:w-[160px]">
-              <div className="w-[140px] h-[160px] sm:w-[160px] sm:h-[185px] rounded-xl overflow-hidden border border-[rgba(160,115,42,0.20)] shadow-sm relative">
+            <div className="relative flex-shrink-0 w-[88px] sm:w-[160px]">
+              <div className="w-[88px] h-[106px] sm:w-[160px] sm:h-[185px] rounded-lg sm:rounded-xl overflow-hidden border border-[rgba(160,115,42,0.20)] shadow-sm relative">
                 <Image
                   src="/images/about/founder.jpg"
                   alt="Late Shri Sharda Prasad Bitawan Sao - Founder of Rupmilan Jewellers"
@@ -39,23 +39,23 @@ export default function StorySection() {
                 />
               </div>
               {/* Badge at bottom */}
-              <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-brand-gold text-white text-[9px] sm:text-[10px] font-sans font-semibold tracking-wider uppercase px-3 py-1.5 rounded-full whitespace-nowrap shadow-md">
+              <div className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 bg-brand-gold text-white text-[7px] sm:text-[10px] font-sans font-semibold tracking-wider uppercase px-2 py-1 sm:px-3 sm:py-1.5 rounded-full whitespace-nowrap shadow-md">
                 Founder &middot; 1988
               </div>
             </div>
 
             {/* Text content */}
-            <div className="flex-1 pt-1 sm:pt-2">
-              <h2 className="luxury-heading text-2xl sm:text-3xl lg:text-4xl font-normal text-brand-heading leading-tight mb-1.5">
+            <div className="flex-1 pt-0 sm:pt-2">
+              <h2 className="luxury-heading text-base sm:text-3xl lg:text-4xl font-normal text-brand-heading leading-snug mb-0.5 sm:mb-1">
                 Late Shri Sharda Prasad Bitawan Sao
               </h2>
-              <p className="text-brand-gold text-[10px] sm:text-xs font-sans font-medium tracking-[0.2em] uppercase mb-4">
+              <p className="text-brand-gold text-[8px] sm:text-xs font-sans font-medium tracking-[0.12em] sm:tracking-[0.2em] uppercase mb-2 sm:mb-4">
                 Founder &middot; Rupmilan Jewellers &middot; Est. 1988
               </p>
 
               {/* Quote with left border */}
-              <div className="border-l-2 border-brand-gold pl-4 sm:pl-5">
-                <p className="luxury-heading text-base sm:text-lg lg:text-xl font-normal text-brand-body italic leading-relaxed">
+              <div className="border-l-2 border-brand-gold pl-2.5 sm:pl-5">
+                <p className="luxury-heading text-xs sm:text-lg lg:text-xl font-normal text-brand-body italic leading-relaxed">
                   &ldquo;Jewellery is not just gold and silver — it is trust, it is memory, it is family. Every piece we make carries a little piece of our heart.&rdquo;
                 </p>
               </div>

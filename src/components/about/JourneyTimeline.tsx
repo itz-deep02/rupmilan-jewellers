@@ -48,22 +48,23 @@ export default function JourneyTimeline() {
 
       {/* Mobile timeline */}
       <div className="sm:hidden relative pl-8">
-        {/* Vertical line */}
-        <div className="absolute left-[11px] top-2 bottom-2 w-px bg-brand-gold/25" />
+        {/* Vertical line — centered on dots (dot is 16px wide at left-8 = 0px, so center = 8px) */}
+        <div className="absolute left-[7px] top-2 bottom-2 w-px bg-brand-gold/25" />
 
         {milestones.map((milestone, index) => (
-          <ScrollReveal key={milestone.year} delay={index * 0.1}>
-            <div className="relative pb-8 last:pb-0">
-              {/* Dot */}
-              <div className="absolute -left-8 top-1 w-[22px] h-[22px] rounded-full border-2 border-brand-gold bg-ivory flex items-center justify-center">
-                <div className="w-[8px] h-[8px] rounded-full bg-brand-gold" />
+          <div key={milestone.year} className={index < milestones.length - 1 ? "mb-10" : ""}>
+          <ScrollReveal delay={index * 0.1}>
+            <div className="relative">
+              {/* Dot — vertically centered with year text */}
+              <div className="absolute -left-8 top-0 w-[16px] h-[16px] rounded-full border-[1.5px] border-brand-gold bg-ivory flex items-center justify-center">
+                <div className="w-[6px] h-[6px] rounded-full bg-brand-gold" />
               </div>
 
               {/* Content */}
-              <p className="text-brand-gold text-xs font-sans font-semibold uppercase tracking-[0.2em] mb-1">
+              <p className="text-brand-gold text-[10px] font-sans font-semibold uppercase tracking-[0.2em] mb-1.5 leading-[16px]">
                 {milestone.year}
               </p>
-              <h3 className="luxury-heading text-lg font-normal text-brand-heading mb-1.5">
+              <h3 className="luxury-heading text-base font-normal text-brand-heading mb-0.5">
                 {milestone.title}
               </h3>
               <p className="text-brand-body font-sans text-sm leading-relaxed">
@@ -71,6 +72,7 @@ export default function JourneyTimeline() {
               </p>
             </div>
           </ScrollReveal>
+          </div>
         ))}
       </div>
 
@@ -83,7 +85,7 @@ export default function JourneyTimeline() {
           const isLeft = index % 2 === 0;
           return (
             <ScrollReveal key={milestone.year} delay={index * 0.1}>
-              <div className="relative flex items-start pb-10 last:pb-0">
+              <div className="relative flex items-start pb-14 last:pb-0">
                 {/* Center dot */}
                 <div className="absolute left-1/2 -translate-x-1/2 top-1 w-[22px] h-[22px] rounded-full border-2 border-brand-gold bg-ivory flex items-center justify-center z-10">
                   <div className="w-[8px] h-[8px] rounded-full bg-brand-gold" />

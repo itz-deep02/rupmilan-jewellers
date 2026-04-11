@@ -7,7 +7,7 @@ import MobileBottomNav from "@/components/layout/MobileBottomNav";
 import TagBadge from "@/components/TagBadge";
 import InfoSection from "@/components/InfoSection";
 import MapSection from "@/components/MapSection";
-import WhatsAppButton from "@/components/WhatsAppButton";
+import WhatsAppWidget from "@/components/WhatsAppWidget";
 
 export const metadata: Metadata = {
   title: "Contact Us | Rupmilan Jewellers",
@@ -102,7 +102,7 @@ export default function ContactPage() {
       </main>
 
       <Footer />
-      <WhatsAppButton />
+      <WhatsAppWidget />
       <MobileBottomNav />
     </>
   );
