@@ -34,7 +34,7 @@ export default function ImageMagnifier({ src, alt, zoomLevel = 2.5 }: ImageMagni
         <img
           src={src}
           alt={alt}
-          className="absolute inset-0 w-full h-full object-cover mix-blend-multiply"
+          className="absolute inset-0 w-full h-full object-cover"
         />
       )}
       {/* Magnifier zoom overlay on hover */}
