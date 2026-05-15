@@ -8,7 +8,7 @@ interface ImageMagnifierProps {
   zoomLevel?: number;
 }
 
-export default function ImageMagnifier({ src, alt, zoomLevel = 2.5 }: ImageMagnifierProps) {
+export default function ImageMagnifier({ src, alt, zoomLevel = 1.5 }: ImageMagnifierProps) {
   const [showMagnifier, setShowMagnifier] = useState(false);
   const [magnifierPos, setMagnifierPos] = useState({ x: 0, y: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
