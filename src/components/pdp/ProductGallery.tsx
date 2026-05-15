@@ -41,6 +41,7 @@ export default function ProductGallery({ images, name }: ProductGalleryProps) {
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover md:hidden"
+                quality={95}
                 priority
                 onError={() => markErrored(activeIndex)}
               />
@@ -89,6 +90,7 @@ export default function ProductGallery({ images, name }: ProductGalleryProps) {
                     fill
                     sizes="96px"
                     className="object-cover"
+                    quality={95}
                     loading="lazy"
                     onError={() => markErrored(i)}
                   />
