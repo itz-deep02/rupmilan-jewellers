@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Gem, Camera } from "lucide-react";
@@ -19,8 +20,10 @@ const metalColors: Record<string, string> = {
 };
 
 export default function CatalogueProductCard({ product, index = 0 }: CatalogueProductCardProps) {
+  const [imgError, setImgError] = useState(false);
   const whatsappUrl = buildProductWhatsAppUrl(product.name, product.tagNumber);
   const pdpUrl = `/${product.jewelleryType}/${product.slug}/${product.tagNumber.replace("#", "")}`;
+  const showImage = product.image && !imgError;
 
   return (
     <div
@@ -29,22 +32,22 @@ export default function CatalogueProductCard({ product, index = 0 }: CataloguePr
     >
       <Link href={pdpUrl}>
         <div className="relative aspect-[3/4] bg-ivory-100 overflow-hidden">
-          {/* Placeholder */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center">
-              <Gem className="w-7 h-7 text-brand-gold/30" />
-            </div>
-          </div>
-          {/* Actual image */}
-          {product.image && (
+          {showImage ? (
             <Image
-              src={product.image}
+              src={product.image!}
               alt={product.name}
               fill
               sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-              className="object-cover group-hover:scale-110 transition-transform duration-500 mix-blend-multiply"
+              className="object-cover group-hover:scale-110 transition-transform duration-500"
               loading="lazy"
+              onError={() => setImgError(true)}
             />
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center">
+                <Gem className="w-7 h-7 text-brand-gold/30" />
+              </div>
+            </div>
           )}
 
           <span className={`absolute top-2.5 left-2.5 text-[9px] font-sans font-bold uppercase tracking-wider px-2 py-0.5 rounded-full z-10 ${metalColors[product.metalType] || "bg-ivory-100 text-brand-body"}`}>
