@@ -29,6 +29,9 @@ export const metadata: Metadata = {
   description:
     "Premium jewellery store in Champa, Chhattisgarh. BIS Hallmarked. Trusted since 1988.",
   icons: { icon: "/icon.png" },
+  verification: {
+    google: "0oU1MQ1PDp_l6tHImTt1TUFW7iqnrka1evBkj-FLn0Q",
+  },
 };
 
 export default function RootLayout({
