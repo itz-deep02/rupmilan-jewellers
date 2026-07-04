@@ -5,7 +5,7 @@
     "subtitle": "Discover BIS Hallmarked jewellery crafted with generations of expertise since 1988",
     "ctaText": "Explore More",
     "ctaLink": "/catalogue",
-    "image": "/images/about/showroom-1.jpg"
+    "image": "/images/timeless-elegance.jpg"
   },
   {
     "id": "slide-2",
@@ -13,7 +13,7 @@
     "subtitle": "Handcrafted gold necklaces that speak the language of elegance and tradition",
     "ctaText": "Shop Necklaces",
     "ctaLink": "/catalogue?type=necklace",
-    "image": "/images/about/showroom-2.jpg"
+    "image": "/images/exquisite-necklaces.jpg"
   },
   {
     "id": "slide-3",
