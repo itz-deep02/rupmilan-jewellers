@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Gem } from "lucide-react";
+import Image from "next/image";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeader from "@/components/layout/SectionHeader";
 import HorizontalScroll from "@/components/ui/HorizontalScroll";
@@ -29,10 +29,15 @@ export default function CollectionsSection({ collections }: CollectionsSectionPr
               href={`/catalogue?collection=${collection.slug}`}
               className="snap-start flex-shrink-0 w-[280px] sm:w-[320px] glass-card-hover overflow-hidden group cursor-pointer"
             >
-              <div className="relative aspect-[4/3] bg-ivory-300 flex items-center justify-center">
-                <div className="w-16 h-16 rounded-full bg-brand-gold/10 flex items-center justify-center">
-                  <Gem className="w-8 h-8 text-brand-gold/40" />
-                </div>
+              <div className="relative aspect-[4/3] bg-ivory-300 overflow-hidden">
+                <Image
+                  src={collection.image}
+                  alt={collection.name}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 280px, 320px"
+                  loading="lazy"
+                />
                 <div className="absolute bottom-3 left-3 right-3">
                   <span className="text-[10px] font-sans font-medium text-brand-muted bg-white/80 backdrop-blur-sm px-2 py-0.5 rounded-full">
                     {collection.productCount} Designs
