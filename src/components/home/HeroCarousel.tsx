@@ -52,16 +52,16 @@ export default function HeroCarousel({ slides }: HeroCarouselProps) {
                   sizes="(max-width: 768px) 100vw, 1200px"
                 />
 
-                {/* Dark overlay for text readability */}
-                <div className="absolute inset-0 bg-gradient-to-r from-black/65 via-black/40 to-black/10" />
+                {/* Dark overlay only on the left, so the jewellery stays bright on the right */}
+                <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/25 via-50% to-transparent" />
 
                 {/* Text content */}
                 <div className="absolute inset-0 flex items-center">
-                  <div className="relative z-10 px-6 sm:px-12 lg:px-16 py-8 sm:py-12 max-w-2xl">
+                  <div className="relative z-10 px-6 sm:px-12 lg:px-16 py-8 sm:py-12 max-w-[65%] sm:max-w-md lg:max-w-lg">
                     <h2 className="luxury-heading text-2xl sm:text-4xl lg:text-5xl font-normal text-white mb-3 sm:mb-4 leading-tight drop-shadow-md">
                       {slide.title}
                     </h2>
-                    <p className="text-white/85 text-sm sm:text-base lg:text-lg font-sans leading-relaxed mb-5 sm:mb-7 max-w-lg drop-shadow">
+                    <p className="hidden sm:block text-white/85 text-sm sm:text-base lg:text-lg font-sans leading-relaxed mb-5 sm:mb-7 max-w-lg drop-shadow">
                       {slide.subtitle}
                     </p>
                     <a
