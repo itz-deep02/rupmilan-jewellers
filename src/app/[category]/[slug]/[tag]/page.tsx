@@ -39,6 +39,13 @@ export async function generateMetadata({ params }: PDPPageProps): Promise<Metada
     openGraph: {
       title: `${product.name} | Rupmilan Jewellers`,
       description: product.description || `${product.name} - Premium handcrafted jewellery`,
+      images: product.images?.length ? [{ url: product.images[0], alt: product.name }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${product.name} | Rupmilan Jewellers`,
+      description: product.description || `${product.name} - Premium handcrafted jewellery`,
+      images: product.images?.length ? [product.images[0]] : undefined,
     },
   };
 }
@@ -57,8 +64,27 @@ export default async function PDPPage({ params }: PDPPageProps) {
   const breadcrumbCategorySlug = catMatch?.slug || category;
   const breadcrumbCategoryName = catMatch?.name || category.replace(/-/g, " ");
 
+  const BASE_URL = "https://www.rupmilanjewellers.com";
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: product.description,
+    sku: product.tagNumber.replace("#", ""),
+    url: `${BASE_URL}/${product.jewelleryType}/${product.slug}/${product.tagNumber.replace("#", "")}`,
+    image: (product.images || []).map((img) => `${BASE_URL}${img}`),
+    category: product.category,
+    material: product.carat ? `${product.carat} ${product.metalType}` : product.metalType,
+    weight: product.weight,
+    brand: { "@type": "Brand", name: "Rupmilan Jewellers" },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
       <Navbar />
       <DecorativeOrbs />
 
