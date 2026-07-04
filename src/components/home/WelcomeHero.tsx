@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function WelcomeHero() {
   return (
-    <section className="relative overflow-hidden mb-4 sm:mb-6">
-      <div className="relative text-center pt-14 sm:pt-20 lg:pt-24 pb-8 sm:pb-10 px-4">
+    <section className="relative overflow-hidden mb-10 sm:mb-14">
+      <div className="relative text-center py-14 sm:py-20 lg:py-24 px-4">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-ivory-100 border border-[rgba(160,115,42,0.20)] mb-6 sm:mb-8 animate-fade-in-up">
           <Sparkles className="w-4 h-4 text-brand-gold" />
@@ -47,7 +47,7 @@ export default function WelcomeHero() {
         </div>
 
         {/* Subtle decorative line */}
-        <div className="mt-8 sm:mt-10 flex items-center justify-center gap-3">
+        <div className="mt-10 sm:mt-14 flex items-center justify-center gap-3">
           <div className="h-px w-12 bg-gradient-to-r from-transparent to-brand-gold/30" />
           <div className="w-1.5 h-1.5 rounded-full bg-brand-gold/40" />
           <div className="h-px w-12 bg-gradient-to-l from-transparent to-brand-gold/30" />
