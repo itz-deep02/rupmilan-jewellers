@@ -6,7 +6,7 @@
     "suffix": "+",
     "image": "/images/stats/customers.jpg",
     "emoji": "🏆",
-    "description": "Of trusted jewellery craftsmanship and customer relationships"
+    "description": "Years of trusted jewellery craftsmanship and customer relationships"
   },
   {
     "id": "stat-2",
@@ -33,6 +33,6 @@
     "suffix": "%",
     "image": "/images/stats/purity.jpg",
     "emoji": "✅",
-    "description": "BIS hallmarked and diamond-certified jewellery"
+    "description": "BIS Hallmarked gold and certified diamond jewellery"
   }
 ]
