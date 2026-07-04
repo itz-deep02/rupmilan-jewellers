@@ -11,7 +11,7 @@ This document explains how to update all the content on the website. Most conten
 | Products | `src/data/products.json` | `public/images/products/` |
 | Categories | `src/data/categories.json` | `public/images/categories/` |
 | Collections | `src/data/collections.json` | `public/images/collections/` |
-| Hero Slider | `src/data/hero-slides.json` | `public/images/hero/` |
+| Hero Slider | `src/data/hero-slides.json` | `public/images/` |
 | Stats (numbers) | `src/data/stats.json` | - |
 | Customer Reviews | `src/data/testimonials.json` | - |
 | About Page | `src/components/about/*.tsx` (see Section 7) | `public/images/about/` |
@@ -182,7 +182,7 @@ Controls the **banner/slider** at the top of the homepage.
   "subtitle": "Discover BIS Hallmarked jewellery crafted with generations of expertise since 1988",
   "ctaText": "Explore Collection",
   "ctaLink": "#collections",
-  "image": "/images/hero/slide-1.jpg"
+  "image": "/images/slide-1.jpg"
 }
 ```
 
@@ -199,8 +199,8 @@ Controls the **banner/slider** at the top of the homepage.
 
 ### Images
 
-- Put in: `public/images/hero/`
-- Recommended: **Wide landscape images (21:9 or 16:9 ratio)**, minimum **1400x600px**
+- Put in: `public/images/`
+- Recommended: **Wide landscape 16:9 images** (Gemini AI output size 1376x768 works perfectly). Jewellery should sit on the RIGHT side, left side plain fabric for text.
 - Slides auto-rotate every 5 seconds
 
 ---
@@ -438,7 +438,7 @@ public/
 | Product | 3:4 (portrait) | 600 x 800 px |
 | Category | 1:1 (square) | 400 x 400 px |
 | Collection | 4:3 (landscape) | 800 x 600 px |
-| Hero Slider | 21:9 (wide) | 1400 x 600 px |
+| Hero Slider | 16:9 (wide) | 1376 x 768 px |
 | About Hero | 16:9 (wide) | 1400 x 800 px |
 | Founder Photo | 3:4 (portrait) | 320 x 370 px |
 | Showroom Photos | 16:9 (wide) | 1200 x 675 px |
@@ -494,7 +494,7 @@ Current numbers:
 3. Make sure `tagNumber`, `id`, and `slug` are all unique
 
 ### Change the homepage slider
-1. Add new slide images to `public/images/hero/`
+1. Add new slide images to `public/images/`
 2. Edit `src/data/hero-slides.json` - change titles, subtitles, or images
 
 ### Add a new category

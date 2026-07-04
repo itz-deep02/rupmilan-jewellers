@@ -41,7 +41,7 @@ export default function HeroCarousel({ slides }: HeroCarouselProps) {
         <div className="flex">
           {slides.map((slide) => (
             <div key={slide.id} className="flex-[0_0_100%] min-w-0 relative">
-              <div className="relative aspect-[16/9] sm:aspect-[21/9] overflow-hidden">
+              <div className="relative aspect-[16/9] sm:aspect-[2/1] overflow-hidden">
                 {/* Background image */}
                 <Image
                   src={slide.image}
