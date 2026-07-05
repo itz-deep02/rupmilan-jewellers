@@ -10,8 +10,8 @@ const occasions = [
   { id: "wedding", title: "Wedding", description: "Make your big day unforgettable", ctaText: "Explore Bridal", image: "/images/world/wedding.jpg" },
   { id: "anniversary", title: "Anniversary", description: "Celebrate years of love", ctaText: "Shop Gifts", image: "/images/world/anniversary.jpg" },
   { id: "festival", title: "Festive Season", description: "Shine at every celebration", ctaText: "Festive Picks", image: "/images/world/festive-season.jpg" },
-  { id: "daily", title: "Daily Wear", description: "Everyday elegance, effortlessly", ctaText: "Browse Daily Wear", image: "" },
-  { id: "gifting", title: "Gifting", description: "Perfect presents for loved ones", ctaText: "Find a Gift", image: "" },
+  { id: "daily", title: "Daily Wear", description: "Everyday elegance, effortlessly", ctaText: "Browse Daily Wear", image: "/images/world/daily-wear.jpg" },
+  { id: "gifting", title: "Gifting", description: "Perfect presents for loved ones", ctaText: "Find a Gift", image: "/images/world/gifting.jpg" },
 ];
 
 export default function RupmilanWorldSection() {
