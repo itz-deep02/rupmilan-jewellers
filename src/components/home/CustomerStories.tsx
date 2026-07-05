@@ -22,6 +22,29 @@ export default function CustomerStories({ testimonials }: CustomerStoriesProps) 
           subtitle="Hear what our valued customers have to say"
         />
 
+        {/* Google rating badge */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
+          <a
+            href="https://maps.app.goo.gl/WKomde96qZcqsgDJ8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-white border border-[rgba(160,115,42,0.25)] rounded-full px-5 py-2.5 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <Star className="w-4 h-4 fill-brand-gold text-brand-gold" />
+            <span className="text-brand-heading font-sans font-semibold text-sm">4.7</span>
+            <span className="text-brand-muted font-sans text-sm">· 416 Google reviews</span>
+          </a>
+          <a
+            href="https://g.page/r/CYiqvd-wqmi1EAE/review"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-brand-gold hover:bg-gold-600 text-white font-sans font-medium text-sm px-5 py-2.5 rounded-full transition-colors"
+          >
+            <Star className="w-4 h-4" />
+            Review us on Google
+          </a>
+        </div>
+
         <div className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
           <div className="flex gap-4 animate-scroll-x hover:[animation-play-state:paused] w-max items-stretch">
             {doubled.map((testimonial, index) => (
