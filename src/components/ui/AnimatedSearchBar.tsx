@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { searchProducts, correctQuery } from "@/lib/products";
 import type { ExtendedProduct } from "@/types";
 
-const SEARCH_WORDS = ["Gold", "Silver", "Diamond", "Platinum"];
+const SEARCH_WORDS = ["Necklaces", "Earrings", "Rings", "Bangles", "Chains", "Jhumka", "Mangalsutra", "Gol Haar"];
 
 export default function AnimatedSearchBar() {
   const router = useRouter();
