@@ -3,10 +3,10 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { Search, X } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { searchProducts, correctQuery } from "@/lib/products";
+import { searchProducts, correctQuery, getSearchWords } from "@/lib/products";
 import type { ExtendedProduct } from "@/types";
 
-const SEARCH_WORDS = ["Necklaces", "Earrings", "Rings", "Bangles", "Chains", "Jhumka", "Mangalsutra", "Gol Haar"];
+const SEARCH_WORDS = getSearchWords();
 
 export default function AnimatedSearchBar() {
   const router = useRouter();
