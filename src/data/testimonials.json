@@ -1,72 +1,58 @@
 [
   {
     "id": "test-1",
-    "name": "Priya Sharma",
-    "location": "Champa",
-    "text": "Beautiful designs and genuine hallmarked gold. Our family has trusted Rupmilan for three generations.",
+    "name": "Vikas Pathak",
+    "location": "Google review",
+    "text": "Had a wonderful experience at this shop. The staff were very polite, patient, and knowledgeable. They explained everything clearly and helped me choose the best design as per requirement. Quality of gold and pricing are transparent. Highly recommended.",
     "rating": 5
   },
   {
     "id": "test-2",
-    "name": "Anjali Verma",
-    "location": "Korba",
-    "text": "Bought my bridal set from here. The craftsmanship is unmatched and the purity is guaranteed.",
+    "name": "Vikas Kumar Soni",
+    "location": "Google review",
+    "text": "बहुत अच्छा अनुभव रहा! सही कीमत पर सही सामान मिलता है! ग्राहकों की सुविधा का पूरा ध्यान रखा जाता है और सभी का व्यवहार बहुत अच्छा है!",
     "rating": 5
   },
   {
     "id": "test-3",
-    "name": "Rahul Agrawal",
-    "location": "Bilaspur",
-    "text": "Best place for gold jewellery in Chhattisgarh. Transparent pricing and excellent service.",
+    "name": "Nilima Shukla",
+    "location": "Google review",
+    "text": "A very good place to buy gold from. Totally fine quality of gold and on the correct price. I would prefer this shop over any other.",
     "rating": 5
   },
   {
     "id": "test-4",
-    "name": "Sunita Patel",
-    "location": "Champa",
-    "text": "I always buy from Rupmilan. Their daily wear collection is lightweight and stylish.",
-    "rating": 4
+    "name": "Rupsay Sahu",
+    "location": "Google review",
+    "text": "Janjgir Champa me jewellery ki sabse achhi wa sabse purani vishwasniya jewellery shop. Ek baar kharidari awashya kare.",
+    "rating": 5
   },
   {
     "id": "test-5",
-    "name": "Meena Sahu",
-    "location": "Janjgir",
-    "text": "Wonderful experience every time. The staff is so helpful and the designs are modern yet traditional.",
+    "name": "Jaya Singh",
+    "location": "Google review",
+    "text": "Genuine & authentic jewelleries with 100% purity and trust. These are affordable too. Please visit once. 🙏",
     "rating": 5
   },
   {
     "id": "test-6",
-    "name": "Deepak Tiwari",
-    "location": "Raigarh",
-    "text": "Purchased gold coins and chain. BIS hallmark gives complete confidence in purity.",
-    "rating": 5
+    "name": "Bhuvaneshwar Kashyap",
+    "location": "Google review",
+    "text": "यहाँ बहुत अच्छे प्राइस में सोने चांदी की ज्वेलरी मिलती है, कस्टमर से भी बहुत अच्छा व्यवहार करते हैं। हम हमेशा यहीं से खरीदारी करते हैं।",
+    "rating": 4
   },
   {
     "id": "test-7",
-    "name": "Kavita Jain",
-    "location": "Champa",
-    "text": "The festive collection is gorgeous! Got so many compliments on my new necklace set.",
+    "name": "Archana Paul",
+    "location": "Google review",
+    "text": "Awesome service and best quality and purity items with great and lower making charge. Do visit.",
     "rating": 5
   },
   {
     "id": "test-8",
-    "name": "Rajesh Kumar",
-    "location": "Sakti",
-    "text": "Trusted jeweller since decades. My entire family shops here for every occasion.",
-    "rating": 5
-  },
-  {
-    "id": "test-9",
-    "name": "Pooja Gupta",
-    "location": "Korba",
-    "text": "WhatsApp support is so convenient! I selected my earrings from photos and picked up next day.",
-    "rating": 4
-  },
-  {
-    "id": "test-10",
-    "name": "Vivek Soni",
-    "location": "Champa",
-    "text": "35 years of trust is no joke. Rupmilan is the gold standard in our city.",
+    "name": "Pooja Sahu",
+    "location": "Google review",
+    "text": "If you want to buy pure gold and silver, you'll find excellent quality gold and silver here. 🤩 I recommend you buy gold from here only! And good behaviour.",
     "rating": 5
   }
 ]
