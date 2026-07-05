@@ -2,7 +2,7 @@
   { "id": "cat-1", "name": "Necklaces", "image": "/images/categories/necklace.webp", "productCount": 120, "slug": "necklaces", "jewelleryType": "necklace" },
   { "id": "cat-2", "name": "Earrings", "image": "/images/categories/earrings.webp", "productCount": 95, "slug": "earrings", "jewelleryType": "earring" },
   { "id": "cat-3", "name": "Rings", "image": "/images/categories/rings.webp", "productCount": 80, "slug": "rings", "jewelleryType": "ring" },
-  { "id": "cat-4", "name": "Gold Bangle", "image": "/images/categories/bangles.webp", "productCount": 110, "slug": "bangles", "jewelleryType": "bangle" },
+  { "id": "cat-4", "name": "Bangles", "image": "/images/categories/bangles.webp", "productCount": 110, "slug": "bangles", "jewelleryType": "bangle" },
   { "id": "cat-5", "name": "Chains", "image": "/images/categories/chain.webp", "productCount": 60, "slug": "chains", "jewelleryType": "chain" },
   { "id": "cat-6", "name": "Mangalsutra", "image": "/images/categories/mangalsutra.webp", "productCount": 45, "slug": "mangalsutra", "jewelleryType": "mangalsutra" },
   { "id": "cat-7", "name": "Pendants", "image": "/images/categories/pendant.webp", "productCount": 70, "slug": "pendants", "jewelleryType": "pendant" },
