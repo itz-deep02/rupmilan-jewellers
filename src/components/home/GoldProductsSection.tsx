@@ -23,7 +23,7 @@ export default function GoldProductsSection({ products }: GoldProductsSectionPro
         />
 
         <HorizontalScroll>
-          {products.map((product) => (
+          {products.slice(0, 8).map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
           <ViewMoreCard href="/catalogue?metal=gold" label="View All Gold" count={products.length} />
