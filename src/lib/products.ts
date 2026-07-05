@@ -204,6 +204,40 @@ export function searchProducts(query: string, limit = 6): ExtendedProduct[] {
   }).slice(0, limit);
 }
 
+// Rotating search-bar suggestions, built from products that actually exist.
+// New jewellery types/subcategories appear here automatically as products are added.
+const TYPE_LABELS: Record<string, string> = {
+  necklace: "Necklaces",
+  bangle: "Bangles",
+  earring: "Earrings",
+  ring: "Rings",
+  chain: "Chains",
+  pendant: "Pendants",
+  bracelet: "Bracelets",
+  jhumka: "Jhumka",
+  mangalsutra: "Mangalsutra",
+  nath: "Nath",
+};
+
+export function getSearchWords(): string[] {
+  const words: string[] = [];
+  const seen = new Set<string>();
+  const add = (w?: string) => {
+    if (!w) return;
+    const key = w.toLowerCase().trim();
+    if (key && !seen.has(key)) {
+      seen.add(key);
+      words.push(w.trim());
+    }
+  };
+  for (const p of products) {
+    const type = p.jewelleryType.toLowerCase();
+    add(TYPE_LABELS[type] || type.charAt(0).toUpperCase() + type.slice(1));
+  }
+  for (const p of products) add(p.subcategory);
+  return words.length > 0 ? words : ["Gold", "Silver"];
+}
+
 export function generateSlug(name: string): string {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 }
