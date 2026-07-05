@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 
 const WHATSAPP_URL =
-  "https://api.whatsapp.com/send/?phone=919232000436&text&type=phone_number&app_absent=0";
+  "https://api.whatsapp.com/send/?phone=919232000436&text=Namaste%20Rupmilan%20Jewellers%2C%20mujhe%20jewellery%20ke%20baare%20mein%20jaankari%20chahiye&type=phone_number&app_absent=0";
 
 export default function WhatsAppButton() {
   const [showText, setShowText] = useState(false);

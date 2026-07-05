@@ -25,7 +25,7 @@ export default function CustomerStories({ testimonials }: CustomerStoriesProps) 
         {/* Google rating badge */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
           <a
-            href="https://maps.app.goo.gl/WKomde96qZcqsgDJ8"
+            href="https://www.google.com/search?q=Sharda+Prasad+Bitawan+Sao+Rupmilan+Jewellers+Champa"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white border border-[rgba(160,115,42,0.25)] rounded-full px-5 py-2.5 shadow-sm hover:shadow-md transition-shadow"
