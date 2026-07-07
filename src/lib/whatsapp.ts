@@ -1,4 +1,9 @@
 const WHATSAPP_PHONE = "919232000436";
+const SITE_URL = "https://www.rupmilanjewellers.com";
+
+export function buildProductPageUrl(jewelleryType: string, slug: string, tagNumber: string): string {
+  return `${SITE_URL}/${jewelleryType}/${slug}/${tagNumber.replace("#", "")}`;
+}
 
 export function buildWhatsAppUrl(message: string): string {
   return `https://api.whatsapp.com/send/?phone=${WHATSAPP_PHONE}&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
