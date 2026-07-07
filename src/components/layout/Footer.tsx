@@ -45,6 +45,29 @@ export default function Footer() {
               >
                 <Facebook className="w-4 h-4" />
               </a>
+              <a
+                href="https://in.pinterest.com/rupmilanjewellers/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Rupmilan Jewellers on Pinterest"
+                className="w-9 h-9 rounded-full bg-ivory-100 border border-[rgba(160,115,42,0.25)] flex items-center justify-center text-brand-gold hover:bg-brand-gold hover:text-white transition-colors duration-200"
+              >
+                <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current" aria-hidden="true">
+                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.237 2.636 7.855 6.356 9.312-.088-.791-.167-2.005.035-2.868.181-.78 1.172-4.97 1.172-4.97s-.299-.6-.299-1.486c0-1.39.806-2.428 1.81-2.428.853 0 1.265.64 1.265 1.408 0 .858-.546 2.14-.828 3.33-.236.995.5 1.807 1.48 1.807 1.778 0 3.144-1.874 3.144-4.58 0-2.393-1.72-4.068-4.177-4.068-2.845 0-4.515 2.135-4.515 4.34 0 .859.331 1.781.745 2.281a.3.3 0 0 1 .069.288c-.076.315-.245.995-.278 1.134-.043.183-.145.222-.334.134-1.249-.581-2.03-2.407-2.03-3.874 0-3.154 2.292-6.052 6.608-6.052 3.469 0 6.165 2.472 6.165 5.776 0 3.447-2.173 6.22-5.19 6.22-1.013 0-1.966-.527-2.292-1.15l-.623 2.378c-.226.869-.835 1.958-1.244 2.621.937.29 1.931.446 2.962.446 5.522 0 10-4.477 10-10S17.523 2 12 2z" />
+                </svg>
+              </a>
+              <a
+                href="https://www.whatsapp.com/channel/0029VbCNrcJHbFVA26TE5W1e"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Join our WhatsApp Channel"
+                title="Join our WhatsApp Channel"
+                className="w-9 h-9 rounded-full bg-ivory-100 border border-[rgba(160,115,42,0.25)] flex items-center justify-center text-brand-gold hover:bg-brand-gold hover:text-white transition-colors duration-200"
+              >
+                <svg viewBox="0 0 32 32" className="w-4 h-4 fill-current" aria-hidden="true">
+                  <path d="M16.003 3C9.376 3 4 8.373 4 15.003c0 2.168.578 4.264 1.676 6.1L4 29l8.09-1.652A12.93 12.93 0 0 0 16.003 28c6.627 0 12.003-5.373 12.003-12.003C28.006 9.371 22.63 3 16.003 3zm6.647 17.08c-.277.78-1.596 1.49-2.22 1.566-.567.07-1.282.1-2.07-.13-.476-.14-1.088-.328-1.87-.643-3.29-1.41-5.44-4.71-5.603-4.93-.163-.22-1.327-1.765-1.327-3.365 0-1.6.839-2.387 1.137-2.71.277-.3.604-.375.806-.375.2 0 .4.002.576.01.185.01.432-.07.676.516.252.603.857 2.087.932 2.24.075.153.125.33.025.53-.1.2-.15.323-.298.497-.148.174-.311.39-.444.523-.148.148-.301.31-.13.608.172.3.765 1.262 1.64 2.044 1.126 1.003 2.075 1.313 2.372 1.46.298.148.472.124.647-.075.174-.198.748-.873.948-1.172.198-.3.397-.25.67-.15.272.1 1.73.816 2.027.965.298.148.496.222.57.347.075.123.075.717-.202 1.497z" />
+                </svg>
+              </a>
             </div>
           </div>
 
@@ -72,9 +95,14 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-brand-gold mt-0.5 flex-shrink-0" />
-                <span className="text-brand-body text-sm font-sans leading-relaxed">
+                <a
+                  href="https://maps.app.goo.gl/WKomde96qZcqsgDJ8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-brand-body text-sm font-sans leading-relaxed hover:text-brand-gold transition-colors"
+                >
                   Near Samleshwari Mandir, Sarafa Bazar, Champa, CG 495671
-                </span>
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-brand-gold flex-shrink-0" />
