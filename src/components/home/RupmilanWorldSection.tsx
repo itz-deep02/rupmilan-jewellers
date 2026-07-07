@@ -9,7 +9,7 @@ import HorizontalScroll from "@/components/ui/HorizontalScroll";
 
 const occasions = [
   { id: "wedding", title: "Wedding", description: "Make your big day unforgettable", ctaText: "Explore Bridal", image: "/images/world/wedding.jpg", href: "/catalogue?occasion=wedding" },
-  { id: "anniversary", title: "Anniversary", description: "Celebrate years of love", ctaText: "Shop Gifts", image: "/images/world/anniversary.jpg", href: "/catalogue?occasion=gifting" },
+  { id: "anniversary", title: "Anniversary", description: "Celebrate years of love", ctaText: "Shop Gifts", image: "/images/world/anniversary.jpg", href: "/catalogue?occasion=anniversary" },
   { id: "festival", title: "Festive Season", description: "Shine at every celebration", ctaText: "Festive Picks", image: "/images/world/festive-season.jpg", href: "/catalogue?occasion=festive" },
   { id: "daily", title: "Daily Wear", description: "Everyday elegance, effortlessly", ctaText: "Browse Daily Wear", image: "/images/world/daily-wear.jpg", href: "/catalogue?occasion=daily-wear" },
   { id: "gifting", title: "Gifting", description: "Perfect presents for loved ones", ctaText: "Find a Gift", image: "/images/world/gifting.jpg", href: "/catalogue?occasion=gifting" },

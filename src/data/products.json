@@ -10,7 +10,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "19.690g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -22,7 +24,10 @@
     ],
     "sortOrder": 1,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "heritage"]
+    "tags": [
+      "new",
+      "heritage"
+    ]
   },
   {
     "id": "product-2",
@@ -35,7 +40,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "25.500g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -47,7 +54,10 @@
     ],
     "sortOrder": 2,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "festive"]
+    "tags": [
+      "new",
+      "festive"
+    ]
   },
   {
     "id": "product-3",
@@ -60,7 +70,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "28.860g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -72,7 +84,10 @@
     ],
     "sortOrder": 3,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "bridal"],
+    "tags": [
+      "new",
+      "bridal"
+    ],
     "badge": "Trending"
   },
   {
@@ -86,7 +101,9 @@
     "metalType": "gold",
     "carat": "24K",
     "weight": "21.770g",
-    "occasion": ["festive", "engagement"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -98,7 +115,10 @@
     ],
     "sortOrder": 4,
     "dateAdded": "2026-03-27",
-    "tags": ["trending", "heritage"]
+    "tags": [
+      "trending",
+      "heritage"
+    ]
   },
   {
     "id": "product-5",
@@ -111,7 +131,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "16.660g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -123,7 +145,10 @@
     ],
     "sortOrder": 5,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "daily-wear"]
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-6",
@@ -136,7 +161,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "17.420g",
-    "occasion": ["festive"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -148,7 +175,10 @@
     ],
     "sortOrder": 6,
     "dateAdded": "2026-03-27",
-    "tags": ["bestseller", "heritage"]
+    "tags": [
+      "bestseller",
+      "heritage"
+    ]
   },
   {
     "id": "product-7",
@@ -161,7 +191,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "10.540g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -173,7 +205,10 @@
     ],
     "sortOrder": 7,
     "dateAdded": "2026-03-27",
-    "tags": ["trending", "lightweight"]
+    "tags": [
+      "trending",
+      "lightweight"
+    ]
   },
   {
     "id": "product-8",
@@ -186,7 +221,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "34.900g",
-    "occasion": ["wedding", "engagement"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -198,7 +235,10 @@
     ],
     "sortOrder": 8,
     "dateAdded": "2026-03-27",
-    "tags": ["trending", "statement"]
+    "tags": [
+      "trending",
+      "statement"
+    ]
   },
   {
     "id": "product-9",
@@ -211,7 +251,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "12.950g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -223,7 +265,10 @@
     ],
     "sortOrder": 9,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "meenakari"]
+    "tags": [
+      "new",
+      "meenakari"
+    ]
   },
   {
     "id": "product-10",
@@ -236,7 +281,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "15.910g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -248,7 +295,10 @@
     ],
     "sortOrder": 10,
     "dateAdded": "2026-03-27",
-    "tags": ["bestseller", "heritage"]
+    "tags": [
+      "bestseller",
+      "heritage"
+    ]
   },
   {
     "id": "product-11",
@@ -261,7 +311,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "25.410g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -273,7 +325,10 @@
     ],
     "sortOrder": 11,
     "dateAdded": "2026-03-27",
-    "tags": ["trending", "peacock"],
+    "tags": [
+      "trending",
+      "peacock"
+    ],
     "badge": "Trending"
   },
   {
@@ -287,7 +342,9 @@
     "metalType": "gold",
     "carat": "24K",
     "weight": "54.070g",
-    "occasion": ["wedding"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -299,7 +356,10 @@
     ],
     "sortOrder": 12,
     "dateAdded": "2026-03-27",
-    "tags": ["bridal", "layered"],
+    "tags": [
+      "bridal",
+      "layered"
+    ],
     "badge": "Bestseller"
   },
   {
@@ -313,7 +373,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "13.620g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -325,7 +387,10 @@
     ],
     "sortOrder": 13,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "floral"]
+    "tags": [
+      "new",
+      "floral"
+    ]
   },
   {
     "id": "product-14",
@@ -338,7 +403,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "20.590g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -350,7 +417,10 @@
     ],
     "sortOrder": 14,
     "dateAdded": "2026-03-27",
-    "tags": ["trending", "kundan"]
+    "tags": [
+      "trending",
+      "kundan"
+    ]
   },
   {
     "id": "product-15",
@@ -363,7 +433,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "20.400g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -375,7 +447,10 @@
     ],
     "sortOrder": 15,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "floral"]
+    "tags": [
+      "new",
+      "floral"
+    ]
   },
   {
     "id": "product-16",
@@ -388,7 +463,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "26.100g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -400,7 +477,10 @@
     ],
     "sortOrder": 16,
     "dateAdded": "2026-03-27",
-    "tags": ["trending", "heritage"]
+    "tags": [
+      "trending",
+      "heritage"
+    ]
   },
   {
     "id": "product-17",
@@ -413,7 +493,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "16.080g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -425,7 +507,10 @@
     ],
     "sortOrder": 17,
     "dateAdded": "2026-03-27",
-    "tags": ["trending", "festive"]
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-18",
@@ -438,7 +523,9 @@
     "metalType": "gold",
     "carat": "24K",
     "weight": "38.870g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -450,7 +537,10 @@
     ],
     "sortOrder": 18,
     "dateAdded": "2026-03-27",
-    "tags": ["bestseller", "bridal"],
+    "tags": [
+      "bestseller",
+      "bridal"
+    ],
     "badge": "Bestseller"
   },
   {
@@ -464,7 +554,9 @@
     "metalType": "gold",
     "carat": "20K",
     "weight": "11.270g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -476,7 +568,10 @@
     ],
     "sortOrder": 19,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "daily-wear"]
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-20",
@@ -489,7 +584,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "27.320g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -501,7 +598,10 @@
     ],
     "sortOrder": 20,
     "dateAdded": "2026-03-27",
-    "tags": ["trending", "festive"]
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-21",
@@ -514,7 +614,9 @@
     "metalType": "gold",
     "carat": "18K",
     "weight": "13.930g",
-    "occasion": ["daily-wear", "festive"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -526,7 +628,10 @@
     ],
     "sortOrder": 21,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "daily-wear"]
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-22",
@@ -539,7 +644,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "20.230g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -551,7 +658,10 @@
     ],
     "sortOrder": 22,
     "dateAdded": "2026-03-27",
-    "tags": ["trending", "festive"]
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-23",
@@ -564,7 +674,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "12.590g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -576,7 +688,10 @@
     ],
     "sortOrder": 23,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "daily-wear"]
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-24",
@@ -589,7 +704,9 @@
     "metalType": "gold",
     "carat": "18K",
     "weight": "11.000g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -601,7 +718,10 @@
     ],
     "sortOrder": 24,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "daily-wear"]
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-25",
@@ -614,7 +734,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "9.060g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -626,7 +748,10 @@
     ],
     "sortOrder": 25,
     "dateAdded": "2026-03-27",
-    "tags": ["new", "daily-wear"]
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-26",
@@ -639,7 +764,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "19.790g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -651,7 +778,10 @@
     ],
     "sortOrder": 26,
     "dateAdded": "2026-03-27",
-    "tags": ["bestseller", "heritage"]
+    "tags": [
+      "bestseller",
+      "heritage"
+    ]
   },
   {
     "id": "product-27",
@@ -664,7 +794,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "21.090g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -676,7 +808,10 @@
     ],
     "sortOrder": 27,
     "dateAdded": "2026-03-27",
-    "tags": ["trending", "festive"]
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-28",
@@ -689,7 +824,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "18.270g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -701,7 +838,10 @@
     ],
     "sortOrder": 28,
     "dateAdded": "2026-03-28",
-    "tags": ["new", "daily-wear"]
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-29",
@@ -714,7 +854,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "7.030g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -726,7 +868,10 @@
     ],
     "sortOrder": 29,
     "dateAdded": "2026-03-28",
-    "tags": ["new", "daily-wear"]
+    "tags": [
+      "new",
+      "daily-wear"
+    ]
   },
   {
     "id": "product-30",
@@ -739,7 +884,9 @@
     "metalType": "gold",
     "carat": "24K",
     "weight": "15.570g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -751,7 +898,10 @@
     ],
     "sortOrder": 30,
     "dateAdded": "2026-03-28",
-    "tags": ["trending", "festive"]
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-31",
@@ -764,7 +914,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "20.600g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -776,7 +928,10 @@
     ],
     "sortOrder": 31,
     "dateAdded": "2026-03-28",
-    "tags": ["bestseller", "festive"]
+    "tags": [
+      "bestseller",
+      "festive"
+    ]
   },
   {
     "id": "product-32",
@@ -789,7 +944,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "30.380g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -801,7 +958,10 @@
     ],
     "sortOrder": 32,
     "dateAdded": "2026-03-28",
-    "tags": ["trending", "heritage"],
+    "tags": [
+      "trending",
+      "heritage"
+    ],
     "badge": "New"
   },
   {
@@ -815,7 +975,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "13.920g",
-    "occasion": ["engagement", "gifting"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -827,7 +989,10 @@
     ],
     "sortOrder": 33,
     "dateAdded": "2026-03-28",
-    "tags": ["new", "festive"]
+    "tags": [
+      "new",
+      "festive"
+    ]
   },
   {
     "id": "product-34",
@@ -840,7 +1005,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "12.470g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -852,7 +1019,11 @@
     ],
     "sortOrder": 34,
     "dateAdded": "2026-03-28",
-    "tags": ["heritage", "filigree", "festive"]
+    "tags": [
+      "heritage",
+      "filigree",
+      "festive"
+    ]
   },
   {
     "id": "product-35",
@@ -865,7 +1036,9 @@
     "metalType": "gold",
     "carat": "20K",
     "weight": "9.750g",
-    "occasion": ["festive", "daily-wear"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -877,7 +1050,11 @@
     ],
     "sortOrder": 35,
     "dateAdded": "2026-03-28",
-    "tags": ["antique", "cascade", "festive"]
+    "tags": [
+      "antique",
+      "cascade",
+      "festive"
+    ]
   },
   {
     "id": "product-36",
@@ -890,7 +1067,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "14.360g",
-    "occasion": ["festive", "engagement"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -902,7 +1081,11 @@
     ],
     "sortOrder": 36,
     "dateAdded": "2026-03-28",
-    "tags": ["floral", "elegant", "lightweight"]
+    "tags": [
+      "floral",
+      "elegant",
+      "lightweight"
+    ]
   },
   {
     "id": "product-37",
@@ -915,7 +1098,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "16.860g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -927,7 +1112,11 @@
     ],
     "sortOrder": 37,
     "dateAdded": "2026-03-28",
-    "tags": ["meenakari", "peacock", "heritage"]
+    "tags": [
+      "meenakari",
+      "peacock",
+      "heritage"
+    ]
   },
   {
     "id": "product-38",
@@ -940,7 +1129,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "14.590g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -952,7 +1143,11 @@
     ],
     "sortOrder": 38,
     "dateAdded": "2026-03-28",
-    "tags": ["jaal", "heritage", "bridal"]
+    "tags": [
+      "jaal",
+      "heritage",
+      "bridal"
+    ]
   },
   {
     "id": "product-39",
@@ -965,7 +1160,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "18.730g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -977,7 +1174,11 @@
     ],
     "sortOrder": 39,
     "dateAdded": "2026-03-28",
-    "tags": ["temple", "antique", "heritage"]
+    "tags": [
+      "temple",
+      "antique",
+      "heritage"
+    ]
   },
   {
     "id": "product-40",
@@ -990,7 +1191,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "17.420g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1002,7 +1205,11 @@
     ],
     "sortOrder": 40,
     "dateAdded": "2026-03-28",
-    "tags": ["jaal", "latkan", "festive"]
+    "tags": [
+      "jaal",
+      "latkan",
+      "festive"
+    ]
   },
   {
     "id": "product-41",
@@ -1015,7 +1222,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "14.733g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1027,7 +1236,11 @@
     ],
     "sortOrder": 41,
     "dateAdded": "2026-03-28",
-    "tags": ["kundan", "floral", "pendant"]
+    "tags": [
+      "kundan",
+      "floral",
+      "pendant"
+    ]
   },
   {
     "id": "product-42",
@@ -1040,7 +1253,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "11.370g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1052,7 +1267,11 @@
     ],
     "sortOrder": 42,
     "dateAdded": "2026-03-28",
-    "tags": ["floral", "dailywear", "lightweight"]
+    "tags": [
+      "floral",
+      "dailywear",
+      "lightweight"
+    ]
   },
   {
     "id": "product-43",
@@ -1065,7 +1284,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "16.450g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1077,7 +1298,11 @@
     ],
     "sortOrder": 43,
     "dateAdded": "2026-03-28",
-    "tags": ["peacock", "heritage", "festive"]
+    "tags": [
+      "peacock",
+      "heritage",
+      "festive"
+    ]
   },
   {
     "id": "product-44",
@@ -1090,7 +1315,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "19.120g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1102,7 +1329,11 @@
     ],
     "sortOrder": 44,
     "dateAdded": "2026-03-28",
-    "tags": ["layered", "heritage", "festive"]
+    "tags": [
+      "layered",
+      "heritage",
+      "festive"
+    ]
   },
   {
     "id": "product-45",
@@ -1115,7 +1346,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "34.920g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1127,7 +1360,11 @@
     ],
     "sortOrder": 45,
     "dateAdded": "2026-03-28",
-    "tags": ["bridal", "statement", "heritage"]
+    "tags": [
+      "bridal",
+      "statement",
+      "heritage"
+    ]
   },
   {
     "id": "product-46",
@@ -1140,7 +1377,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "14.870g",
-    "occasion": ["festive", "engagement"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1152,7 +1391,11 @@
     ],
     "sortOrder": 46,
     "dateAdded": "2026-03-28",
-    "tags": ["floral", "festive", "lightweight"]
+    "tags": [
+      "floral",
+      "festive",
+      "lightweight"
+    ]
   },
   {
     "id": "product-47",
@@ -1165,7 +1408,9 @@
     "metalType": "gold",
     "carat": "20K",
     "weight": "18.710g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1177,7 +1422,11 @@
     ],
     "sortOrder": 47,
     "dateAdded": "2026-03-28",
-    "tags": ["floral", "elegant", "lightweight"]
+    "tags": [
+      "floral",
+      "elegant",
+      "lightweight"
+    ]
   },
   {
     "id": "product-48",
@@ -1190,7 +1439,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "13.120g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1202,7 +1453,10 @@
     ],
     "sortOrder": 48,
     "dateAdded": "2026-03-29",
-    "tags": ["new", "festive"]
+    "tags": [
+      "new",
+      "festive"
+    ]
   },
   {
     "id": "product-49",
@@ -1215,7 +1469,9 @@
     "metalType": "gold",
     "carat": "24K",
     "weight": "16.120g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1227,7 +1483,10 @@
     ],
     "sortOrder": 49,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "heritage"]
+    "tags": [
+      "trending",
+      "heritage"
+    ]
   },
   {
     "id": "product-50",
@@ -1240,7 +1499,9 @@
     "metalType": "gold",
     "carat": "24K",
     "weight": "16.520g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1252,7 +1513,10 @@
     ],
     "sortOrder": 50,
     "dateAdded": "2026-03-29",
-    "tags": ["bestseller", "bridal"]
+    "tags": [
+      "bestseller",
+      "bridal"
+    ]
   },
   {
     "id": "product-51",
@@ -1265,7 +1529,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "29.390g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1277,7 +1543,10 @@
     ],
     "sortOrder": 51,
     "dateAdded": "2026-03-29",
-    "tags": ["new", "festive"],
+    "tags": [
+      "new",
+      "festive"
+    ],
     "badge": "New"
   },
   {
@@ -1291,7 +1560,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "21.550g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1303,7 +1574,10 @@
     ],
     "sortOrder": 52,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "daily"]
+    "tags": [
+      "trending",
+      "daily"
+    ]
   },
   {
     "id": "product-53",
@@ -1316,7 +1590,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "24.970g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1328,7 +1604,10 @@
     ],
     "sortOrder": 53,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "festive"]
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-54",
@@ -1341,7 +1620,9 @@
     "metalType": "gold",
     "carat": "24K",
     "weight": "17.590g",
-    "occasion": ["festive", "engagement"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1353,7 +1634,10 @@
     ],
     "sortOrder": 54,
     "dateAdded": "2026-03-29",
-    "tags": ["new", "heritage"]
+    "tags": [
+      "new",
+      "heritage"
+    ]
   },
   {
     "id": "product-55",
@@ -1366,7 +1650,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "23.480g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1378,7 +1664,10 @@
     ],
     "sortOrder": 55,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "heritage"]
+    "tags": [
+      "trending",
+      "heritage"
+    ]
   },
   {
     "id": "product-56",
@@ -1391,7 +1680,9 @@
     "metalType": "gold",
     "carat": "24K",
     "weight": "29.580g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1403,7 +1694,10 @@
     ],
     "sortOrder": 56,
     "dateAdded": "2026-03-29",
-    "tags": ["bestseller", "bridal"]
+    "tags": [
+      "bestseller",
+      "bridal"
+    ]
   },
   {
     "id": "product-57",
@@ -1416,7 +1710,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "37.270g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1428,7 +1724,10 @@
     ],
     "sortOrder": 57,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "heritage"]
+    "tags": [
+      "trending",
+      "heritage"
+    ]
   },
   {
     "id": "product-58",
@@ -1441,7 +1740,9 @@
     "metalType": "gold",
     "carat": "24K",
     "weight": "17.850g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1453,7 +1754,10 @@
     ],
     "sortOrder": 58,
     "dateAdded": "2026-03-29",
-    "tags": ["new", "festive"]
+    "tags": [
+      "new",
+      "festive"
+    ]
   },
   {
     "id": "product-59",
@@ -1466,7 +1770,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "13.480g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1478,7 +1784,10 @@
     ],
     "sortOrder": 59,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "festive"]
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-60",
@@ -1491,7 +1800,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "21.280g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1503,7 +1814,10 @@
     ],
     "sortOrder": 60,
     "dateAdded": "2026-03-29",
-    "tags": ["new", "heritage"]
+    "tags": [
+      "new",
+      "heritage"
+    ]
   },
   {
     "id": "product-61",
@@ -1516,7 +1830,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "20.820g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1528,7 +1844,10 @@
     ],
     "sortOrder": 61,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "festive"]
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-62",
@@ -1541,7 +1860,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "20.130g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "necklace",
     "subcategory": "Gol Haar",
@@ -1553,7 +1874,10 @@
     ],
     "sortOrder": 62,
     "dateAdded": "2026-03-29",
-    "tags": ["bestseller", "bridal"]
+    "tags": [
+      "bestseller",
+      "bridal"
+    ]
   },
   {
     "id": "product-63",
@@ -1566,7 +1890,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "24.790g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1578,7 +1904,10 @@
     ],
     "sortOrder": 63,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "festive"]
+    "tags": [
+      "trending",
+      "festive"
+    ]
   },
   {
     "id": "product-64",
@@ -1591,7 +1920,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "20.150g",
-    "occasion": ["daily-wear", "festive"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1603,7 +1934,11 @@
     ],
     "sortOrder": 64,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "lightweight", "meenakari"]
+    "tags": [
+      "trending",
+      "lightweight",
+      "meenakari"
+    ]
   },
   {
     "id": "product-65",
@@ -1616,7 +1951,9 @@
     "metalType": "gold",
     "carat": "20K",
     "weight": "15.970g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1628,7 +1965,11 @@
     ],
     "sortOrder": 65,
     "dateAdded": "2026-03-29",
-    "tags": ["new", "meenakari", "lightweight"]
+    "tags": [
+      "new",
+      "meenakari",
+      "lightweight"
+    ]
   },
   {
     "id": "product-66",
@@ -1641,7 +1982,9 @@
     "metalType": "gold",
     "carat": "24K",
     "weight": "20.030g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1653,7 +1996,11 @@
     ],
     "sortOrder": 66,
     "dateAdded": "2026-03-29",
-    "tags": ["bestseller", "floral", "heritage"]
+    "tags": [
+      "bestseller",
+      "floral",
+      "heritage"
+    ]
   },
   {
     "id": "product-67",
@@ -1666,7 +2013,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "14.790g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "gifting"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1678,7 +2027,11 @@
     ],
     "sortOrder": 67,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "meenakari", "floral"]
+    "tags": [
+      "trending",
+      "meenakari",
+      "floral"
+    ]
   },
   {
     "id": "product-68",
@@ -1691,7 +2044,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "28.960g",
-    "occasion": ["daily-wear", "festive"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1703,7 +2058,11 @@
     ],
     "sortOrder": 68,
     "dateAdded": "2026-03-29",
-    "tags": ["bestseller", "classic", "embossed"]
+    "tags": [
+      "bestseller",
+      "classic",
+      "embossed"
+    ]
   },
   {
     "id": "product-69",
@@ -1716,7 +2075,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "37.070g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1728,7 +2089,11 @@
     ],
     "sortOrder": 69,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "heritage", "meenakari"]
+    "tags": [
+      "trending",
+      "heritage",
+      "meenakari"
+    ]
   },
   {
     "id": "product-70",
@@ -1741,7 +2106,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "30.870g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1753,7 +2120,11 @@
     ],
     "sortOrder": 70,
     "dateAdded": "2026-03-29",
-    "tags": ["new", "meenakari", "festive"],
+    "tags": [
+      "new",
+      "meenakari",
+      "festive"
+    ],
     "badge": "New"
   },
   {
@@ -1767,7 +2138,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "36.890g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1779,7 +2152,11 @@
     ],
     "sortOrder": 71,
     "dateAdded": "2026-03-29",
-    "tags": ["trending", "heritage", "statement"]
+    "tags": [
+      "trending",
+      "heritage",
+      "statement"
+    ]
   },
   {
     "id": "product-72",
@@ -1792,7 +2169,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "28.230g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1804,7 +2183,10 @@
     ],
     "sortOrder": 72,
     "dateAdded": "2026-03-30",
-    "tags": ["meenakari", "heritage"]
+    "tags": [
+      "meenakari",
+      "heritage"
+    ]
   },
   {
     "id": "product-73",
@@ -1817,7 +2199,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "35.690g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1829,7 +2213,11 @@
     ],
     "sortOrder": 73,
     "dateAdded": "2026-03-30",
-    "tags": ["meenakari", "floral", "bestseller"]
+    "tags": [
+      "meenakari",
+      "floral",
+      "bestseller"
+    ]
   },
   {
     "id": "product-74",
@@ -1842,7 +2230,9 @@
     "metalType": "gold",
     "carat": "20K",
     "weight": "18.460g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1854,7 +2244,10 @@
     ],
     "sortOrder": 74,
     "dateAdded": "2026-03-31",
-    "tags": ["trending", "meenakari"]
+    "tags": [
+      "trending",
+      "meenakari"
+    ]
   },
   {
     "id": "product-75",
@@ -1867,7 +2260,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "18.200g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1879,7 +2274,11 @@
     ],
     "sortOrder": 75,
     "dateAdded": "2026-03-31",
-    "tags": ["bestseller", "meenakari", "heritage"]
+    "tags": [
+      "bestseller",
+      "meenakari",
+      "heritage"
+    ]
   },
   {
     "id": "product-76",
@@ -1892,7 +2291,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "29.880g",
-    "occasion": ["daily-wear", "festive"],
+    "occasion": [
+      "anniversary"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1904,7 +2305,11 @@
     ],
     "sortOrder": 76,
     "dateAdded": "2026-03-31",
-    "tags": ["new", "meenakari", "geometric"]
+    "tags": [
+      "new",
+      "meenakari",
+      "geometric"
+    ]
   },
   {
     "id": "product-77",
@@ -1917,7 +2322,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "25.660g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1929,7 +2336,11 @@
     ],
     "sortOrder": 77,
     "dateAdded": "2026-03-31",
-    "tags": ["new", "meenakari", "elegant"]
+    "tags": [
+      "new",
+      "meenakari",
+      "elegant"
+    ]
   },
   {
     "id": "product-78",
@@ -1942,7 +2353,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "28.360g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1954,7 +2367,11 @@
     ],
     "sortOrder": 78,
     "dateAdded": "2026-03-31",
-    "tags": ["trending", "meenakari", "peacock"]
+    "tags": [
+      "trending",
+      "meenakari",
+      "peacock"
+    ]
   },
   {
     "id": "product-79",
@@ -1967,7 +2384,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "19.910g",
-    "occasion": ["festive", "daily-wear"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -1979,7 +2398,11 @@
     ],
     "sortOrder": 79,
     "dateAdded": "2026-03-31",
-    "tags": ["bestseller", "meenakari", "colorful"],
+    "tags": [
+      "bestseller",
+      "meenakari",
+      "colorful"
+    ],
     "badge": "Bestseller"
   },
   {
@@ -1993,7 +2416,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "32.240g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2005,7 +2430,11 @@
     ],
     "sortOrder": 80,
     "dateAdded": "2026-03-31",
-    "tags": ["heritage", "antique", "statement"]
+    "tags": [
+      "heritage",
+      "antique",
+      "statement"
+    ]
   },
   {
     "id": "product-81",
@@ -2018,7 +2447,9 @@
     "metalType": "gold",
     "carat": "18K",
     "weight": "20.420g",
-    "occasion": ["daily-wear", "festive"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2030,7 +2461,11 @@
     ],
     "sortOrder": 81,
     "dateAdded": "2026-03-31",
-    "tags": ["lightweight", "dailywear", "elegant"]
+    "tags": [
+      "lightweight",
+      "dailywear",
+      "elegant"
+    ]
   },
   {
     "id": "product-82",
@@ -2043,7 +2478,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "41.450g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2055,7 +2492,11 @@
     ],
     "sortOrder": 82,
     "dateAdded": "2026-03-31",
-    "tags": ["meenakari", "bridal", "heritage"]
+    "tags": [
+      "meenakari",
+      "bridal",
+      "heritage"
+    ]
   },
   {
     "id": "product-83",
@@ -2068,7 +2509,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "18.730g",
-    "occasion": ["daily-wear", "festive"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2080,7 +2523,11 @@
     ],
     "sortOrder": 83,
     "dateAdded": "2026-03-31",
-    "tags": ["new", "meenakari", "dailywear"]
+    "tags": [
+      "new",
+      "meenakari",
+      "dailywear"
+    ]
   },
   {
     "id": "product-84",
@@ -2093,7 +2540,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "29.530g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2105,7 +2554,11 @@
     ],
     "sortOrder": 84,
     "dateAdded": "2026-03-31",
-    "tags": ["trending", "meenakari", "floral"]
+    "tags": [
+      "trending",
+      "meenakari",
+      "floral"
+    ]
   },
   {
     "id": "product-85",
@@ -2118,7 +2571,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "48.840g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2130,7 +2585,11 @@
     ],
     "sortOrder": 85,
     "dateAdded": "2026-04-01",
-    "tags": ["bestseller", "bridal", "meenakari"],
+    "tags": [
+      "bestseller",
+      "bridal",
+      "meenakari"
+    ],
     "badge": "Bestseller"
   },
   {
@@ -2144,7 +2603,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "28.580g",
-    "occasion": ["festive", "daily-wear"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2156,7 +2617,11 @@
     ],
     "sortOrder": 86,
     "dateAdded": "2026-04-01",
-    "tags": ["new", "festive", "meenakari"]
+    "tags": [
+      "new",
+      "festive",
+      "meenakari"
+    ]
   },
   {
     "id": "product-87",
@@ -2169,7 +2634,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "25.050g",
-    "occasion": ["daily-wear", "festive"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2181,7 +2648,11 @@
     ],
     "sortOrder": 87,
     "dateAdded": "2026-04-01",
-    "tags": ["trending", "daily-wear", "meenakari"]
+    "tags": [
+      "trending",
+      "daily-wear",
+      "meenakari"
+    ]
   },
   {
     "id": "product-88",
@@ -2194,7 +2665,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "24.120g",
-    "occasion": ["festive", "daily-wear"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2206,7 +2679,11 @@
     ],
     "sortOrder": 88,
     "dateAdded": "2026-04-01",
-    "tags": ["bestseller", "heritage", "textured"]
+    "tags": [
+      "bestseller",
+      "heritage",
+      "textured"
+    ]
   },
   {
     "id": "product-89",
@@ -2219,7 +2696,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "49.870g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "wedding"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2231,7 +2710,11 @@
     ],
     "sortOrder": 89,
     "dateAdded": "2026-04-01",
-    "tags": ["trending", "bridal", "heavy"],
+    "tags": [
+      "trending",
+      "bridal",
+      "heavy"
+    ],
     "badge": "Trending"
   },
   {
@@ -2245,7 +2728,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "34.200g",
-    "occasion": ["festive", "gifting"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2257,7 +2742,11 @@
     ],
     "sortOrder": 90,
     "dateAdded": "2026-04-01",
-    "tags": ["bestseller", "festive", "meenakari"]
+    "tags": [
+      "bestseller",
+      "festive",
+      "meenakari"
+    ]
   },
   {
     "id": "product-91",
@@ -2270,7 +2759,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "33.490g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2282,7 +2773,11 @@
     ],
     "sortOrder": 91,
     "dateAdded": "2026-04-01",
-    "tags": ["trending", "heritage", "filigree"]
+    "tags": [
+      "trending",
+      "heritage",
+      "filigree"
+    ]
   },
   {
     "id": "product-92",
@@ -2295,7 +2790,9 @@
     "metalType": "gold",
     "carat": "20K",
     "weight": "10.140g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2307,7 +2804,11 @@
     ],
     "sortOrder": 92,
     "dateAdded": "2026-04-01",
-    "tags": ["new", "dailywear", "lightweight"],
+    "tags": [
+      "new",
+      "dailywear",
+      "lightweight"
+    ],
     "badge": "New"
   },
   {
@@ -2321,7 +2822,9 @@
     "metalType": "gold",
     "carat": "22K",
     "weight": "26.060g",
-    "occasion": ["festive", "wedding"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2333,7 +2836,11 @@
     ],
     "sortOrder": 93,
     "dateAdded": "2026-04-01",
-    "tags": ["trending", "festive", "meenakari"]
+    "tags": [
+      "trending",
+      "festive",
+      "meenakari"
+    ]
   },
   {
     "id": "product-94",
@@ -2346,7 +2853,9 @@
     "metalType": "gold",
     "carat": "24K",
     "weight": "31.530g",
-    "occasion": ["wedding", "festive"],
+    "occasion": [
+      "festive"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2358,7 +2867,11 @@
     ],
     "sortOrder": 94,
     "dateAdded": "2026-04-01",
-    "tags": ["bestseller", "heritage", "traditional"]
+    "tags": [
+      "bestseller",
+      "heritage",
+      "traditional"
+    ]
   },
   {
     "id": "product-95",
@@ -2371,7 +2884,9 @@
     "metalType": "gold",
     "carat": "23K",
     "weight": "16.940g",
-    "occasion": ["daily-wear", "gifting"],
+    "occasion": [
+      "daily-wear"
+    ],
     "gender": "women",
     "jewelleryType": "bangle",
     "subcategory": "Gold Bangle",
@@ -2383,7 +2898,11 @@
     ],
     "sortOrder": 95,
     "dateAdded": "2026-04-01",
-    "tags": ["trending", "dailywear", "elegant"],
+    "tags": [
+      "trending",
+      "dailywear",
+      "elegant"
+    ],
     "badge": "Trending"
   }
 ]
