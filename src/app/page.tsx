@@ -34,6 +34,14 @@ export const metadata: Metadata = {
     title: "Rupmilan Jewellers | Premium Hallmarked Jewellery",
     description: "Trusted since 1988. Explore bridal, daily wear, festive & heritage jewellery collections.",
     type: "website",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Rupmilan Jewellers - Exquisite Craftsmanship Since 1988",
+      },
+    ],
   },
 };
 
