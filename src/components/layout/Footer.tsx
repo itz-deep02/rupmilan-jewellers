@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Instagram, Facebook } from "lucide-react";
 import Image from "next/image";
 
 const quickLinks = [
@@ -26,6 +26,26 @@ export default function Footer() {
             <p className="text-brand-body text-sm font-sans leading-relaxed max-w-xs">
               Crafting timeless jewellery with 100% purity and BIS Hallmark certification since 1988.
             </p>
+            <div className="flex items-center gap-3 mt-4">
+              <a
+                href="https://www.instagram.com/rupmilanjewellers/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Rupmilan Jewellers on Instagram"
+                className="w-9 h-9 rounded-full bg-ivory-100 border border-[rgba(160,115,42,0.25)] flex items-center justify-center text-brand-gold hover:bg-brand-gold hover:text-white transition-colors duration-200"
+              >
+                <Instagram className="w-4 h-4" />
+              </a>
+              <a
+                href="https://www.facebook.com/people/Rupmilan-Jewellers/61580702806806/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Rupmilan Jewellers on Facebook"
+                className="w-9 h-9 rounded-full bg-ivory-100 border border-[rgba(160,115,42,0.25)] flex items-center justify-center text-brand-gold hover:bg-brand-gold hover:text-white transition-colors duration-200"
+              >
+                <Facebook className="w-4 h-4" />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
