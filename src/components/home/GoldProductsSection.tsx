@@ -16,7 +16,7 @@ export default function GoldProductsSection({ products }: GoldProductsSectionPro
     <ScrollReveal>
       <section className="mb-16 sm:mb-20">
         <SectionHeader
-          eyebrow="Discover our most loved pieces"
+          eyebrow="BIS Hallmarked Purity"
           title="Gold"
           accentWord="Products"
           subtitle="A perfect blend of tradition and style. Each design is selected to add timeless elegance to your jewellery collection"
