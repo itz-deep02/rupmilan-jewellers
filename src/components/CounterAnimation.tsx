@@ -15,7 +15,9 @@ export default function CounterAnimation({
   suffix = "",
   prefix = "",
 }: CounterAnimationProps) {
-  const [count, setCount] = useState(0);
+  // Start at the final value so search engines and no-JS visitors read the real
+  // number ("38+", not "0+"); the count-up animation still runs on scroll.
+  const [count, setCount] = useState(to);
   const containerRef = useRef<HTMLSpanElement>(null);
   const hasAnimated = useRef(false);
 
