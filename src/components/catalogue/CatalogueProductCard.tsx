@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Gem, Camera } from "lucide-react";
 import type { ExtendedProduct } from "@/types";
-import { buildProductWhatsAppUrl } from "@/lib/whatsapp";
+import { buildProductWhatsAppUrl, buildProductPageUrl } from "@/lib/whatsapp";
 import RibbonBadge from "./RibbonBadge";
 
 interface CatalogueProductCardProps {
@@ -21,7 +21,11 @@ const metalColors: Record<string, string> = {
 
 export default function CatalogueProductCard({ product, index = 0 }: CatalogueProductCardProps) {
   const [imgError, setImgError] = useState(false);
-  const whatsappUrl = buildProductWhatsAppUrl(product.name, product.tagNumber);
+  const whatsappUrl = buildProductWhatsAppUrl(
+    product.name,
+    product.tagNumber,
+    buildProductPageUrl(product.jewelleryType, product.slug, product.tagNumber)
+  );
   const pdpUrl = `/${product.jewelleryType}/${product.slug}/${product.tagNumber.replace("#", "")}`;
   const showImage = product.image && !imgError;
 
