@@ -27,7 +27,7 @@ import testimonials from "@/data/testimonials.json";
 import type { ExtendedProduct } from "@/types";
 
 export const metadata: Metadata = {
-  title: "Rupmilan Jewellers | BIS Hallmarked Gold & Diamond Jewellery",
+  title: "Rupmilan Jewellers | Gold, Silver & Diamond Jewellery",
   description:
     "Shop BIS Hallmarked gold, silver & diamond jewellery at Rupmilan Jewellers, Champa. 38+ years of trust, 500+ designs, 100% purity guaranteed.",
   openGraph: {
