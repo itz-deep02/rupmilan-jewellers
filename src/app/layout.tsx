@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.rupmilanjewellers.com"),
   title: "Rupmilan Jewellers",
   description:
-    "Premium jewellery store in Champa, Chhattisgarh. BIS Hallmarked. Trusted since 1988.",
+    "Premium jewellery store in Sarafa Bazar, Champa, Chhattisgarh — known as Sharda Prasad Bitawan Sao Rupmilan Jewellers. BIS Hallmarked. Trusted since 1988.",
   icons: { icon: "/icon.png" },
   verification: {
     google: "0oU1MQ1PDp_l6tHImTt1TUFW7iqnrka1evBkj-FLn0Q",
@@ -59,11 +59,19 @@ const jewelryStoreSchema = {
   "@context": "https://schema.org",
   "@type": "JewelryStore",
   name: "Rupmilan Jewellers",
+  alternateName: [
+    "Sharda Prasad Bitawan Sao Rupmilan Jewellers",
+    "Sharda Prasad Bitawan Sao",
+  ],
   url: "https://www.rupmilanjewellers.com",
   image: "https://www.rupmilanjewellers.com/og-image.jpg",
   description:
-    "Premium jewellery store in Champa, Chhattisgarh. BIS Hallmarked gold, silver and diamond jewellery. Trusted since 1988.",
+    "Premium jewellery store in Champa, Chhattisgarh, known as Sharda Prasad Bitawan Sao Rupmilan Jewellers. BIS Hallmarked gold, silver and diamond jewellery. Trusted since 1988.",
   foundingDate: "1988",
+  founder: {
+    "@type": "Person",
+    name: "Late Shri Sharda Prasad Bitawan Sao",
+  },
   telephone: "+919826540190",
   email: "rupmilanjewellers@gmail.com",
   priceRange: "₹₹",
