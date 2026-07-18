@@ -90,7 +90,4 @@ export default function WelcomeHero() {
           <div className="w-1.5 h-1.5 rounded-full bg-brand-gold/40" />
           <div className="h-px w-12 bg-gradient-to-l from-transparent to-brand-gold/30" />
         </div>
-      </div>
-    </section>
-  );
-}
+      </div
