@@ -1,9 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { Tag, Layers, Weight, Gem, Package } from "lucide-react";
 import type { ExtendedProduct } from "@/types";
-import { buildProductWhatsAppUrl } from "@/lib/whatsapp";
+import { buildProductWhatsAppUrl, buildProductPageUrl } from "@/lib/whatsapp";
 import ShareButton from "./ShareButton";
 
 interface ProductInfoProps {
@@ -11,13 +10,9 @@ interface ProductInfoProps {
 }
 
 export default function ProductInfo({ product }: ProductInfoProps) {
-  const [productUrl, setProductUrl] = useState("");
+  const productUrl = buildProductPageUrl(product.jewelleryType, product.slug, product.tagNumber);
 
-  useEffect(() => {
-    setProductUrl(window.location.href);
-  }, []);
-
-  const whatsappUrl = buildProductWhatsAppUrl(product.name, product.tagNumber, productUrl || undefined);
+  const whatsappUrl = buildProductWhatsAppUrl(product.name, product.tagNumber, productUrl);
 
   const details = [
     { label: "Tag No", value: product.tagNumber, icon: Tag },
@@ -128,7 +123,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
         <ShareButton
           title={product.name}
           text={`Check out ${product.name} at Rupmilan Jewellers`}
-          url={productUrl || "/"}
+          url={productUrl}
         />
       </div>
     </div>

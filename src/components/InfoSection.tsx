@@ -1,8 +1,8 @@
 import { MapPin, Clock, Phone, Mail, MessageCircle } from "lucide-react";
 
 const phones = [
-  { number: "9826540190", display: "+91 98265 40190" },
-  { number: "9926514690", display: "+91 99265 14690" },
+  { number: "+919826540190", display: "+91 98265 40190" },
+  { number: "+919926514690", display: "+91 99265 14690" },
 ];
 
 const whatsappPhone = { number: "9232000436", display: "+91 92320 00436" };
