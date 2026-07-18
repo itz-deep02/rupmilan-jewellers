@@ -10,6 +10,7 @@ import MapSection from "@/components/MapSection";
 import WhatsAppWidget from "@/components/WhatsAppWidget";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact Us | Rupmilan Jewellers",
   description:
     "Visit Rupmilan Jewellers in Champa, Chhattisgarh. BIS Hallmarked jewellery. Open 7 days a week, 9 AM – 9 PM.",

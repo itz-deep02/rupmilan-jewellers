@@ -34,6 +34,9 @@ export async function generateMetadata({ params }: PDPPageProps): Promise<Metada
     return { title: "Product Not Found | Rupmilan Jewellers" };
   }
   return {
+    alternates: {
+      canonical: `/${product.jewelleryType}/${product.slug}/${product.tagNumber.replace("#", "")}`,
+    },
     title: `${product.name} | Rupmilan Jewellers`,
     description: product.description || `Explore ${product.name} - ${product.category} in ${product.metalType} from Rupmilan Jewellers.`,
     openGraph: {

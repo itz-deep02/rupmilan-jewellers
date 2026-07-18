@@ -9,6 +9,7 @@ import CatalogueClient from "@/components/catalogue/CatalogueClient";
 import { getAllProducts } from "@/lib/products";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/catalogue" },
   title: "Catalogue | Rupmilan Jewellers",
   description: "Explore our complete collection of BIS Hallmarked gold, silver & diamond jewellery. 500+ designs across necklaces, earrings, rings, bangles & more.",
 };

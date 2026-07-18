@@ -27,6 +27,7 @@ import testimonials from "@/data/testimonials.json";
 import type { ExtendedProduct } from "@/types";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: "Rupmilan Jewellers | Gold, Silver & Diamond Jewellery",
   description:
     "Shop BIS Hallmarked gold, silver & diamond jewellery at Rupmilan Jewellers (Sharda Prasad Bitawan Sao), Sarafa Bazar, Champa. 38+ years of trust, 500+ designs, 100% purity guaranteed.",

@@ -14,6 +14,7 @@ import WhyChooseUs from "@/components/about/WhyChooseUs";
 import OurPromise from "@/components/about/OurPromise";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/about" },
   title: "About Us | Rupmilan Jewellers",
   description: "Established in 1988, Rupmilan Jewellers is a trusted name in gold, silver, and diamond jewellery. Founded by Late Shri Sharda Prasad Bitawan Sao.",
 };
