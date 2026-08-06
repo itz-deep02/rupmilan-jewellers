@@ -82,11 +82,28 @@ export default async function PDPPage({ params }: PDPPageProps) {
     brand: { "@type": "Brand", name: "Rupmilan Jewellers" },
   };
 
+  // Mirrors the visible breadcrumb nav so Google can show the
+  // Home › Catalogue › Category path in search results.
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+      { "@type": "ListItem", position: 2, name: "Catalogue", item: `${BASE_URL}/catalogue` },
+      { "@type": "ListItem", position: 3, name: breadcrumbCategoryName, item: `${BASE_URL}/catalogue/${breadcrumbCategorySlug}` },
+      { "@type": "ListItem", position: 4, name: product.name },
+    ],
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <Navbar />
       <DecorativeOrbs />
