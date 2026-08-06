@@ -39,7 +39,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               fill
               sizes="(max-width: 640px) 240px, 280px"
               className="object-cover group-hover:scale-110 transition-transform duration-500"
-              quality={95}
+              quality={80}
               loading="lazy"
               onError={() => setImgError(true)}
             />

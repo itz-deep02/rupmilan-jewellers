@@ -39,7 +39,7 @@ export default function HeroCarousel({ slides }: HeroCarouselProps) {
     <section className="relative w-full overflow-hidden rounded-2xl mb-12 sm:mb-16 border border-[rgba(160,115,42,0.20)]">
       <div ref={emblaRef} className="overflow-hidden">
         <div className="flex">
-          {slides.map((slide) => (
+          {slides.map((slide, index) => (
             <div key={slide.id} className="flex-[0_0_100%] min-w-0 relative">
               <div className="relative aspect-[16/9] sm:aspect-[2/1] overflow-hidden">
                 {/* Background image */}
@@ -48,7 +48,7 @@ export default function HeroCarousel({ slides }: HeroCarouselProps) {
                   alt={slide.title}
                   fill
                   className="object-cover object-center"
-                  priority
+                  priority={index === 0}
                   sizes="(max-width: 768px) 100vw, 1200px"
                 />
 
