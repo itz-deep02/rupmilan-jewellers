@@ -25,9 +25,15 @@ export default function WhatsAppWidget() {
   const [customMessage, setCustomMessage] = useState("");
   const popupRef = useRef<HTMLDivElement>(null);
 
+  // Show the label briefly, then collapse to icon-only so the pill
+  // doesn't keep covering page content on mobile.
   useEffect(() => {
-    const timer = setTimeout(() => setShowText(true), 2000);
-    return () => clearTimeout(timer);
+    const show = setTimeout(() => setShowText(true), 2000);
+    const hide = setTimeout(() => setShowText(false), 9000);
+    return () => {
+      clearTimeout(show);
+      clearTimeout(hide);
+    };
   }, []);
 
   // Close on click outside
@@ -141,7 +147,7 @@ export default function WhatsAppWidget() {
       {/* Floating Button */}
       <button
         onClick={() => setIsOpen((prev) => !prev)}
-        className="relative flex items-center rounded-full bg-[#25D366] hover:bg-[#20bd5a] active:scale-95 shadow-lg shadow-green-900/30 transition-all duration-300 hover:shadow-xl hover:shadow-green-500/25 hover:scale-105"
+        className="group relative flex items-center rounded-full bg-[#25D366] hover:bg-[#20bd5a] active:scale-95 shadow-lg shadow-green-900/30 transition-all duration-300 hover:shadow-xl hover:shadow-green-500/25 hover:scale-105"
         aria-label="Chat with us on WhatsApp"
       >
         {/* Pulse ring */}
@@ -168,8 +174,10 @@ export default function WhatsAppWidget() {
         {/* Text label */}
         {!isOpen && (
           <span
-            className={`text-white font-sans text-sm font-medium whitespace-nowrap pr-5 transition-all duration-500 ease-out ${
-              showText ? "opacity-100 max-w-48 ml-0" : "opacity-0 max-w-0 ml-0 pr-0"
+            className={`text-white font-sans text-sm font-medium whitespace-nowrap transition-all duration-500 ease-out ${
+              showText
+                ? "opacity-100 max-w-48 pr-5"
+                : "opacity-0 max-w-0 pr-0 md:group-hover:opacity-100 md:group-hover:max-w-48 md:group-hover:pr-5"
             } overflow-hidden`}
           >
             <span className="hidden sm:inline">Need Help? </span>Chat with us
