@@ -1,8 +1,19 @@
 import productsData from "@/data/products.json";
 import subcategoryData from "@/data/subcategories.json";
+import imageManifest from "@/data/image-manifest.json";
 import type { ExtendedProduct, FilterState, SortOption } from "@/types";
 
-const products = productsData as ExtendedProduct[];
+// Only images that actually exist in public/images/products/ (manifest is
+// regenerated on every dev/build run). A product is shown only once its main
+// photo has been uploaded; extra carousel photos are trimmed the same way.
+const existingImages = new Set(imageManifest as string[]);
+
+const products = (productsData as ExtendedProduct[])
+  .filter(p => existingImages.has(p.image))
+  .map(p => ({
+    ...p,
+    images: (p.images || [p.image]).filter(img => existingImages.has(img)),
+  }));
 
 export function getAllProducts(): ExtendedProduct[] {
   return products;

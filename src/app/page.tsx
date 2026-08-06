@@ -21,10 +21,8 @@ import heroSlides from "@/data/hero-slides.json";
 import stats from "@/data/stats.json";
 import collections from "@/data/collections.json";
 import categories from "@/data/categories.json";
-import products from "@/data/products.json";
+import { getAllProducts } from "@/lib/products";
 import testimonials from "@/data/testimonials.json";
-
-import type { ExtendedProduct } from "@/types";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -47,7 +45,7 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const typedProducts = products as ExtendedProduct[];
+  const typedProducts = getAllProducts();
   const bestsellers = typedProducts.filter((p) => p.badge === "Bestseller");
   const trending = typedProducts.filter((p) => p.badge === "Trending");
   const newLaunches = typedProducts.filter((p) => p.badge === "New");
