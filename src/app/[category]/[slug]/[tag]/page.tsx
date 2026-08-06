@@ -18,6 +18,11 @@ interface PDPPageProps {
   params: Promise<{ category: string; slug: string; tag: string }>;
 }
 
+// Only product URLs generated at build time exist; anything else gets a real
+// HTTP 404 (without this, streaming sends status 200 before notFound() runs,
+// so Google could index junk URLs as live pages).
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const products = getAllProducts();
   return products.map((p) => ({
