@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Playfair_Display, Jost } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -107,6 +108,7 @@ export default function RootLayout({
         />
         {children}
         <Analytics />
+        <GoogleAnalytics gaId="G-2Q1V8YS5JV" />
       </body>
     </html>
   );
