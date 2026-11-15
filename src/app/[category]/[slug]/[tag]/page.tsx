@@ -13,6 +13,17 @@ import SimilarProducts from "@/components/pdp/SimilarProducts";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { getAllProducts, getProductBySlugAndTag, getSimilarProducts } from "@/lib/products";
 import categories from "@/data/categories.json";
+import transparentImages from "@/data/image-transparent.json";
+
+// WhatsApp/Facebook show transparent areas as BLACK in link previews, and photo 1 of each
+// product is a transparent cutout. For share previews, pick the first photo with no see-through
+// pixels (list built by scripts/generate-image-manifest.mjs); fall back to photo 1.
+const TRANSPARENT = new Set<string>(transparentImages);
+
+function shareImage(images: string[] | undefined): string | undefined {
+  if (!images?.length) return undefined;
+  return images.find((img) => !TRANSPARENT.has(img)) ?? images[0];
+}
 
 interface PDPPageProps {
   params: Promise<{ category: string; slug: string; tag: string }>;
@@ -38,6 +49,7 @@ export async function generateMetadata({ params }: PDPPageProps): Promise<Metada
   if (!product) {
     return { title: "Product Not Found | Rupmilan Jewellers" };
   }
+  const ogImage = shareImage(product.images);
   return {
     alternates: {
       canonical: `/${product.jewelleryType}/${product.slug}/${product.tagNumber.replace("#", "")}`,
@@ -47,13 +59,13 @@ export async function generateMetadata({ params }: PDPPageProps): Promise<Metada
     openGraph: {
       title: `${product.name} | Rupmilan Jewellers`,
       description: product.description || `${product.name} - Premium handcrafted jewellery`,
-      images: product.images?.length ? [{ url: product.images[0], alt: product.name }] : undefined,
+      images: ogImage ? [{ url: ogImage, alt: product.name }] : undefined,
     },
     twitter: {
       card: "summary_large_image",
       title: `${product.name} | Rupmilan Jewellers`,
       description: product.description || `${product.name} - Premium handcrafted jewellery`,
-      images: product.images?.length ? [product.images[0]] : undefined,
+      images: ogImage ? [ogImage] : undefined,
     },
   };
 }
